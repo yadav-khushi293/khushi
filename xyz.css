@@ -1,0 +1,13 @@
+ body{
+    
+    background-image: url(./flowers-1835619_640.jpg),
+    url(./download.jpg),
+    url(./pexels-pixabay-56866.jpg),url(./360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg),
+    url(./photos-images-pictures-ss-1920-800x450.jpg),url(./download\ \(1\).jpg),
+    url(./Landscape-Color.jpg);
+    background-size: 285px, 360px,285px,285px,286px,280px,395px;
+    background-repeat: no-repeat, no-repeat, no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 0px 3px, 290px 3px, 658px 3px,950px 3px,0px 200px, 293px 195px ,580px 200px;
+ }  
+
+ 
