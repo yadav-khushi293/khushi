@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gradients_logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: linear-gradient(skyblue,rgb(168, 19, 156));
+}
+.gradients_logo>img{
+     width: 500px;
+     height: 400xpx;
+     background: linear-gradient( black,blue);
+}

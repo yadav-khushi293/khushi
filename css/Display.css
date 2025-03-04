@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+     display: flex;
+     flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: brown;                 
+}
+
+  

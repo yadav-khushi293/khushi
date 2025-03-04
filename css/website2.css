@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-image: url(../Coffee\ background.jpeg);
+    background-size: cover;
+   /* background-repeat: no-repeat; */
+}
+*{
+     margin: 0;
+     padding: 0;
+}
+.marq{
+     padding: 5px ;
+     background: linear-gradient(to bottom right,pink,chocolate);
+     color:black;
+     border: 5px solid transparent;
+     width: 99%;
+     font-size: 20px;
+}
+nav{
+     padding: 2px;
+     text-align: center;
+     word-spacing: 7cm;
+     background-color: black;
+     color: whitesmoke;
+     width: 99%;
+     height: 5vh;
+     border: 1px solid red;
+}
+
+.ab{
+     color: aliceblue;
+     position: absolute;
+     left: 2%;
+     font-family: Playfair Display;
+     
+}
+.abc{
+     position: relative;
+}
+.a{
+     position: absolute;
+     color: aliceblue;
+     left: 20%;
+     font-size: 75px;
+     font-family:Playfair Display;
+}
+.a:hover{
+     transform: scale(1.2);
+    
+}
+.home{
+     position: absolute;
+     color: white;
+     top: 300%;
+     left: 2%;
+}
+.home:hover{
+     color: burlywood;
+     scale: 1.5;
+     transition: ease-out;
+
+}
+.u{
+     color: aliceblue;
+     position: absolute;
+     top: 135%;
+     font-size: 20px;
+     left: 8%;
+     
+}
+.menu>img{
+     width: 520px;
+     height: 400px;
+     position: absolute;
+     top: 109%;
+     right: 1%;
+     border-radius: 60%;
+}
+img:hover{
+     transform: scale(1.2);
+}
+ul{
+     color: aliceblue;
+     position: absolute;
+     top: 170%;
+    left: 3%;
+}
+.w{
+     color: aliceblue;
+     position: absolute;
+     top: 215%;
+     left:50%;
+}
+.w:hover{
+     color: burlywood;
+     scale: 1.5;
+}
+.khushi{
+     width: 200px;
+     height: 100px;
+     float: left;
+     padding: 35px;     
+     
+}
+
+img{
+     width: 250px;
+     height:150px;
+     position:absolute;
+     top: 230%;
+     border:2px solid wheat; 
+     
+     
+       
+}
+.text{
+     text-align: center;
+     color: aliceblue;
+     position: absolute;
+     top: 262%;
+
+}
+figcaption{
+     color: aliceblue;
+     position: absolute;
+     top: 191%;
+     right: 17%;
+}
+.animation{
+     color: aliceblue;
+     position: absolute;
+     top: 315%;
+     left: 45%;
+}
+.animation:hover{
+     color:burlywood;
+     scale: 1.5;
+
+}
+.the{
+    color: aliceblue;
+     position: absolute;
+     top: 341%;
+     left: 3%;
+     font-family: Playfair+Display;
+}
+.the:hover{
+     color: blue;
+}
+.with{
+     color: aliceblue;
+     position: absolute;
+     top: 349%;
+     left: 6%;   
+}
+.with:hover{
+     color: red;
+}
+.tel{
+     color: aliceblue;
+     position: absolute;
+     top: 355%;
+     left: 2%;
+     font-family: Playfair+Display;
+}
+.tel:hover{
+     color: blue;
+}
+.move{
+     color: aliceblue;
+     position: absolute;
+     top: 362%;
+     left: 6%;
+     font-family: Playfair+Display;
+}
+.move:hover{
+     color: red;
+}
+.for{
+     color: aliceblue;
+     position: absolute;
+     top: 338%;
+     left: 47%;
+     font-family: Playfair+Display;
+
+}
+.for:hover{
+     color: blue;
+}
+.cold{
+     color: aliceblue;
+     position: absolute;
+     top: 348%;
+     left: 47%;
+     font-size: 25px;
+
+}
+.cold:hover{
+     color: red;
+}
+.fix{
+     color:white;
+     position: absolute;
+     top: 390%;
+     left: 2%;
+     font-size: 20px;
+     
+}
+.fix:hover{
+     color: blue;
+}
+.mix{
+     color:white;
+     position: absolute;
+     top: 398%;
+     left: 10%;
+     font-size: 25px;
+
+}
+.mix:hover{
+     color: red;
+}
+
+
+

@@ -1,0 +1,24 @@
+.name{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    
+}
+.name1{
+    width: 100px;
+    height:100px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 150%;
+    left:20%
+}
+.name2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 200%;
+
+}

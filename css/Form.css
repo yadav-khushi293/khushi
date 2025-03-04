@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: url(../khushi/task2/sunset-bank-river-5632825.webp);
+     background-size:cover;
+     background-repeat: no-repeat; 
+     width: 100%; 
+     height: 100vh;
+     position: fixed;
+    
+}
+.main{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    
+}
+label:hover{
+    color: orangered;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+h1:hover{
+    color: crimson;
+}
+.Register{
+    background-color: rgba(0,0,0,0.5);
+    width: 140%;
+    height: 93%;
+    font-size: 18px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 10px 10px 15px 12px white;
+}
+.Register:hover{
+    background-color: darkorchid;
+
+}
+form{
+
+    padding-left: 40px;
+}
+input[type="text"],
+input[ type="email"]
+,input[type="number"]{
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+button{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+button:hover{
+        scale: 1.2;
+        transition: ease-out;
+
+}

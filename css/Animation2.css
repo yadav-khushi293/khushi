@@ -1,0 +1,29 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: home;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+
+}
+@keyframes home {
+    from{
+        background-color: blue;
+        top: 200px;
+        
+        
+        
+    }
+    to{
+        background-color: red;
+        top: 0px;
+        
+        
+        
+        
+    }
+    
+}

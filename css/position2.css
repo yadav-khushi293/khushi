@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height:100px;
+    background-color: aqua;
+    border: 2px solid blue;
+    margin: 10px;
+}
+.relative{
+    position: relative;
+    top: 20px;
+    left:30px;
+    background-color: aqua;
+}
+

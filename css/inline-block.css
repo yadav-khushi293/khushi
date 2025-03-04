@@ -1,0 +1,22 @@
+span.a{
+    display: inline;
+    border: 1px solid red;
+    background-color: aqua;
+    
+}
+span.b{
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: aqua;
+}
+span.c{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    padding: 5px;*/
+    border: 1px solid red;
+    background-color: aqua;
+}
