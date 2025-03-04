@@ -2,7 +2,69 @@
     margin: 0;
     padding: 0;
 }
-nav{
+.nav_list >ul, nav,.img_logo,.profile{
     display: flex;
-    j
+    align-items: center;
+}
+nav{
+    border: 1px solid red;
+    height: 95px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+.img_logo{
+    gap:30px;
+}
+
+
+
+img{
+    height: 90px;
+    width: 90px;
+}
+.nav_list>ul{
+    list-style: none;
+    gap:20px;
+    font-size: 20px;
+}
+.nav_list>ul:hover{
+    transform: scale(1.1);
+    transform: skew(-15deg);
+    
+}
+.dropdown>select{
+    width: 100px;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 20px;
+    gap: 10px;
+    padding: 10px;
+    color:purple;
+    background-color:skyblue;
+    
+}
+.dropdown>select:hover{
+    transform: scale(1.1);
+    transform: skew(-15deg);
+    background-color: yellow;
+    
+}
+    
+
+.profile{
+     width: 10%;
+    justify-content: center;
+}
+.profile>img{
+    height: 85px;
+    width: 100px;
+    border-radius: 440px;
+    color: red;
+    border: 5px solid yellow;
+}
+.profile>img:hover{
+    transform: scale(1.1);
+    transform: skew(30deg);
+    
 }
