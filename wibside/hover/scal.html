@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+              
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+
+        }
+        .skew-x{
+            transform:skewX(20deg);
+        }
+        .skew-y{
+            transform:skewY(-20deg) ;
+        }
+        .skew-xy{
+            transform: skew(20deg,10deg);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">css skew example</h1>
+    <div class="box"> noramal box </div>
+    <div class="box skew-x">skew x-axis</div>
+    <div class="box skew-y">skew y-axis</div>
+    <div class="box skew-xy">skew xy-axis</div>
+    
+</body>
+</html>
