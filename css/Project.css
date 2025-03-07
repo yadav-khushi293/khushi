@@ -41,9 +41,23 @@ nav{
     height: 25px;
     border-radius: 10px;
 }  
+.A:hover{
+              scale: 1.2;
+              background-color: palevioletred;
+              transition: ease-out;
+}
+.B:hover{
+    scale: 1.2;
+    background-color: palevioletred;
+    transition: ease-out;
+}
 .img_logo{
       display: flex;
       justify-content: center;
+}
+.img_logo:hover{
+        scale: 1.1;
+        transition: ease-out;
 }
 .main_1{
     padding: 40px 0px;
@@ -82,6 +96,11 @@ nav{
     left: 46%;
     top: 59%;
 }
+.button_1:hover{
+    scale: 1.1;
+    transition: ease-out;
+
+}
 .parents_2{
      display: flex;
      justify-content: space-between;
@@ -107,28 +126,59 @@ nav{
     width: 80px;
     height: 40px;
 }
+.img_1:hover{
+    scale: 1.2;
+    transition: ease-out;
+    rotate: 9deg;
+}
 .img_2{
     width: 80px;
     height: 70px;
     
+}
+.img_2:hover{
+    scale: 1.2;
+    transition: ease-out;
+    rotate: 9deg;
 }
 .img_3{
     width: 80px;
     height: 40px;
     
 }
+.img_3:hover{
+    scale: 1.2;
+    transition: ease-out;
+    rotate: 9deg;
+}
 .img_4{
     width: 100px;
     height: 80px;
+}
+.img_4:hover{
+    scale: 1.2;
+    transition: ease-out;
+    background-color: cadetblue;
+    rotate: 9deg;
 }
 .img_5{
     width: 70px;
     height: 30px;
    
 }
+.img_5:hover{
+    scale: 1.2;
+    transition: ease-out;
+    rotate: 9deg;
+}
 .img_6{
     width: 90px;
     height: 90px;
+}
+.img_6:hover{
+    scale: 1.2;
+    transition: ease-out;
+    rotate: 9deg;
 }
 .parents_3{
     
@@ -156,7 +206,13 @@ hr{
     top: 164%;
     left: 45%;
     rotate: -5deg;
-    font-size: 15px;
+    font-size: 15px; 
+}
+.C>button:hover{
+    scale: 1.2;
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: ease-out;
     
 }
 .parents_4{
@@ -172,18 +228,34 @@ hr{
    width:80px;
    height:80px;
 }
+.img_7:hover{
+    scale: 1.3;
+    transition: ease-out;
+}
 .img_8{
     width:80px;
     height:80px;
+ }
+ .img_8:hover {
+    scale: 1.3;
+    transition: ease-out;
  }
  .img_9{
     width: 80px;
     height: 80px;
  }
+.img_9:hover{
+    scale: 1.3;
+    transition: ease-out;
+}
  .img_10{
     width:80px;
     height:80px;
     
+ }
+ .img_10:hover {
+    scale: 1.3;
+    transition: ease-out;
  }
 h3{
     margin:  20px 0;
