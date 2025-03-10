@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            counter-reset: value;
+        }
+        /*psudo class */
+        .text:hover{
+            font-size: 4rem !important;
+        }
+        /*psudo element*/
+        h2::before{
+            counter-increment: value;
+            content: "khuahi "counter(value) ".";
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">using css counter</h1>
+    <h2>html tutorial</h2>
+    <h2>css tutorial</h2>
+    <h2>javascript tutorial</h2>
+    <h2>python tutorial</h2>
+    <h2>sql tutorial</h2>
+</body>
+</html>
