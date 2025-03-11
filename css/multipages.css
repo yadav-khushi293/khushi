@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+    background: #000;
+}
+body{
+    height: 100vh;
+}
+.logo{
+       
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logo>img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     position: absolute;
+     top: 15%;
+}
