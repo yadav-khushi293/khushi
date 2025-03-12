@@ -1,25 +1,105 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto;
+    font-family: Roboto;
     font-size: 30px;
     font-weight: 600;
     background: #000;
-}
-body{
+  }
+  body {
     height: 100vh;
-}
-.logo{
-       
+  }
+  .container {
+    border: 1px solid red;
+    border-radius: 10px;
+    border: 7px solid gray;
+    height: 25%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+  }
+  button {
+    height: 35% !important;
+    background: transparent;
+    border: 1px solid gray;
+    border: none;
+    height: auto;
+    color: gray;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+  }
+  .left_arrow,
+  .right_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
+    background: whitesmoke;
+    border-radius: 100%;
+    margin: auto 23px;
+
+  }
+  .left_arrow > img,
+  .right_arrow > img {
+    border-radius: 100%;
+    mix-blend-mode: color-burn;
+  }
+  .left_arrow {
+    rotate: 180deg;
+  }
+  .left_arrow:hover,
+  .right_arrow:hover {
+    opacity: 1;
+  }
+  .logo {
     width: 100px;
     height: 100px;
     margin: auto;
-}
-.logo>img {
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     position: absolute;
-     top: 15%;
-}
+  }
+  .logo > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+  }
+  .active {
+    color: #000;
+  }
+  .active::after {
+    content: "";
+    background: #000;
+    margin: auto;
+    width: 25px;
+    height: 4px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .btn:hover::after {
+    content: "";
+    background: #000;
+    margin: auto;
+    width: 25px;
+    height: 4px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: #000 !important;
+  }
+  .btn:hover {
+    color: #000;
+  }
