@@ -45,9 +45,10 @@ button:hover{
     scale: 1.1;
     transition: ease-in-out;
 }
-img{
+.img_1{
+    
     width: 500px;
-    height: 350px;
+    height: 320px;
     position: absolute;
     left: 25%;
     top: 5%;
