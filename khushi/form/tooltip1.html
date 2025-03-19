@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TooltipExample</title>
+    <style>
+        .Tooltip{
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .text .Tooltip{
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+        }
+        .text:hover .Tooltip{
+            visibility:visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Tooltip">
+        welcome to home 
+        <span class="text">welcome to my new class</span>
+    </div>
+</body>
+</html>
