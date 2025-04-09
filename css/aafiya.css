@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .parents{
     display: flex;
     justify-content: space-between;
@@ -155,11 +159,11 @@ li:hover{
     display: flex;
     justify-content: space-between;
 }
-.firstHr{
+.logHr{
     border: none;
     border-bottom: 2px dashed blue;
     margin: auto;
-    width: 93%;
+    width: 92%;
    
 }
 .child_7{
@@ -207,6 +211,66 @@ i{
 .p9{
     font-size: 17px;
 }
+.head{
+    margin: 38px 0px;
+}
+.fisthr{
+     border: 1px solid gray;
+     margin: 15px 0px;
+}
+.Secondhr{
+    border: 1px solid gray;
+    margin: 15px 0px;
+}
+.threehr{
+    border: 1px solid gray;
+    margin: 15px 0px;
+}
+.fourhr{
+    border: 1px solid blue;
+    margin: 15px 0px;
+}
+.fivehr{
+    border: 1px solid blue;
+    margin: 19px 0px;
+}
+.sixhr{
+    border: 1px solid gray;
+    margin: 15px 0px;
+
+}
+.sevenhr{
+    border: none;
+    border-bottom: 2px dashed blue;  
+}
+.p13{
+    margin: 0px 55px;
+    font-size: 15px;
+}
+.no{
+    border-left: 1px solid blue;
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+.Box2 {
+     width: 50%;
+     height: 400px;
+}
+.m1{
+     border: 1px solid black;
+     display: flex;
+}
+.img-8{
+     
+    width: 60px;
+    height: 60px;
+}
+.img-9{
+     height: 200px;
+     width: 250px;
+}
 .form{
     margin: 3px 20px;
     display: flex;
@@ -214,16 +278,113 @@ i{
     gap: 10px;
 
 }
+.span2{
+    border-left:1px solid blue;
+}
 input {
    height: 40px;
    width: 95%;
    padding-left: 15px;
    border-radius: 10px;
 }
+.box3{
+    display: flex;
+    width: 200%;
+    gap: 30px;
+    
+}
+.boxchild_1{
+    width: 90%;
+    height: 315px;
+    border: 1px solid gray !important;
+}
+.O{
+    display: flex;
+    margin: 0px 15px;
+    margin-top: 15px;
+    gap: 60px;
+}
+.img-8{
+    height: 55px;
+    width: 52px;
+}
+.img-9{
+     height: 170px;
+     width: 290px;
+     margin: 0px 15px;
+}
+h4{
+    margin: 0px ;
+}
+.Z{
+    display: flex;
+    gap: 10px;
+    margin: 5px 15px;
+}
+.img-10{
+    width: 55px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.u {
+     font-size: 18px;
+     font-weight: bold;
+    margin: 5px 0px;
+}
+.boxchild_2{
+    width: 90%;
+    height: 313px;
+    border: 1px solid gray;
+    
+}
+
+.img-11{
+    height: 55px;
+    width: 52px;
+}
+.home-1{
+    display: flex;
+   margin: 0px 15px;
+    margin-top: 15px;
+    gap: 60px;
+}
+.home-3{
+    margin: 10px 15px;
+}
+.home-4{
+    display: flex;
+    gap: 10px;
+    padding: 20px 15px;
+}
+.home-6{
+    font-size: 18px;
+     font-weight: bold;
+    margin: 5px 0px;
+}
+.img-12{
+    width: 55px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
 .text>input{
+
     width: 95%;
     height: 70px;
     margin: 12px 0px;
+}
+
+.span1{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    margin:0px 10px;
+}
+.p10,.p11,.p12{
+           font-size: 17px;
+           font-weight: bold;
 }
 .F{
     width: 104%;
@@ -232,5 +393,31 @@ input {
     color: aliceblue;
     font-size: 15px;
 }
-
-
+.parents5{
+     
+    background-color: skyblue;
+    width: 100%;
+    height: 400px;
+    margin: 10px 0px;
+}
+.footer-1{
+    text-align: center;
+    padding: 30px 0px;
+}
+.span3{
+    color: red;
+}
+.span4{
+    color: blue;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px;
+}
+.docter
+.D1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
