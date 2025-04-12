@@ -586,7 +586,7 @@ u{
     color: red;
 }
 .parents8{
-    margin: 60px 0px;
+    margin-top: 60px;
     background-color: rgb(70,162,210);
     height: 265px;
     color: aliceblue;
@@ -629,4 +629,92 @@ height: 50px;
     margin: 11px 0px;
     color: whitesmoke;
     font-size: 25px;
+}
+.parents9{
+    background-image: url(../images/img13.jpeg);
+    height:600px;
+    width: 100%;
+    color: white;
+}
+.parents10{
+    display: flex;
+    gap: 60px;
+    padding: 50px 100px;
+}
+.child-31>ul{
+    list-style: none;
+}
+.child-33>ul{
+    list-style: none;
+}
+.child-32>ul {
+    list-style: none;
+}
+.child-34>ul{
+    list-style: none;
+    
+}
+
+.l::before{
+    content: "-";
+    color: blue;
+    padding: 0px 5px;
+
+}
+.link{
+    margin-bottom:20px;
+    font-size: 18px;
+}
+.l{
+    padding: 4px 0px;
+}
+.link-2{
+    font-size: 18px;
+    margin-top:75px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.L1{
+    color: blue;
+}
+.link3{
+    border: 1.5px solid grey;
+    margin: auto;
+    width: 84%;
+}
+
+.child-35{
+    width: 280px;
+    height: 120px;
+    background-color: whitesmoke;
+    color: black;
+    position: absolute;
+    top: 1027%;
+    left: 71%;
+    border-radius: 9px;
+}
+.link4{
+    display: flex;
+    padding: 0px 25px;
+    padding-top:15px ;
+    gap: 15px;
+}
+.link6{
+    text-align: center;
+}
+.link5{
+    color: grey;
+}
+.link7{
+    margin: 5px 0px;
+    font-size: 19px;
+}
+.link8{
+    padding: 7px 24px;
+    color: grey;
+    
+}
+.img-31{
+    width: 50px;
+    height: 40px;
 }
