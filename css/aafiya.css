@@ -185,9 +185,13 @@ h1{
     width: 390px;
     height: 270px;
     margin: 25px 50px;
+    
 }
 .H{
-    padding: 6px 0px;
+    margin-top: 2px;
+}
+.p7{
+    margin: 5px 10px;
 }
 .parents4{
     display: flex;
@@ -195,7 +199,7 @@ h1{
 }
 
 .child_10{
-    margin: 15px 45px;
+    margin: 15px 60px;
     
 }
 hr{
@@ -357,20 +361,20 @@ h4{
 .img-11{
     height: 55px;
     width: 52px;
+    margin: -11px;
 }
 .home-1{
     display: flex;
-   margin: 0px 15px;
-    margin-top: 15px;
-    gap: 60px;
+   margin:18px 21px;
+    gap:40px;
 }
 .home-3{
-    margin: 2px 15px;
+    margin: 23px 19px;
 }
 .home-4{
     display: flex;
     gap: 10px;
-    padding: 20px 15px;
+    padding: 20px 19px;
 }
 .home-6{
     font-size: 19px;
@@ -689,8 +693,8 @@ height: 50px;
     background-color: whitesmoke;
     color: black;
     position: absolute;
-    top: 1027%;
-    left: 71%;
+    top: 1035%;
+    left: 72%;
     border-radius: 9px;
 }
 .link4{
@@ -717,4 +721,74 @@ height: 50px;
 .img-31{
     width: 50px;
     height: 40px;
+}
+/*#####################*/
+.parents-12{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   color: white;
+   
+
+}
+.link-15{
+
+    font-size: 20px;
+}
+
+.link-9{
+    margin: 12px 8px;
+}
+.img-40{
+    width: 280px;
+    height: 110px;
+    margin: 40px 0;
+}
+.img-33{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.img-34{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.img-35{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.img-36{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.child-39{
+    display: flex;
+    gap: 10px;
+    margin: 13px 0px;
+}
+.link-13{
+    color: rgb(7, 155, 213);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px 0px;
+
+}
+.parents13{
+    background-color: rgb(14, 112, 165) ;
+    height: 60px;
+}
+.footerchild{
+    padding: 20px 50px;
+    margin: 20px 0px;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+
+}
+.footerchild-1{
+    margin-right:160px;
 }
