@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
-    background-image: url(../Coffee\ background.jpeg);
+    background-image: url(../images/Coffee\ background.jpeg);
     background-size: cover;
     background-attachment: fixed;
    /* background-repeat: no-repeat; */
@@ -58,7 +58,7 @@ nav{
 }
 .home:hover{
      color: burlywood;
-     scale: 1.5;
+     scale: 0.5;
      transition: ease-out;
 
 }
@@ -79,7 +79,7 @@ nav{
      border-radius: 60%;
 }
 img:hover{
-     transform: scale(1.2);
+     transform: scale(1.1);
 }
 ul{
      color: aliceblue;
@@ -95,7 +95,7 @@ ul{
 }
 .w:hover{
      color: burlywood;
-     scale: 1.5;
+     scale: 0.5;
 }
 .khushi{
      width: 200px;

@@ -792,3 +792,10 @@ height: 50px;
 .footerchild-1{
     margin-right:160px;
 }
+
+/* This Media Query */
+
+@media(max-width:768px){
+           
+    
+}
