@@ -853,6 +853,156 @@ height: 50px;
             margin: 15px 18px;
             
         }
+        .parents4{
+            display: grid;
+        }
+       .child_10{
+            
+            margin-left: 30px;
+        }
+        .p8{
+            font-size: 15px;
+            margin-right:40px;
+            margin-left: px;
+        }
+        .H1{
+            font-size: 25px;
+            margin-right:50px ;
+            margin-top: 5px;
         
+        }
+        hr{
+            margin:auto;
+            width: 95%;
+            margin:30px 0px;
+        }
+        .head{
+            font-size: 25px;
+        }
+       .p10{
+        font-size: 13px;
+       }
+       .p11,.p12,.no{
+        white-space: normal;
+        width: 350px;
+        word-break: break-word;
+        font-size: 13px;
+
+       }
+       .no{
+        white-space: normal;
+        width: 310px;
+        word-break: break-word;
+        font-size: 13px;
+       }
+       .p13{
+        margin: 0px 15px;
+       }
+       .p14{
+        white-space: normal;
+        width: 330px;
+        word-break: break-word;
+        font-size: 13px;
+
+       }
+      
+       .boxchild_2{
+        display: none;
+       }
+       .sumit{
+        font-size: 15px;
+       }
+       .boxchild_1{
+        padding: 5px 2px;
+        
+       }
+       .pagination-dots {
+        margin-top: 15px;
+        gap: 12px;
+    
+      }
+      
+      .dot {
+        height: 14px;
+        width: 14px;
+      }
+      .form{
+        margin: 3px 20px;
+        gap: 14px;
+    
+    }
+    .p6{
+           margin: 20px 5px;
+    }
+    
+    input {
+       height: 35px;
+       width: 95%;
+       padding-left: 15px;
+    }
+    .child_11{
+        margin: 35px 30px;
+        width: 75%;
+        height: 470px;
+    
+    }
+    .child_12{
+        margin: 25px 24px;
+    }
+     .footer-2{
+        display: grid;
+        gap: 17px;
+        margin: 0px 40px;
+        
+        
+     } 
+     .parents5{
+           height: 1135px;
+     }
+
+    .D1{
+        width: 239px;
+       
+        margin: 10px 12px;
+        
+    
+    }
+    .D2{
+        padding:0px 80px;
+        margin-top: 5px;
+    }
+    .doctor-1{
+       width: 300px;
+    }
+    .c1{
+        
+        padding: 6px 50px;
+        
+    }
+    .c2{
+       
+        margin: 7px 65px;
+    }
+    .pagination-dots-1 {
+        
+        margin-top: 50px;
+        gap: 14px;
+      }
+      
+     .parents7{
+        display: grid;
+        margin: 0px 35px;
+        gap: 20px;
+     }
+     .A1{
+        font-size: 50px;
+    }
+    .doctor-3{
+        font-size: 50px;
+    }
+    h2>.card4{
+        font-size: 50px;
+    }
+    
     }
     
