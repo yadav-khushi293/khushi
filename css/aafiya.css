@@ -808,7 +808,6 @@ height: 50px;
     .parents{
         height: 174px;
         display: grid;
-        margin: 0px;
         justify-content: none;
     }
     .parents_1{
@@ -1134,6 +1133,79 @@ height: 50px;
    
 /*2nd media qurey for tablte*/
 
-@media(max-width:460px){
+@media(min-width:460px) and (max-width:780px){
+    .parents{
+        height: 179px;
+        display: grid;
+        justify-content: none;
+        margin:0px 15px;
+    }
+    .parents_1{
+        margin-top: 7px;
+        justify-content: none;
+       
+
+    }
+    .parents1_1{
     
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    .img-3,.img-4,.img-5{
+        width: 54px;
+
+
+    }
+    .img-6{
+        width: 55px;
+        border-radius: 12px;
+        margin:10px 15px;
+        width:  70px;
+    }
+    .img-1{
+       width: 300px;
+       height: 100px; 
+
+    
+    }
+
+    .img-2{
+        margin-top: 10px;
+        width: 110px;
+        height: 80px;
+    }
+    .p1,.p2,.p3,.p4,.p5,.p6{
+        display: none;
+    }
+    .k{
+        display: none;
+    }
+    .child_2 > ul{
+        gap: 8px;
+        font-size: 11px;
+        padding: 15px 0px;
+    }
+    .child_2{
+        padding: 0px 19px;
+        width: 55%;
+    }
+   .parents2{
+        width: 60%;
+        
+   }
+   .child_3{
+     padding-right: 50px;
+   }
+   .child_4{
+    padding: 0px 27px;
+    padding-top: 25px;
+   } 
+   h1{
+    margin: 20px 0px;
+    font-size: 20px;
+   }
+  .child_5{
+    
+    margin-bottom: 10px;
+  }
 }
