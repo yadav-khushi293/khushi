@@ -9,7 +9,16 @@
     height: 78px;
    /* border: 1px solid blue;*/
 }
-
+.parents_1{
+   
+ display: flex;
+ gap: 10px;
+}
+.parents1_1{
+    display: flex;
+    margin: 0px 20px;
+    gap: 20px;
+}
 .child3{
     display: flex;
     margin: 13px 5px;
@@ -796,13 +805,42 @@ height: 50px;
 /* This Media Query */
 
 @media(max-width:460px){
-
     .parents{
+        height: 174px;
+        display: grid;
+        margin: 0px;
+        justify-content: none;
     }
+    .parents_1{
+        margin-top: 10px;
+        margin-right: 40px;
+
+    }
+    .parents1_1{
+        gap: 15px;
+        margin: 0px 10px;
+        margin-bottom: 5px;
+    }
+    .img-3,.img-4,.img-5{
+        width: 54px;
+
+        
+    }
+    .img-5{
+        width: 65px;
+    }
+    .img-1{
+       padding: 0px 15px;
+       width: 228px;
+       height: 90px; 
+    }
+    .img-2{
+        margin-top: 10px;
+    }
+    
+
+    
     .p1,.p2,.p3,.p4,.p5,.p6{
-        display: none;
-    }
-    .child6{
         display: none;
     }
     .child_3{
@@ -890,7 +928,7 @@ height: 50px;
 
        }
        .no{
-        white-space: normal;
+        white-space:normal;
         width: 310px;
         word-break: break-word;
         font-size: 13px;
@@ -1003,6 +1041,91 @@ height: 50px;
     h2>.card4{
         font-size: 50px;
     }
-    
+    .F{
+        width: 80%;
+        margin-left:  28px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .child-35{
+        display: none;
+    }
+    .parents8{
+        height: 350px;
+        padding: 0px 10px;
+    }
+    .text-5{
+        display: grid;
+
+    }
+   .text-6{
+    border-left:none ;
+   }
+   .Bottun-1{
+      width: 255px;
+      height:50px;
+      font-size:20px;
+   }
+   .text-7{
+    margin: 5px 0;
+    font-size: 33px;
+   }
+   .parents10{
+    display: grid;
+    padding-left: 30px;
+    font-size: 20px;
+   }
+   .parents9{
+    height: auto;
+   }
+   .link{
+    font-size: 30px;
+    margin: 20px 0px;
+   }
+   .link-2{
+    font-size: 30px;
+    margin: 20px 0px;
+   }
+   .parents-12{
+    display: grid;
+   }
+   .img-40{
+     width: 320px;
+     height: 130px;
+     margin: 0px 20px;
+     margin-top: 30px;
+   }
+   .child-37{
+    padding: 0px 25px;
+   }
+   .link-9{
+    font-size: 25px;
+   }
+   .child-38{
+    padding: 0px 25px;
+   }
+   .link-15{
+    font-size: 30px;
+    padding: 10px 0px;
+   }
+   .parents13{
+    height: 300px;
+   }
+   .footerchild{
+        display: grid; 
+   }
+   .footerchild-1{
+    margin: 0px 5px;
+    font-size: 25px;
+   }
+   .footerchild-2{
+    font-size: 25px;
+   }
+   .footerchild-3{
+    font-size: 20px;
+   }
+   .child_2{
+    display: none;
+   }
     }
     
