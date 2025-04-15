@@ -12,12 +12,12 @@
 .parents_1{
    
  display: flex;
- gap: 10px;
+ gap: 5px;
 }
 .parents1_1{
     display: flex;
     margin: 0px 20px;
-    gap: 20px;
+    gap: 10px;
 }
 .child3{
     display: flex;
@@ -1127,5 +1127,13 @@ height: 50px;
    .child_2{
     display: none;
    }
+   .doctor-7{
+    margin: 20px 50px;
+   }
     }
+   
+/*2nd media qurey for tablte*/
+
+@media(max-width:460px){
     
+}
