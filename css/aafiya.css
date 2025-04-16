@@ -1135,7 +1135,7 @@ height: 50px;
 
 @media(min-width:460px) and (max-width:780px){
     .parents{
-        height: 179px;
+        height: 205px;
         display: grid;
         justify-content: none;
         margin:0px 15px;
@@ -1147,32 +1147,37 @@ height: 50px;
 
     }
     .parents1_1{
-    
-        margin-bottom: 20px;
-        gap: 20px;
+          margin: 0px  55px;
+        margin-bottom:15px;
+        gap: 50px;
     }
     .img-3,.img-4,.img-5{
-        width: 54px;
+        width: 82px;
+        height: 43px;
 
 
     }
     .img-6{
-        width: 55px;
-        border-radius: 12px;
-        margin:10px 15px;
-        width:  70px;
+        width: 130px;
+        border-radius: 15px;
+        margin:10px 20px;
+        height: 45px;
     }
     .img-1{
-       width: 300px;
+       width: 450px;
        height: 100px; 
+       margin-left: 30px;
+
 
     
     }
 
     .img-2{
-        margin-top: 10px;
-        width: 110px;
-        height: 80px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        margin-left: 60px;
+        width: 155px;
+        height: 105px;
     }
     .p1,.p2,.p3,.p4,.p5,.p6{
         display: none;
@@ -1181,105 +1186,89 @@ height: 50px;
         display: none;
     }
     .child_2 > ul{
-        gap: 8px;
-        font-size: 11px;
+        gap: 16px;
+        font-size: 18px;
         padding: 15px 0px;
     }
     .child_2{
-        padding: 0px 19px;
-        width: 55%;
-    }
-   .parents2{
-        width: 60%;
+        padding: 0px 18px;
         
-   }
-   .child_3{
-     padding:0px 20px;
-     padding-top: 25px;
-   }
-   .child_4{
-    padding: 10px 20px;
-   } 
-   h1{
-    margin: 20px 0px;
-    font-size: 26px;
-   }
-  .child_5{
-    
-    margin-bottom: 20px;
-  }
-  .E{
-    margin: 10px 26px;
-  }
+    }
+   
+  
   .child_6>ul{
-    gap: 11px;
-    height: 0px;
-   margin: 0px 8px;
-   margin-top: 10px;
-    font-size: 7px;
+    font-size: 12px;
+    margin: 0px 15px;
+    gap: 15px;
 
     
 }
   .nav_1{
-    padding-bottom: 20px;
-    width: 60%;
-    
+   margin: 17px 0px;
+   
   }
  
   .parents3{
     display: grid;
     justify-content: none;
-    width: 50%;
 }
+
 .logHr{
-    margin: 0px 23px;
-    width: 55%;
+    margin: 10px 28px;
+    
    
 }
 .child_7{
-    margin: 25px  0px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin: 8px  20px;
+    
     
 }
 .img-7{
-    margin: 0px 35px;
+    margin: 10px 80px;
+    width:600px;
+    height: 300px;
     margin-bottom: 20px;
     
 }
 
 .p7{
-    margin: 5px 0px;
-    font-size: 10px;
+    margin: 5px 20px;
+    font-size: 15px;
 }
 .parents4{
     display: grid;
-    margin: 10px 0px;
+   
     
+}
+.H1{
+    margin: 15px 0px;
+    font-style: normal;
+    font-size: 30px;
+}
+.head{
+    font-size: 30px;
+    font-style: normal;
+}
+.sumit{
+    font-size: 30px;
+    font-style: normal;
 }
 
-.child_10{
-    margin: 0px 40px;
-    width: 50%;
-    
-}
 .pagination-dots{
     display: none;
 }
 .child_11{
-    margin:0px 60px;
-    margin-top: 380px;
-    width: 46%;
+    margin:0px 180px;
+    width: 54%;
 }
 .box3{
-    display: grid;
-    margin: 0px 22px;
+    display:flex;
+    margin: 0px 20px;
 }
-.sumit{
-    margin: 25px 0px;
-    margin-left: 22px;
-    font-size: 17px;
+.home-4{
+    padding: 0px 15px;
 }
+
 input {
     height: 40px;
     width: 95%;
@@ -1288,62 +1277,113 @@ input {
     border-radius: 10px;
  }
  .F{
-    width: 250px;
-    height: 45px;
-    margin: 0px 25px;
+    width: 255px;
+    height: 50px;
+    margin: 5px 55px;
+    font-size: 19px;
  }
  .parents5{
-    width:60%;
-    height: 1099px;
+   height: 1410px;
+   margin: 90px 0px;
  }
  .footer-2{
     display: grid;
     gap: 20px;
-    margin: 10px 85px;
+    margin: 10px 210px;
 
  }
  .footer-1{
-    padding: 30px 0px;
+    padding-top: 50px;
  }
- .span3{
-    font-size: 50px;
+ .span3,.span4{
+    font-size: 60px;
+    font-style: italic;
  }
+ h1{
+    margin: 15px 0px;
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .H{
+    margin: 15px 10px;
+ }
+ 
  .D1{
-    width: 220px;
+    width: 338px;
+    height: 200px;
    
-    margin: 10px 13px;
+    margin: 10px 10px;
     
 
 }
 .D2{
-    padding:0px 60px;
+    padding:0px 69px;
     margin-top: 5px;
-    font-size: 23px;
+    font-size: 35px;
 }
 .doctor-1{
-   width: 285px;
+   width: 400px;
+   height: 357px;
 }
 .c1{
     
-    padding: 6px 35px;
-    font-size: 15px;
+    padding: 8px 57px;
+    font-size: 20px;
     
 }
 .c2{
    
-    margin: 3px 54px;
-    font-size: 15px;
+    margin: 0px 80px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 .pagination-dots-1 {
     display: none;
   }
-  .doctor-7{
-    display: none;
-  }
+  
  .parents7{
     display: grid;
-    gap: 20px;
-    margin: 0px 70px;
+    gap: 30px;
+    margin: 0px 200px;
+ }
+ .A1{
+    font-size: 70px;
+    margin: 0px 300px;
+ }
+ .doctor-3{
+    font-size: 73px;
+    margin: 5px 190px;
+ }
+ h2>.card4{
+    font-size: 60px;
+    margin: 5px 88px;
+    font-style: italic;
+ }
+.img-13{
+     height: 310px;
+     width: 449px;
+}
+.imgcard_1{
+    height: 440px;
+    width: 450px;
+}
+.doctor-4{
+    font-size: 40px;
+    margin: 5px 20px;
+}
+.doctor-6{
+    font-size:38px;
+    margin: 5px 15px;
+
+}
+.doctor-5{
+    font-size: 38px;
+    margin: 0px 40px;
+}
+
+
+ .parents6{
+    margin-top: 0px;
  }
  .pagination-dots-2{
     display: none;
@@ -1351,70 +1391,36 @@ input {
  .child-35{
     display: none;
  }
- .A1{
-    font-size: 30px;
-}
-.doctor-3{
-    font-size: 30px;
-    padding: 5px 20px;
-}
-h2>.card4{
-    font-size: 30px;
 
-}
 .parents6{
     padding-right: 300px;
     margin-top: 15px;
 }
 .parents8{
     height: 250px;
-    width: 60%;
     margin-top: 0px 20px;
 
 }
-.text-3{
-    font-size: 20px;
-}
-.text-4{
-    font-size: 28px;
-}
-.text-5{
-    margin: 20px 0px;
-}
+
+
+
 .parents10{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 25px;
-    padding: 50px 17px;
+    padding: 50px 60px;
 }
 .parents9{
-    width: 60%;
     height: auto;
 }
 
-
-
-.link-2{
-    font-size: 18px;
-    margin-top:7px;
-    margin-left:25px;
-    margin-bottom: 20px;
-    
-}
-
-.link3{
-    border: 1.5px solid grey;
-    margin: auto;
-    width: 84%;
-}
-/*****************/
 
 .link-10,.link-9{
     display: none;
 }
 .img-40{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
 }
 .footerchild{
     padding: 20px 10px;
