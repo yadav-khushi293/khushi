@@ -67,9 +67,9 @@ nav{
     border-radius: 50px;
     text-align: center;
     position: absolute;
-    right:38%;
-    top: 29%;
-    rotate: -7deg;
+    right:39%;
+    top: 27%;
+    rotate: -9deg;
     background-color: white;
 
 }
@@ -84,8 +84,8 @@ nav{
     color: aliceblue;
     background-color: black;
     position: absolute; 
-    left: 46%;
-    top: 65%;
+    left: 45%;
+    top: 60%;
 }
 
 .parents_2{
@@ -185,9 +185,9 @@ hr{
     color: black;
     background-color: white;
     position: absolute;
-    top: 172%;
+    top: 164%;
     left: 45%;
-    rotate: -7deg;
+    rotate: -11deg;
     font-size: 15px; 
 }
 .C>button:hover{
