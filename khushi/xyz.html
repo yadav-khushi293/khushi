@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=<>, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+  .main{
+    display: flex;
+  }
+        .gradi{
+          height: 200px;
+          width: 300px;
+          margin: 20px 20px;
+         background-color: red;
+          background-image: repeating-radial-gradient(red, blue 10%, green 15% );
+        }
+        .gradi1{
+          width: 300px;
+          height: 200px;
+          margin: 20px 20px;
+          background-color: red;
+          background-image: repeating-radial-gradient(red,yellow ,10% ,green 15%);
+        }
+</style>
 <body>
-    <h1>this video</h1>
+    <!--h1>this video</h1>
     video width="320" height="240" controls>
   <source src="movie.mp4" type=""
   >
   <source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag.
-</video>
+</video-->
+<div class="main">
+<div class="gradi"></div>
+<div class="gradi1"></div>
 
+</div>
   
      
     
