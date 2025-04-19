@@ -12,6 +12,40 @@
     background-color: aqua;
 }
 .main{
-    
+  display: flex;
 }
-
+.gradi{
+    height: 200px;
+    width: 300px;
+    margin: 20px 20px;
+   background-color: red;
+    background-image: repeating-radial-gradient(red, blue 10%, green 15% );
+  }
+  .gradi1{
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: red;
+    background-image: repeating-radial-gradient(red,yellow ,10% ,green 15%);
+  }
+  .gradi2{
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: red;
+    background-image: repeating-radial-gradient(blue ,black 10% ,rgb(234, 18, 54) 15%);
+  }
+  .gradi3{
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: red;
+    background-image: repeating-radial-gradient(black,rgb(19, 152, 205) 10% ,rgb(186, 19, 47) 15%);
+  }
+  .gradi4{
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: red;
+    background-image: repeating-radial-gradient(black , 10% ,green 15%);
+  }
