@@ -5,33 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TooltipExample</title>
     <style>
-        .Tooltip{
-            position: relative;
-            display: inline-block;
-            border-bottom: 1px dotted black;
-            cursor: pointer;
-            z-index: 1;
+        body{
+            margin: 180px 300px;
+            font-size: 50px;
         }
-        .text .Tooltip{
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: aliceblue;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            position: absolute;
-        }
-        .text:hover .Tooltip{
-            visibility:visible;
-        }
+       .text{
+        display: none;
+       }
+       .Tooltip:hover .text{
+         border: 1px solid black;
+         background-color: red;
+         color: aliceblue;
+         height: 50px;
+         width: 190px; 
+         text-align: center;
+         padding: 20px;
+         font-size: 25px;
+         font-style: italic;
+        display: block;
+       }
     </style>
 </head>
 
 <body>
     <div class="Tooltip">
         welcome to home 
-        <span class="text">welcome to my new class</span>
+        <img src="../../images/11.jpg" class="text">
     </div>
 </body>
 </html>
