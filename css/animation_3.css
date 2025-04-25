@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.img10{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.img2{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.img3{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.img4{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.img5{
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+.img6{
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+.img7{
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+.img8{
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+}
+.img9{
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+.wrapper{
+  border: 1px silid black;
+  width: 90%;
+  max-width:1536px;
+  margin-inline: auto;
+  height: 100px;
+
+
+}
+@keyframes scrollleft{
+  to{
+    left: -200px;
+  }
+}
+.item{
+  width:200px;
+  height: 100px;
+  position: absolute;
+  left: 0%;
+  animation-name:scrollleft;
+  animation-duration: 3s;
+  animation-timing-function:linear;
+}
+
+
