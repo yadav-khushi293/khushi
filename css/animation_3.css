@@ -52,28 +52,27 @@
   height: 70px;
   object-fit: cover;
 }
-.wrapper{
-  border: 1px silid black;
-  width: 90%;
-  max-width:1536px;
-  margin-inline: auto;
-  height: 100px;
-
-
+:root{
+  --duration:2s;
+  --tototalitmes:10;
 }
-@keyframes scrollleft{
+.wrapper{
+  position: relative;
+  display: flex;
+  height: 8vw;
+  width: 8vw;
+ /* overflow: hidden;*/
+}
+.item-item{
+position: absolute;
+height: inherit;
+width: 8vw;
+left: 100%;
+animation: scrollX var(---daration) linear infinite;
+animation-delay: calc(var(--duration)/var(--tototalitmes)*(var--totalitems)-var(img1));
+}
+@keyframes scrollX {
   to{
-    left: -200px;
+    left: -8vw;
   }
 }
-.item{
-  width:200px;
-  height: 100px;
-  position: absolute;
-  left: 0%;
-  animation-name:scrollleft;
-  animation-duration: 3s;
-  animation-timing-function:linear;
-}
-
-
