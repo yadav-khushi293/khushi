@@ -39,7 +39,7 @@ for(let j=0; j<5; j++){
 
 
 //premetive data type[ immutabble]
-let naam="frahan";
+let naam="khushi";
 console.log(naam)
  naam="nishad"
  console.log(naam)
