@@ -37,7 +37,6 @@ for(let j=0; j<5; j++){
  2.array
 */
 
-
 //premetive data type[ immutabble]
 let naam="khushi";
 console.log(naam)
@@ -48,6 +47,4 @@ console.log(naam)
  let data=["khushi","hetuk","frahan","nishad"];
  data[2]="siraj";
  console.log(data);
-
-
 
