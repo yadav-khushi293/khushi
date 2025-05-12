@@ -112,8 +112,19 @@ logical opretar
 && ->AND --> both conditon are true
 ! -> NOT --> its convert true to false and flase to true 
 */
+/*
 console.log(num1==num2-1 && num7<num8)
 console.log(flag1!=true || num1==num2-1 )
 let flag4= true;
-console.log("flag4:", !flag4 );
+console.log("flag4:", !flag4 );*/
 
+/* string operators
++ -> concatination
++= -> Append String
+*/
+let name1 = "khushi";
+let name2 = "yadav";
+let full_name = name1 + "" + name2;
+console. log("full_name", full_name);
+name1+= "" +name2;
+console.log("name1:",name1);
