@@ -49,7 +49,31 @@ console.log()*/
 5./= :Division & Assign
 6.%= :Modules & Assign
 */
-
+/*
 let num1 = 4;
 num1 *= 2;
-console.log(num1);
+console.log(num1);*/
+
+
+/*comparision*/
+let num1=2;
+let num2=3;
+console.log("checking", num1==num2);
+/*
+1.== ->Data value
+2.=== -> Data types
+*/
+
+let num4="2";
+let num5="3";
+console.log("checkout", num4===num5);
+
+let flag1=false;
+console.log(flag1!=true);
+
+/*
+!= ->data value
+!== -> data types
+*/
+let flag3=false;
+console.log(flag3!==true);
