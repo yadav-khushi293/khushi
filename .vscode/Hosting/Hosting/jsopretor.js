@@ -84,7 +84,7 @@ console.log(flag3!==true);
 >=
 <=
 
-*/
+
 let num7=5;
 let num8=8;
 
@@ -122,9 +122,53 @@ console.log("flag4:", !flag4 );*/
 + -> concatination
 += -> Append String
 */
+/*
 let name1 = "khushi";
 let name2 = "yadav";
 let full_name = name1 + "" + name2;
 console. log("full_name", full_name);
 name1+= "" +name2;
-console.log("name1:",name1);
+console.log("name1:",name1);*/
+
+/*conditional operators*/
+
+let age=18;
+let Valcheck = 1<18 ? "Eligable for Voting" : "Not Eligable for Voting";
+console.log(Valcheck)
+
+/* Spread operators*/
+let arr=[1, 2, 3, 4, 5];
+let newarr=[...arr,6, 7, 8, 9,];
+console.log("newarr:", newarr);
+
+/* rest operators*/
+const sum =(...args) =>{
+    console.log("args:",args);
+};
+sum(1,2,3);
+
+/* converstion*/
+
+let number=42;
+let binaryConv= number.toString(2);
+console.log("binaryConv:",binaryConv);
+
+/* binary to number*/
+let bin_to_num=parseInt(binaryConv,2);
+console.log("bin_to_num:",bin_to_num);
+
+/* number to string*/
+let num=88;
+let Newdata =num33.toString();
+console.log("Newdata:",Newdata);
+console.log("Newdata:",typeof Newdata);
+
+let Newdata1= string(num33);
+console.log("Newdata1:",Newdata1);
+console.log("Newdata1:",typeof Newdata1);
+
+let Newdata2= string(num33);
+console.log("Newdata2:",Newdata2);
+console.log("Newdata2:",typeof Newdata2);
+
+
