@@ -209,6 +209,7 @@ switch(sum_1){
     default:
         console.log("browser not supported")
 
-    
-
 }
+
+
+
