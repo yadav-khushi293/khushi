@@ -1148,7 +1148,6 @@ height: 50px;
         background-position: center;
     }
     .parents1_1{
-          margin: 0px  55px;
         margin-bottom:15px;
         gap: 50px;
     }
@@ -1224,7 +1223,6 @@ height: 50px;
     
 }
 .img-7{
-    margin: 10px 80px;
     width:600px;
     height: 300px;
     margin-bottom: 20px;
@@ -1283,15 +1281,20 @@ input {
     font-size: 19px;
  }
  .parents5{
-   height: 1410px;
+   height: inherit;
    margin: 90px 0px;
  }
- .footer-2{
-    display: grid;
-    gap: 20px;
-    margin: 10px 210px;
-
- }
+     .footer-2 {
+        display: flex;
+        overflow: scroll;
+        scrollbar-width: none;
+        margin: auto;
+        width: 95%;
+        height: 380px;
+        gap: 20px;
+        justify-content: start;
+        /* margin: 10px 210px; */
+    }
  .footer-1{
     padding-top: 50px;
  }
@@ -1341,11 +1344,16 @@ input {
     display: none;
   }
   
- .parents7{
-    display: grid;
-    gap: 30px;
-    margin: 0px 180px;
- }
+ .parents7 {
+        display: flex;
+        gap: 15px;
+        margin: auto;
+        justify-content: start;
+        overflow: scroll;
+        height: 480px;
+        width: 95%;
+    scrollbar-width: none;
+    }
  .A1{
     font-size: 70px;
     margin: 0px 300px;
