@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <button onclick="myFunction()">Toggle dark mode</button>
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
 <body>
     <nav>
         <div class="parents">
+             <button onclick="myFunction()">Toggle dark mode</button>
             <div class="parents_1">
             <div class="child1">
                 <img src="./images/Aafiya Logo.svg" class="img-1">
@@ -308,11 +309,12 @@
         </div>
     </div>
     </div>
+    
     </div>
     <div class="parents5">
         <div class="footer-1">
             <i class="span3">Docters</i>
-            <h1> Top Othopaedic  <spna class="span4"> Doctores</spna></h1>
+            <h1> Top Orthopeadic  <spna class="span4"> Doctores</spna></h1>
         </div>
         <div class="footer-2">
              <div class="doctor-1">
@@ -490,6 +492,13 @@
         <div class="footerchild-3">Privacy policy</div>
         </div>
     </div>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
+
 
 </html>

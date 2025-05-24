@@ -2,10 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
 .parents{
     display: flex;
     justify-content: space-between;
-    margin: 3px 24px;
+    margin: 3px 50px;
     height: 78px;
    /* border: 1px solid blue;*/
 }
@@ -27,11 +39,11 @@
 .p1{
     margin:0px 0px;
     opacity: 0.5;
-    font-size: 17px;
+    font-size: 20px;
 }
 .p2{
     margin: 6px 0px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .A{
@@ -43,11 +55,11 @@
 .p3{
    margin: 0px 0px;
     opacity: 0.5;
-    font-size: 17px;
+    font-size: 20px;
 }
 .p4{
     margin: 8px 5px;
-    font-size: 17px;
+    font-size: 20px;
 }
 .child4{
     display: flex;
@@ -56,11 +68,11 @@
 .p5{
     margin: 0px 7px;
     opacity: 0.5;
-    font-size: 17px;
+    font-size: 20px;
 }
 .p6{
     margin: 6px 7px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .child5{
@@ -70,12 +82,12 @@
 }
 .img-1{
      height: 78px;
-     width: 184px;
-     margin: 0px 5px;
+     width: 290px;
+     margin: 0px 20px;
 }
 .img-2{
-    height: 69px;
-    width: 85px;
+    height: 70px;
+    width: 90px;
     margin: 2px 0px;
 }
 .img-3{
@@ -100,22 +112,23 @@
 .child_2  ul{  
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 50px;
     font-weight: bold;
     font-size: 17px;
     padding: 15px 0px;
 }
 .child_2{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
     border: 1px solid skyblue;
     background-color: rgb(125, 163, 244);
     color: aliceblue;
-    padding: 0px 42px;
 }
 .k>input{
     width:190px;
     height: 55px;
-    margin-left: 40px;
     text-align: center;
     background-color: blue;
     color: aliceblue;
@@ -204,7 +217,7 @@ h1{
 }
 .parents4{
     display: flex;
-    margin: 20px 0px;
+    margin: 20px 20px;
 }
 
 .child_10{
@@ -218,8 +231,9 @@ hr{
 }
 .child_11{
     margin: 35px 20px;
-    width: 85%;
-    height: 470px;
+    padding:20px 0px ;
+    width: 50%;
+    height: 420px;
     border: 1px solid black;
     border-radius: 10px;
 
@@ -442,7 +456,6 @@ h4{
     font-size: 15px;
 }
 .parents5{
-     
     background-color: rgb(202,235,249);
     width: 100%;
     height: 560px;
@@ -460,8 +473,10 @@ h4{
 }
 .footer-2{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap:80px;
-    margin: 10px 150px;
+    margin: 10px 0px;
 }
 .D1{
     width: 190px;
@@ -565,7 +580,9 @@ h2>.card4{
 }
 .parents7{
     display: flex;
-    margin: 15px  120px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px  0px;
     gap: 10px;
 }
 .pagination-dots-2 {
@@ -702,9 +719,10 @@ height: 50px;
     background-color: whitesmoke;
     color: black;
     position: absolute;
-    top: 942%;
-    left: 72%;
+    top: 727%;
+    left: 75%;
     border-radius: 9px;
+    display: none;
 }
 .link4{
     display: flex;
@@ -904,7 +922,7 @@ height: 50px;
         }
         .H1{
             font-size: 25px;
-            margin-right:50px ;
+            margin-right:50px;
             margin-top: 5px;
         
         }
@@ -986,13 +1004,17 @@ height: 50px;
     .child_12{
         margin: 25px 24px;
     }
-     .footer-2{
+    .footer-2 {
         display: grid;
         gap: 17px;
-        margin: 0px 60px;
-        
-        
-     } 
+        margin: auto;
+        display: flex;
+        overflow: scroll;
+        justify-content: start;
+        height: 310px;
+        width: 95%;
+        scrollbar-width: none;
+    }
      .parents5{
            height: 1135px;
      }
@@ -1001,8 +1023,6 @@ height: 50px;
         width: 239px;
        
         margin: 10px 12px;
-        
-    
     }
     .D2{
         padding:0px 80px;
@@ -1027,9 +1047,14 @@ height: 50px;
       }
       
      .parents7{
-        display: grid;
-        margin: 0px 50px;
-        gap: 20px;
+       display: flex;
+       overflow: scroll;
+       justify-content: start;
+       scrollbar-width: none;
+       margin: auto;
+       height: 390px;
+       width: 95%;
+
      }
      .A1{
         font-size: 50px;
@@ -1057,6 +1082,12 @@ height: 50px;
         display: grid;
 
     }
+    .parents5{
+    background-color: rgb(202,235,249);
+    width: 100%;
+    height: 590px;
+    margin: 40px 0px;
+}
    .text-6{
     border-left:none ;
    }
@@ -1193,40 +1224,31 @@ height: 50px;
         
     }
    
-  
+
   .child_6>ul{
     font-size: 12px;
     margin: 0px 15px;
-    gap: 15px;
-
-    
+    gap: 15px;  
 }
   .nav_1{
    margin: 17px 0px;
    
   }
-
- 
   .parents3{
     display: grid;
     justify-content: none;
 }
 
 .logHr{
-    margin: 10px 28px;
-    
-   
+    margin: 10px 28px; 
 }
 .child_7{
     margin: 8px  20px;
-    
-    
 }
 .img-7{
     width:600px;
     height: 300px;
     margin-bottom: 20px;
-    
 }
 
 .p7{
@@ -1234,9 +1256,7 @@ height: 50px;
     font-size: 15px;
 }
 .parents4{
-    display: grid;
-   
-    
+    display: grid;   
 }
 .H1{
     margin: 15px 0px;
@@ -1258,6 +1278,10 @@ height: 50px;
 .child_11{
     margin:0px 180px;
     width: 54%;
+    display: none;
+}
+.child_10{
+    margin: 0px 20px;
 }
 .box3{
     display:flex;
@@ -1293,7 +1317,6 @@ input {
         height: 380px;
         gap: 20px;
         justify-content: start;
-        /* margin: 10px 210px; */
     }
  .footer-1{
     padding-top: 50px;
@@ -1314,10 +1337,7 @@ input {
  .D1{
     width: 338px;
     height: 200px;
-   
-    margin: 10px 10px;
-    
-
+    margin: 10px 10px; 
 }
 .D2{
     padding:0px 69px;
@@ -1397,7 +1417,7 @@ input {
     display: none;
  }
  .child-35{
-    display: none;
+    display: none !important;
  }
 
 .parents6{
@@ -1406,11 +1426,9 @@ input {
 }
 .parents8{
     height: 250px;
-    margin-top: 0px 20px;
+    margin-top:20px;
 
 }
-
-
 
 .parents10{
     display: grid;
@@ -1449,4 +1467,38 @@ input {
     
     height:100px;
 }
+.box3{
+    display:flex;
+   justify-content: center !important;
+   align-items: center !important;
+    width: 100%;
+    gap:0px;
+    margin: 40px 0px;
 }
+    .footer-2 {        display: flex;
+        overflow: scroll;
+        scrollbar-width: none;
+        margin: auto;
+        width: 95%;
+        height: 499px;
+        gap: 20px;
+        justify-content: start;
+    }
+.boxchild_1{
+    width: 400px;
+    height: 315px;
+    border: 1px solid gray !important;
+}
+.boxchild_2{
+    width: 90%;
+    height: 315px;
+    display: none;
+    border: 1px solid gray !important;
+}
+.Box2{
+    display: none;
+}
+
+}
+
+
