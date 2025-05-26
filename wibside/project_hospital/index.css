@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/*
 body {
   background-color: white;
   color: black;
@@ -11,7 +12,7 @@ body {
   background-color: black;
   color: white;
 }
-
+*/
 
 
 .parents{
@@ -24,12 +25,11 @@ body {
 .parents_1{
    
  display: flex;
- gap: 5px;
+ gap: 10px;
 }
 .parents1_1{
     display: flex;
-    margin: 0px 20px;
-    gap: 10px;
+    gap: 20px;
 }
 .child3{
     display: flex;
@@ -826,16 +826,14 @@ height: 50px;
     .parents{
         height: 174px;
         display: grid;
-        justify-content: none;
+        justify-content: center !important;
+        align-items: center !important;
     }
     .parents_1{
         margin-top: 10px;
-        margin-right: 40px;
-
     }
     .parents1_1{
         gap: 15px;
-        margin: 0px 10px;
         margin-bottom: 5px;
     }
     .img-3,.img-4,.img-5{
@@ -846,11 +844,10 @@ height: 50px;
     .img-5{
         width: 65px;
     }
-    .img-1{
-       padding: 0px 15px;
-       width: 228px;
-       height: 90px; 
-    }
+        .img-1 {
+        width: 250px !important;
+        height: 90px;
+    } 
     .img-2{
         margin-top: 10px;
     }
