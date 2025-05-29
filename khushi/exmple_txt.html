@@ -1,35 +1,204 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated dropdown menu css</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container{
+      width: 1170px;
+      margin: 50px auto;
+      position: relative;
+    }
+    .nav{
+      display: inline-block;
+      padding: 0 50px;
+      text-align: center;
+      margin: 0px 10px;
+      position: absolute;
+    }
+    .nav>ul{
+      padding: 0px;
+      margin: 0px;
+      display: inline-block;
+      background: #fff;
+      border-radius: 5px;
+      color: #262626;
+    }
+    .nav>ul>li{
+      float: left;
+      width: 200px;
+      height: 50px;
+      position: relative;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+        }
+       .nav>ul>li:hover{
+        background: linear-gradient(45deg,#4a148c,#880e4f);
+        color:#fff;
 
+       } 
+       ul.sub-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        display: none;
+       }
+       li:hover>ul .sub-men{
+            display: block;
+            perspective: 1000px;
+
+       }
+       ul .sub-men li{
+        background: #fff;
+        opacity: 0;
+        transform: translateX(-100px);
+        color:#262626;
+       }
+ ul .sub-men li:hover{
+        background: linear-gradient(45deg,#4a148c,#880e4f);
+        color:#fff;
+
+       } 
+       ul .sub-men li:first-child{
+        border-radius: 5px 5px 0 0;
+       }
+         ul .sub-men li:first-child{
+        border-radius: 0 0 5px 5px;
+       }
+       li:hover>ul .sub-menu .animate li{
+          animation: animate 300ms forwards;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(1){
+        animation-delay:-150ms ;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(2){
+        animation-delay:0ms ;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(3){
+        animation-delay:150ms;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(4){
+        animation-delay:300ms ;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(1){
+        animation-delay:-150ms ;
+       }
+       li:hover>ul .sub-menu .animate li:nth-child(5){
+        animation-delay:450ms ;
+       }
+
+       @keyframes animate{
+        0%{
+          opacity: 0;
+          transform: translateX(-100px);
+        }
+         70%{
+          transform: translateX(20px);
+        }
+        100%{
+          opacity: 1;
+           transform: translateX(0);
+        }
+       }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services
+          <ul class="sub-menu animate">
+            <li>Services One</li>
+            <li>Services Two</li>
+            <li>Services One</li>
+            <li>Services One</li>
+            <li>Services One</li>
+          </ul>
+        </li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>In the Spotlight</title>
+  <title>Drop Shadow List</title>
   <style>
-    .line-text {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      margin:auto;
-      width: 50%;
+    .dropdown {
+      position: relative;
+      display: inline-block;
     }
 
-    .line-text::before,
-    .line-text::after {
-      content: "";
-      flex: 1;
-      border-bottom: 5px solid black;
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      font-size: 15px;
+      font-weight:bold ;
+      width: 135px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      z-index: 1;
     }
 
-    .line-text:not(:empty)::before {
-      margin-right: .5em;
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      transition: background-color 0.3s;
     }
 
-    .line-text:not(:empty)::after {
-      margin-left: .5em;
+    /* Hover effect on item */
+    .dropdown-content a:hover {
+    background: linear-gradient(45deg,#4a148c,#880e4f);
+        color:#fff;
+        transform: 2px;
+
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+   button {
+    width: 124px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+    button:hover{
+       background: linear-gradient(45deg,#4a148c,#880e4f);
+       color: #fff;
     }
   </style>
 </head>
 <body>
-  <div class="line-text">In the Spotlight</div>
+
+<div class="dropdown">
+  <button>Menu</button>
+  <div class="dropdown-content">
+    <a href="#">Red Wine</a>
+    <a href="#">white Wine</a>
+    <a href="#">Orange Wine</a>
+    <a href="#">Natural Wine</a>
+     <a href="#">Sparkling Wine</a>
+       <a href="#">Rose Wine</a>
+        <a href="#">Champagne</a>
+
+  </div>
+</div>
+
 </body>
 </html>
