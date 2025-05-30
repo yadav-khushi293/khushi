@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    
-    /* From Uiverse.io by cssbuttons-io 
+
+ .k{
+     display: flex;
+     justify-content: center;
+ }
 button {
-  --color: #560bad;
+  --color: black;
   font-family: inherit;
   display: inline-block;
-  width: 8em;
-  height: 2.6em;
+  width: 17em;
+  height: 4em;
   line-height: 2.5em;
   margin: 20px;
   position: relative;
@@ -25,6 +28,7 @@ button {
   border-radius: 6px;
   font-weight: 500;
   color: var(--color);
+   border: 4px solid blueviolet!important;
 }
 
 button:before {
@@ -33,12 +37,13 @@ button:before {
   z-index: -1;
   background: var(--color);
   height: 150px;
-  width: 200px;
-  border-radius: 50%;
+  width: 400px;
+  border-radius: 30%;
 }
 
 button:hover {
   color: #fff;
+   border: 1px solid yellow !important;
 }
 
 button:before {
@@ -53,82 +58,27 @@ button:hover:before {
 }
 
 button:active:before {
-  background: #3a0ca3;
+  background:yellow;
   transition: background 0s;
-}
-*/
-/* From Uiverse.io by abrahamcalsin */ 
-button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  background: #183153;
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  cursor: pointer;
-  border: none;
+  
 }
 
-button:after {
-  content: " ";
-  width: 0%;
-  height: 100%;
-  background: #ffd401;
-  position: absolute;
-  transition: all 0.4s ease-in-out;
-  right: 0;
-}
-
-button:hover::after {
-  right: auto;
-  left: 0;
-  width: 100%;
-}
-
-button span {
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-  padding: 18px 25px;
-  color: #fff;
-  font-size: 1.125em;
-  font-weight: 700;
-  letter-spacing: 0.3em;
-  z-index: 20;
-  transition: all 0.3s ease-in-out;
-}
-
-button:hover span {
-  color: #183153;
-  animation: scaleUp 0.3s ease-in-out;
-}
-
-@keyframes scaleUp {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(0.95);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
   </style>
 </head>
 <body>
-  <!-- From Uiverse.io by cssbuttons-io  
-<button>Hover me</button>
--->
+
+
+<div class="k">
 <button>
   <span>BUTTON</span>
 </button>
-
+<button>
+  <span>BUTTON</span>
+</button>
+<button>
+  <span>BUTTON</span>
+</button>
+</div>
 </body>
 </html>
