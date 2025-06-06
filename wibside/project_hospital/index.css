@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-/*
-body {
+ /*{
   background-color: white;
   color: black;
 }
@@ -12,7 +11,7 @@ body {
   background-color: black;
   color: white;
 }
-*/
+  */
 
 
 .parents{
@@ -20,7 +19,7 @@ body {
     justify-content: space-between;
     margin: 3px 50px;
     height: 78px;
-   /* border: 1px solid blue;*/
+    
 }
 .parents_1{
    
@@ -1497,5 +1496,3 @@ input {
 }
 
 }
-
-
