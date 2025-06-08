@@ -1,115 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Perfect Gift Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Alcohol Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+      box-sizing: border-box;
+    }body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
 
-    .container {
-      background-color: #f8f5f0;
-      padding: 30px 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-      width: 90%;
-      max-width: 500px;
-    }
+header {
+  background-image: url('https://images.unsplash.com/photo-1582574241593-b492d1f42d84');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-    .container h2 {
-      font-style: italic;
-      font-weight: 400;
-      margin: 0 0 5px;
-      font-size: 24px;
-      color: #333;
-    }
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  color: gold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
 
-    .container p {
-      margin: 0 0 20px;
-      color: #444;
-      font-size: 15px;
-    }
+header p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #ddd;
+}
 
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    .input-box {
-      display: flex;
-      flex-direction: column;
-    }
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
 
-    label {
-      font-size: 13px;
-      color: #888;
-      position: absolute;
-      top: 300px;
-      margin-bottom: 0px;
-    }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-    input[type="text"],
-    input[type="date"] {
-      padding: 12px 15px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      outline: none;
-      position: relative;
-    }
+nav ul li a:hover {
+  color: gold;
+}
 
-    input[type="date"]::-webkit-calendar-picker-indicator {
-      filter: invert(0.5);
-      cursor: pointer;
-    }
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
 
-    .search-button {
-      margin-top: 20px;
-      background-color: #000;
-      color: white;
-      padding: 12px;
-      border: none;
-      border-radius: 30px;
-      font-size: 14px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
 
-    .search-button:hover {
-      background-color: #333;
-    }
+.product {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: gold;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000;
+  color: #888;
+}
+
   </style>
 </head>
 <body>
-
-  <div class="container">
-    <h2>Find the perfect gift</h2>
-    <p>Start here to narrow your search</p>
-
-    <div class="form-group">
-      <div class="input-box">
-        <label>Sending to</label>
-        <input type="text" placeholder="Delivery Zip Code">
+  <nav>
+    <h2 style="color:gold">Alcoholica</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Our Products</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <header id="home">
+    <h1>Premium Spirits for the Bold</h1>
+    <p>Discover top-shelf alcohol for every occasion.</p>
+  </header>  <section id="products">
+    <h2 style="color:gold; margin-bottom: 2rem; text-align:center">Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1608752349606-900f94b4dce6" alt="Whiskey">
+        <h3>Gold Reserve Whiskey</h3>
       </div>
-
-      <div class="input-box">
-        <label>Delivery Date</label>
-        <input type="date">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1614282282786-472a4835a3e7" alt="Wine">
+        <h3>Classic Red Wine</h3>
       </div>
-
-      <button class="search-button">SEARCH AVAILABLE GIFTS</button>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1572814706855-074aa1f2a76e" alt="Rum">
+        <h3>Dark Caribbean Rum</h3>
+      </div>
     </div>
-  </div>
-
+  </section>  <section id="about">
+    <h2 style="color:gold; text-align:center; margin-bottom: 1rem">About Us</h2>
+    <p style="text-align:center; color:#ccc; max-width: 700px; margin:auto">We are passionate about delivering the finest alcohol products sourced from across the globe. With a focus on taste, heritage, and experience, we aim to bring premium spirits to every enthusiast.</p>
+  </section>  <section id="contact">
+    <h2 style="color:gold; text-align:center; margin-bottom: 1rem">Contact</h2>
+    <p style="text-align:center; color:#ccc">Email: info@alcoholica.com | Phone: +123-456-7890</p>
+  </section>  <footer>
+    <p>&copy; 2025 Alcoholica. All rights reserved.</p>
+  </footer>
 </body>
 </html>
