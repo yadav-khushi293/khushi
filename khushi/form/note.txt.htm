@@ -1,115 +1,85 @@
-<DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-
- .k{
-     display: flex;
-     justify-content: center;
- }
-button {
-  --color:pink;
-  font-family: inherit;
-  display: inline-block;
-  width: 3em;
-  height: 4em;
-  line-height: 2.5em;
-  margin: 20px;
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-  border: 2px solid var(--color);
-  transition: color 0.5s;
-  z-index: 1;
-  font-size: 17px;
-  border-radius: 6px;
-  font-weight: 500;
-  color: var(--color);
-   border: 4px solid blueviolet!important;
-}
-
-button:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: var(--color);
-  height: 150px;
-  width: 400px;
-  border-radius: 30%;
-}
-
-button:hover {
-  color: #fff;
-   border: 1px solid yellow !important;
-}
-
-button:before {
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
-}
-
-button:hover:before {
-  top: -30px;
-  left: -30px;
-}
-
-button:active:before {
-  background:blueviolet;
-  transition: background 0s;
-  
-}
-
-
-  </style>
-</head>
-<body>
-
-
-<div class="k">
-<button>
-  <span>BUTTON</span>
-</button>
-<button>
-  <span>BUTTON</span>
-</button>
-<button>
-  <span>BUTTON</span>
-</button>
-</div>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Gift Search Form</title>
   <style>
-  .browse_button {
-  width: 100px;
-  height: 40px;
-  border: 1px solid #a54284;
-  border-radius: 20px;
-  transition: all 0.3s;
-  background: #a54284;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 520;
-}
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fefefe;
+      padding: 40px;
+    }
 
-.browse_button:hover {
-  background:#ffcc25;
-  color: white;
-  font-size: 20px;
-}
+    .gift-container {
+      background-color: #f8f4ee;
+      padding: 30px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
+    .gift-container h2 {
+      font-style: italic;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .gift-container p {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="date"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      flex: 1;
+      font-size: 14px;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      padding-left: 10px;
+      cursor: pointer;
+    }
+
+    .search-btn {
+      width: 100%;
+      background-color: #000;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .search-btn:hover {
+      background-color: #333;
+    }
   </style>
 </head>
 <body>
-  <button class="browse_button">Browse</button>
+
+<div class="gift-container">
+  <h2>Find the perfect gift</h2>
+  <p>Start here to narrow your search</p>
+
+  <div class="form-group">
+    <input type="text" placeholder="Delivery Zip Code">
+    <input type="date">
+  </div>
+
+  <button class="search-btn">SEARCH AVAILABLE GIFTS</button>
+</div>
+
 </body>
 </html>
