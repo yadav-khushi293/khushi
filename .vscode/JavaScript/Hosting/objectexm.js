@@ -64,7 +64,6 @@ console.log('Book:',Book);
 */
 
 //Whrite function create(title, author,years)cunstructor..this example form Class
-
 class CreateBooks{
     constructor(title,author,year){
         this.title=title;
@@ -77,4 +76,3 @@ const Book1 = new CreateBooks('rich-dad & poor-dad','xyz',1999);
 const Book2 = new CreateBooks('FSD','Mehfooz-khan',2000)
 console.log('Book:',Book1);
 console.log('Book2:',Book2);
-
