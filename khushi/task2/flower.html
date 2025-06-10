@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,
+        input :focus {
+            border: 0 !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        fieldset{
+            width: 100px;
+            height: 35px;
+        }
+        placeholder>input{
+          text-align: center;
+          border: 1px solid black !important;
+        }
+        .cl{
+            width: 42px;
+            background-color: rgb(24, 188, 188);
+            height: 44px;
+            position: absolute;
+            top: 9px;
+            left: 195px;
+        }
+        .parents2{
+            display: flex;
+            align-items: center;
+            width: 25;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parents">
+        <fieldset class="">
+            <legend>Sending to</legend> 
+            <input type="text" placeholder="Delivery Zip Code">
+        </fieldset>
+            
+         <div class="parents2">
+        <fieldset>
+            <legend>Delivery Date</legend> 
+            <input type="text" placeholder="MM/DD/YYYY">
+        </fieldset>
+        <img src="../../khushi/task2/Calendar alt.svg" class="cl">
+        </div>
+
+    </div>
+</body>
+
+</html>
