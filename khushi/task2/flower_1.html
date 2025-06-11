@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+ .parents_main_4 {
+  height: 180px;
+  overflow: hidden;
+  margin: 90px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.parents_main_child4 {
+  position: relative;
+  width: 100%;
+  height: inherit;
+}
+
+.Hire-6 {
+  position: absolute;
+  height: inherit;
+  animation: scroll-5 var(--duration, 10s) linear infinite;
+  left: 100%;
+  animation-delay: calc(var(--duration, 10s) / 7 * (7 - var(--k)) * -1);
+}
+
+@keyframes scroll-5 {
+  to {
+    left: -250px;
+  }
+}
+
+.Hire-6 > img {
+  height: inherit;
+  width: 190px;
+  padding: 0px 5px;
+  border-radius: 130px;
+  object-fit: fill;
+}
+.parents_main_4:hover .Hire-6 {
+  animation-play-state: paused;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parents_main_4">
+            <div class="parents_main_child4">
+
+                <div class="Hire-6" style="--k:1">
+                    <img src="../../images/carnations_img.avif" alt="img_01">
+                </div>
+                <div class="Hire-6" style="--k:2">
+                    <img src="../../images/Exotic_flower.avif" alt="img_02">
+                </div>
+                <div class="Hire-6" style="--k:3">
+                    <img src="../../images/flower_box.avif" alt="img_03">
+                </div>
+                <div class="Hire-6" style="--k:4">
+                    <img src="../../images/imagecombo_img.avif" alt="img_04">
+                </div>
+                <div class="Hire-6" style="--k:5">
+                    <img src="../../images/lilies.avif" alt="img_05">
+                </div>
+                <div class="Hire-6" style="--k:6">
+                    <img src="../../images/orchids_img.avif" alt="img_06">
+                </div>
+                <div class="Hire-6" style="--k:7">
+                    <img src="../../images/roses_img.avif" alt="img_07">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
