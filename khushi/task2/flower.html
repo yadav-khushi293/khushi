@@ -44,6 +44,7 @@
 .button:hover {
   color:white;
   scale: 1.1;
+   transition: 10s ease ease-in;
   box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
 }
 
@@ -51,7 +52,24 @@
   scale: 1;
 }
 
-
+.p{
+      width: 235px;
+      height: 230px;
+      /*border:1px solid rosybrown;*/
+      overflow: hidden;
+      border-radius: 9px;
+      margin-top: 30px;
+     object-fit: fill;
+    }
+    .p .flowimg{
+      height: inherit;
+      width: inherit;
+      transition: 0.5s ease;
+    }
+    
+    .p .flowimg:hover{
+      transform: scale(1.2);
+    }
 
     </style>
 </head>
@@ -59,6 +77,9 @@
 <body>
     <button class="button">SHOP SUMMER</button>
 </body>
+<div class="p">
+<img src="../../images/R5651D_LOL_preset_proflowers-mx-tile-wide-sv-new.jpg" class="flowimg">
+</div>
 </html>
 
 
