@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
 
-.button {
+.button-1 {
   cursor: pointer;
   position: relative;
   width: 300px;
@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.button::before {
+.button-1::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -37,18 +37,18 @@
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-.button:hover::before {
+.button-1:hover::before {
   scale: 2;
 }
 
-.button:hover {
+.button-1:hover {
   color:white;
   scale: 1.1;
    transition: 10s ease ease-in;
   box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
 }
 
-.button:active {
+.button-1:active {
   scale: 1;
 }
 
@@ -77,6 +77,8 @@
 <body>
     <button class="button">SHOP SUMMER</button>
 </body>
+
+
 <div class="p">
 <img src="../../images/R5651D_LOL_preset_proflowers-mx-tile-wide-sv-new.jpg" class="flowimg">
 </div>
