@@ -163,11 +163,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>3D Carousel – Reduced Gaps</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
+    
+   .slider_3D {
       background: linear-gradient(to top, #a8c0ff, #3f2b96);
       display: flex; justify-content: center; align-items: center;
       height: 400px; font-family: sans-serif;
+      width: 100%;
     }
     .carousel-container {
       width: 200px;
@@ -227,7 +228,7 @@
   </style>
 </head>
 <body>
-
+  <div class="slider_3D">
   <div class="carousel-container">
     <div class="carousel" id="carousel">
       <img src="https://picsum.photos/id/1015/250/180" alt="">
@@ -237,12 +238,14 @@
       <img src="https://picsum.photos/id/1055/250/180" alt="">
       <img src="https://picsum.photos/id/1065/250/180" alt="">
     </div>
+  
+
     <div class="btns">
       <button onclick="prev()">Prev</button>
       <button onclick="next()">Next</button>
     </div>
   </div>
-
+  </div>
   <script>
     const imgs = document.querySelectorAll('.carousel img');
     let current = 0;
@@ -263,6 +266,5 @@
 
     update();
   </script>
-
 </body>
 </html>
