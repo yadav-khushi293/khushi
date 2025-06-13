@@ -55,10 +55,13 @@
       display: none;
       position: absolute;
       background-color: white;
-      min-width: 150px;
+      min-width: 160px;
       box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
       padding: 10px 0;
       z-index: 1;
+      overflow-y: scroll;
+      height: 180px;
+
     }
 
     .dropdown-content label {
@@ -79,6 +82,11 @@
 
     .dropdown:hover .dropdown-content {
       display: block;
+    }
+    .dropdown-content::-webkit-scrollbar{
+       background-color:red;
+       width: 9px;
+       border-radius: 80px;
     }
   </style>
 </head>
@@ -116,7 +124,7 @@
      <label><input type="checkbox"> Daisy</label>
       <label><input type="checkbox">  Snapdragon</label>
        <label><input type="checkbox"> Hydrangea</label>
-        <label><input type="checkbox"> Alstroemeria</label>
+        <label><input type="checkbox"> Alstroeme..</label>
     
   </div>
 </div>
