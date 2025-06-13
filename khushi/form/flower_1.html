@@ -1,167 +1,5 @@
+
 <!--DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowers_Animation</title>
-    <style>
-
- .parents_main_4 {
-  height: 180px;
-  overflow: hidden;
-  margin: 20px 20px;
-  display: flex;
-  align-items: center;
-}
-
-.parents_main_child4 {
-  position: relative;
-  width: 100%;
-  height: inherit;
-}
-
-.Hire-6 {
-  position: absolute;
-  height: inherit;
-  animation: scroll-5 var(--duration, 15s) linear infinite;
-  left: 100%;
-  animation-delay: calc(var(--duration, 15s) / 7 * (7 - var(--k)) * -1);
-}
-
-
-@keyframes scroll-5 {
-  to {
-    left: -250px;
-  }
-}
-
-.Hire-6 > img {
-  height: inherit;
-  width: 190px;
-  padding: 0px 15px;
-  object-fit: fill;
-}
-.parents_main_4:hover .Hire-6 {
-  animation-play-state: paused;
-}
-
-/**/
- .parents_main_5 {
-  height: 180px;
-  overflow: hidden;
-  margin: 30px 20px;
-  display: flex;
-  align-items: center;
-}
-
-.parents_main_child5 {
-  position: relative;
-  width: 100%;
-  height: inherit;
-}
-
-.Hire-7 {
-  position: absolute;
-  height: inherit;
-  animation: scroll-6 var(--duration, 15s) linear infinite;
-  right: 100%;
-  animation-delay: calc(var(--duration, 15s) / 7 * (7 - var(--k)) * -1);
-}
-
-@keyframes scroll-6 {
-  to {
-    right: -250px;
-  }
-}
-
-.Hire-7 > img {
-  height: inherit;
-  width: 190px;
-  padding: 0px 15px;
-  object-fit: fill;
-}
-.parents_main_5:hover .Hire-7 {
-  animation-play-state: paused;
-}
-
-    </style>
-</head>
-<body>
-
-    <div class="parents_main_4">
-            <div class="parents_main_child4">
-
-                <div class="Hire-6" style="--k:1">
-                    <img src="../../images/carnations_img.avif" alt="img_01">
-                </div>
-
-                <div class="Hire-6" style="--k:2">
-                    <img src="../../images/Exotic_flower.avif" alt="img_02">
-                </div>
-
-                <div class="Hire-6" style="--k:3">
-                    <img src="../../images/flower_box.avif" alt="img_03">
-                </div>
-
-                <div class="Hire-6" style="--k:4">
-                    <img src="../../images/imagecombo_img.avif" alt="img_04">
-                </div>
-
-                <div class="Hire-6" style="--k:5">
-                    <img src="../../images/lilies.avif" alt="img_05">
-                </div>
-
-                <div class="Hire-6" style="--k:6">
-                    <img src="../../images/orchids_img.avif" alt="img_06">
-                </div>
-
-                <div class="Hire-6" style="--k:7">
-                    <img src="../../images/roses_img.avif" alt="img_07">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
- <div class="parents_main_5">
-            <div class="parents_main_child5">
-
-                <div class="Hire-7" style="--k:1">
-                    <img src="../../images/carnations_img.avif" alt="img_01">
-                </div>
-
-                <div class="Hire-7" style="--k:2">
-                    <img src="../../images/Exotic_flower.avif" alt="img_02">
-                </div>
-
-                <div class="Hire-7" style="--k:3">
-                    <img src="../../images/flower_box.avif" alt="img_03">
-                </div>
-
-                <div class="Hire-7" style="--k:4">
-                    <img src="../../images/imagecombo_img.avif" alt="img_04">
-                </div>
-
-                <div class="Hire-7" style="--k:5">
-                    <img src="../../images/lilies.avif" alt="img_05">
-                </div>
-
-                <div class="Hire-7" style="--k:6">
-                    <img src="../../images/orchids_img.avif" alt="img_06">
-                </div>
-
-                <div class="Hire-7" style="--k:7">
-                    <img src="../../images/roses_img.avif" alt="img_07">
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html-->
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -181,6 +19,95 @@
 <body>
 
   <img src="../../css/img_4.avif" class="img_3">
+
+</body>
+</html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Price Filter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin: 50px;
+    }
+
+    .button_9 {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 1px solid #000;
+      background-color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 150px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      padding: 10px 0;
+      z-index: 1;
+    }
+
+    .dropdown-content label {
+      display: block;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .dropdown-content label:hover {
+      background-color:pink;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 8px;
+      transform: scale(1.1);
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="button_9">Price Range &#x25BC;</button>
+  <div class="dropdown-content">
+    <label><input type="checkbox"> $45 – $60</label>
+    <label><input type="checkbox"> $61 – $75</label>
+    <label><input type="checkbox"> $76 – $90</label>
+    <label><input type="checkbox"> Above $90</label>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="button_9">Color &#x25BC;</button>
+  <div class="dropdown-content">
+    <label><input type="checkbox"> white</label>
+    <label><input type="checkbox"> Pink</label>
+    <label><input type="checkbox"> purple</label>
+    <label><input type="checkbox"> Red</label>
+     <label><input type="checkbox"> Yellow</label>
+
+
+
+  </div>
+</div>
 
 </body>
 </html>
