@@ -1,132 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>3D Carousel – Reduced Gaps</title>
-  <style>
-    *{
-      padding: 0;
-      margin: 0;
-    }
-    
-   .slider_3D {
-      /*background: linear-gradient(to top,#ae9ff2, #a8c0ff);*/
-
-      background: linear-gradient(to top ,#ae9ff2,#f4dacd,#ae9ff2);
-      display: flex; 
-      justify-content: center; 
-      align-items: center;    
-      height: 350px; 
-      font-family: sans-serif;
-      width: 100%;
-    }
-
-    .carousel-container {
-      width: 200px;
-      height: 220px;
-      perspective: 1000px;
-      position: relative;
-    }
-
-    .carousel {
-      width: 100%; height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-    }
-    .carousel img {
-      position: absolute;
-      width: 250px; 
-      height: 180px;
-      border-radius: 10px;
-      transition: all 0.5s ease;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      opacity: 0; transform: scale(0.7);
-    }
-    .carousel img.active {
-      opacity: 1;
-      transform: translateX(0) scale(1);
-      z-index: 5;
-    }
-    .carousel img.prev {
-      opacity: 0.8;
-      transform: translateX(-200px) scale(0.85) rotateY(25deg);
-      z-index: 4;
-    }
-    .carousel img.next {
-      opacity: 0.8;
-      transform: translateX(200px) scale(0.85) rotateY(-25deg);
-      z-index: 4;
-    }
-    .carousel img.prev2 {
-      opacity: 0.5;
-      transform: translateX(-360px) scale(0.65) rotateY(45deg);
-      z-index: 2;
-    }
-    .carousel img.next2 {
-      opacity: 0.5;
-      transform: translateX(360px) scale(0.65) rotateY(-45deg);
-      z-index: 2;
-    }
-    .btns {
-      position: absolute; 
-      bottom: -40px;
-      width: 100%; 
-      display: flex;
-      justify-content: space-between;
-    }
-    .btns button {
-      background: #fff; 
-      border: none;
-      padding: 10px 20px; 
-      font-size: 18px;
-      cursor: pointer; 
-      border-radius: 5px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <div class="slider_3D">
-  <div class="carousel-container">
-    <div class="carousel" id="carousel">
-      <img src="../../css/R5549D_LOL_preset_proflowers-mx-tile-wide-sv-new.webp" alt="">
-      <img src="../../css/red_1.avif" alt="">
-      <img src="../../css/red_2.avif" alt="">
-      <img src="../../css/red_3.avif" alt="">
-      <img src="../../css/red_5.avif" alt="">
-      <img src="../../css/img_4.avif" alt="">
-    </div>
-  
-
-    <div class="btns">
-      <button onclick="prev()">Prev</button>
-      <button onclick="next()">Next</button>
-    </div>
-  </div>
-  </div>
-  <script>
-    const imgs = document.querySelectorAll('.carousel img');
-    let current = 0;  
-
-    function update() {
-      imgs.forEach((img, i) => {
-        img.className = '';
-        if (i === current) img.classList.add('active');
-        else if (i === (current - 1 + imgs.length) % imgs.length) img.classList.add('prev');
-        else if (i === (current + 1) % imgs.length) img.classList.add('next');
-        else if (i === (current - 2 + imgs.length) % imgs.length) img.classList.add('prev2');
-        else if (i === (current + 2) % imgs.length) img.classList.add('next2');
-      });
-    }
-
-    function prev() { current = (current - 1 + imgs.length) % imgs.length; update(); }
-    function next() { current = (current + 1) % imgs.length; update(); }
-
-    update();
-  </script>
-</body>
-
-
+<div class="parent">
+  <div class="child1"></div>
 </div>
+</body>
 </html>
