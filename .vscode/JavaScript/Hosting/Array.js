@@ -58,10 +58,16 @@ console.log(g);
 
 //let v=num.sort();
 // console.log(v);
-
+/*
 let compare=(a,b)=>{
     return a-b
 }
 let num=[2,89,67,667,223]
 num.sort(compare)
 console.log(num)
+*/
+
+let num=[2,8,9,5,7,7];
+
+let num2=num.reduce((acc,curr)=>acc+curr);
+console.log(num2);
