@@ -25,5 +25,6 @@ console.log('age2:',age2);
 
 let number2=[1,2,3,4,5,6,7,8,9,10]
 
-let arr =number2.filter((element,index)=>element%2==0)
+let arr =number2.map((element,index)=>element%2==0)
 console.log('number2:',number2);
+
