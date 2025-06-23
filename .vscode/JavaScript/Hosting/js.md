@@ -3,3 +3,5 @@
 -object literal denoted by this -->{};
 - java script is based on object;
 - react mdn filke ob js.
+
+object, array ,filter,reduces,map

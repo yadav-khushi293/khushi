@@ -1,4 +1,4 @@
-let arr =['mahfooz','frahan','hetuk','khushi']
+/*let arr =['mahfooz','frahan','hetuk','khushi']
 
 let arr1=[{name:'mehfooz_khan',age:88},{name:'khushi',age:188}]
 
@@ -24,5 +24,44 @@ console.log(aa2);
     console.log(Element);
 });*/
 
-Array.pop()//remove the no
-Array.push()//add a number
+//remove the no Array.pop()
+//add a number Array.push()
+
+//ARRAY
+/*
+let array=[10,20,30,50,40];
+
+console.log('array:',array);
+console.log(array[2]);
+
+for(let a=0; a<=4;a++){
+    console.log(array[a]);
+}
+
+let b =array.join("|");
+console.log(b)
+
+array.pop();
+console.log(array)
+
+let c=array.shift(2);
+console.log(c)
+
+array.push(20);
+console.log(array);
+
+let g=array.unshift(80);
+console.log(g);
+
+*/
+
+
+//let v=num.sort();
+// console.log(v);
+
+let compare=(a,b)=>{
+    return a-b
+}
+let num=[2,89,67,667,223]
+num.sort(compare)
+console.log(num)
