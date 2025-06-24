@@ -38,3 +38,23 @@ Array.prototype.fistadd=function(...values){
 
    return this.length;
 };
+
+
+//shift
+
+Array.prototype.firstremove=function(){
+    if(this.length===0)
+        return undefined;
+
+    const fistElement=this[0];
+    //store a first  element array
+
+    for(let i=1; i<=this.length; 1++){
+        this[i-1]=this[i];
+    }
+   //shift element in left
+   
+    this.length=this.length-1;
+
+    return fistElement;
+}
