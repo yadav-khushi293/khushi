@@ -71,3 +71,4 @@ let num=[2,8,9,5,7,7];
 
 let num2=num.reduce((acc,curr)=>acc+curr);
 console.log(num2);
+
