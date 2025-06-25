@@ -58,5 +58,3 @@ Array.prototype.firstremove=function(){
 
     return fistElement;
 }
-
-
