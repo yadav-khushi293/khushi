@@ -58,4 +58,3 @@ Array.prototype.firstremove=function(){
 
     return fistElement;
 }
-console.log("my name is xyz");
