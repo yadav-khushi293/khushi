@@ -14,8 +14,10 @@ ice_cream.then(()=>{
 
 ice_cream.catch(()=>{
  console.log('call mommy');
+ 
 });
 */
+
 
 
 
