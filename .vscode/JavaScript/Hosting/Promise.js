@@ -18,6 +18,7 @@ ice_cream.catch(()=>{
 */
 
 
+
 /*
 //!what  if we get delay to get the response
 //2:exmple
@@ -64,6 +65,7 @@ function appends(s){
 }
 
 appends('./myScript.js');
+
 
 //code-2
 
