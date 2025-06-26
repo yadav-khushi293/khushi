@@ -18,6 +18,7 @@ const appendsFunc = (data) => {
      let category = document.createElement('h3');
       let img = document.createElement('img');
       let rating =document.createElement('h3');
+
         let count =document.createElement('h3');
 
 
