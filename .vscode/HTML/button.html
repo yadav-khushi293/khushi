@@ -16,7 +16,7 @@
             gap: 20px;
             flex-direction: column;
             padding: 10px 30px;
-            border: 4px dashed red;
+            border: 4px dashed black;
             width: 500px;
         }
 
@@ -31,6 +31,10 @@
         .card_div > img{
             width: 100px;
             height: 100px;
+        }
+        .card_div > img:hover{
+          scale: 1.5;
+          transition: all ease-in-out 1s;
         }
       .text_div{
         font-size: 18px;
@@ -47,11 +51,13 @@
 
 <body class="h-100 w-100 border border-5 border-primary ">
     <h1>api call</h1>
+
     <!-- Small screen button -->
     <button onclick="ApiCall()" class="bg-success text-white border-0 p-3 m-3 rounded-2">
         Small Screen
     </button>
     <div class="infos border border-5 border-success " id="info"></div>
+
 </body>
 <!-- js file  -->
 <script src="../JavaScript/Hosting/Apifatch.js"></script>
