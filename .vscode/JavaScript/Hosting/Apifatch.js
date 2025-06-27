@@ -38,4 +38,7 @@ const appendsFunc = (data) => {
 
     dataShow.append(cardDiv);
   });
+  
+  
+  title.className="titel_text";
 };
