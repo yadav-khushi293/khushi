@@ -1,32 +1,35 @@
 const api='live_bxAXdnQu3q8aDrjTeIG2rLwQEc4t7cpCb94MhUZ2JlZjObLB2WOJnhdgTbUZD7Nf'
 
-const Apicall=()=>{
+const apicall=()=>{
     fetch(api)
     .then((res)=>res.json)
-    .then((res)=>appendData(res))
+    .then((res)=>appendData(data))
     .catch((err)=>console.log(err));
 }
 
-const dataShow=(data)=>{
-    const mainDiv=document.getElementById('info');
+const appendData=(data)=>{
 
-    data.forEach(element => {
-        
-        //creat card
-        const cardDiv=document.createElement('div');
-        const id=document.createElement('h1');
-        const name=ducumen.createElement('p');
-       
+    const maindiv=document.getElementById('info');
+    // card
+   data.forEach(el=> {
+     
+    const carddiv=document.createElement('div');
+    const id=document.createElement('id');
+    const name=document.createElement('p');
+    const count= document.createElement('h1');
+    const title=document.createElement('p');
 
-        //data seting
-       
-        id.innerText=id.el;
-        name.innerText=name.el;
+    //data setting
 
-         cardDiv.append(id,name);
-         dataShow.append(cardDiv);
+    id.innerText='el.id';
+    name.innerText='el.name';
+    count.innerText='el.count';
+    title.innerText='el.title';
+
+    ///
+   carddiv.append(id,name,count,title);
+   maindiv.append(carddiv);
 
 
-
-    });
+   });
 }
