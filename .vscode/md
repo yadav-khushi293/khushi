@@ -3,7 +3,7 @@ const api='live_bxAXdnQu3q8aDrjTeIG2rLwQEc4t7cpCb94MhUZ2JlZjObLB2WOJnhdgTbUZD7Nf
 const apicall=()=>{
     fetch(api)
     .then((res)=>res.json)
-    .then((res)=>appendData(data))
+    .then((res)=>appendData(res))
     .catch((err)=>console.log(err));
 }
 
