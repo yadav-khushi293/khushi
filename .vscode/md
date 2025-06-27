@@ -1,0 +1,32 @@
+const api='live_bxAXdnQu3q8aDrjTeIG2rLwQEc4t7cpCb94MhUZ2JlZjObLB2WOJnhdgTbUZD7Nf'
+
+const Apicall=()=>{
+    fetch(api)
+    .then((res)=>res.json)
+    .then((res)=>appendData(res))
+    .catch((err)=>console.log(err));
+}
+
+const dataShow=(data)=>{
+    const mainDiv=document.getElementById('info');
+
+    data.forEach(element => {
+        
+        //creat card
+        const cardDiv=document.createElement('div');
+        const id=document.createElement('h1');
+        const name=ducumen.createElement('p');
+       
+
+        //data seting
+       
+        id.innerText=id.el;
+        name.innerText=name.el;
+
+         cardDiv.append(id,name);
+         dataShow.append(cardDiv);
+
+
+
+    });
+}
