@@ -1,72 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+ <!DOCTYPE html>
+   <html lang="en">
+   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
     <style>
-        .card_div {
-            display: flex;
-            justify-content: center;
+            @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+             box-sizing: border-box;
+            text-transform: capitalize;
+            font-family: Roboto;
+        }
+        .detailDiv{
+         display: grid;
             align-items: center;
-            height: 700px;
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            flex-direction: column;
-            padding: 10px 30px;
-            border: 4px dashed black;
-            width: 500px;
+            padding: 10px 0;
         }
 
-        .infos {
+          #info {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
+            justify-items: center;
+            gap: 30px;
+
+        }
+          .card_div {
+            width: 430px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 30px;
         }
 
-        .card_div > img{
-            width: 100px;
-            height: 100px;
+        img {
+            width: inherit;
+            height: 300px;
+            object-fit: cover;
+            border-radius: inherit;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
-        .card_div > img:hover{
-          scale: 1.5;
-          transition: all ease-in-out 1s;
+
+       .card_div>p,
+        .detail_div_1>h3 {
+            padding: 10px 0;
+
         }
-      .text_div{
-        font-size: 18px;
-        display: flex !important;
-        overflow-y: scroll;
-        height: 150px;
-        scrollbar-width: none;
-      }
-      .title_div{
-        font-size: 20px;
-      }
+
+        .detail_div>p {
+            padding: 2px 0 !important;
+        }
+
+        .detail_div_1 {
+            padding: 20px 20px;
+        }
+
     </style>
-</head>
 
-<body class="h-100 w-100 border border-5 border-primary ">
-    <h1>api call</h1>
+   </head>
+   <body onload="ApiCall()">
+    <h1>Cat Api Call</h1>
+    <div id="info"></div>
 
-    <!-- Small screen button -->
-     
-    <button onclick="ApiCall()" class="bg-success text-white border-0 p-3 m-3 rounded-2">
-        Small Screen
-    </button>
-    <div class="infos border border-5 border-success " id="info"></div>
-
-</body>
-<!-- js file  -->
-<script src="../JavaScript/Hosting/Apifetch2.js"></script>
-
-<!-- bootstrap js file  -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"></script>
-
-</html>
+   </body>
+   <script src="../JavaScript/Hosting/Apifetch2.js"> </script>
+   </html>
