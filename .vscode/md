@@ -18,6 +18,7 @@ const appendData=(data)=>{
     const name=document.createElement('p');
     const count= document.createElement('h1');
     const title=document.createElement('p');
+    const name1=document.elementFromPoint('p');
 
     //data setting
 
@@ -29,6 +30,7 @@ const appendData=(data)=>{
     ///
    carddiv.append(id,name,count,title);
    maindiv.append(carddiv);
+  
 
 
    });
