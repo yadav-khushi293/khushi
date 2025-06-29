@@ -30,7 +30,7 @@ const appendData=(data)=>{
    carddiv.append(id,name,count,title);
    maindiv.append(carddiv);
   
-
-
    });
 }
+
+
