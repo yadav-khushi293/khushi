@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+             box-sizing: border-box;
+            text-transform: capitalize;
+            font-family: Roboto;
+        }
+
+
+          #info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            gap: 30px;
+
+        }
+          .card_div {
+            width: 430px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+        }
+
+        img {
+            width: inherit;
+            height: 400px;
+            object-fit: cover;
+            border-radius: inherit;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+     p{
+      text-align: center;
+      font-weight: bolder;
+      font-size: 18px;
+      padding: 7px 0px;
+     }
+     h2,h1{
+      text-align: center;
+     }
+    
+    </style>
+
+   </head>
+   <body onload="ApiCall()">
+    <h1>Cat Api Call</h1>
+    <div id="info"></div>
+
+   </body>
+   <script src="../JavaScript/Hosting/Apifetch4.js"> </script>
+   </html>
