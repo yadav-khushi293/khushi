@@ -41,7 +41,31 @@
     .thumb_img_list ul li img{
           display: block;
     }
+   .arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+    rotate: 90deg;
+   }
+   .arrow-1{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+    rotate: -90deg;
+   }
+   .arrow:hover{
+    opacity: .5;
+    width: 35px;
+    height: 35px;
 
+   }
+   .arrow-1:hover{
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+   }
 
 </style>
 <body>
@@ -51,13 +75,17 @@
         </figure>
 
         <div class="thumb_img_list">
+          <img id="slideleft" class="arrow" src="../../images/Arrow Down.svg">
+
          <ul>
             <li><img src="../../images/12.jpg" id="thum1"></li>
             <li><img src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" id="thum2"></li>
             <li><img src="../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg" id="thum3"></li>
             <li><img src="../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ.jpg" id="thum4"></li>
-         </ul>
 
+
+         </ul>
+           <img id="slideright" class="arrow-1" src="../../images/Arrow Down.svg">
         </div>
 
     </div>
@@ -77,26 +105,40 @@
  thum4 = document.getElementById('thum4')
  thum4src = document.getElementById('thum4').src;
 
-  thum1.addEventListener("click",function(){
 
+    thum1.addEventListener("click",function(){
     mainimg.src =  thum1src
   })
 
- thum2.addEventListener("click",function(){
 
+    thum2.addEventListener("click",function(){
     mainimg.src =  thum2src
+
   })
 
-   thum3.addEventListener("click",function(){
-
+    thum3.addEventListener("click",function(){
     mainimg.src =  thum3src
+
   })
 
-   thum4.addEventListener("click",function(){
-
+    thum4.addEventListener("click",function(){
     mainimg.src =  thum4src
+
+  })
+  
+  let buttonright = document.getElementById('slideright')
+
+  let buttonleft = document.getElementById('slideleft')
+
+  buttonleft.addEventListener('click',function(){
+    document.getElementById('ul').slideright +=180
   })
 
-
+  buttonright .addEventListener('click',function(){
+    document.getElementById('ul').slideleft +=180
+  })
 </script>
 </html>
+
+
+
