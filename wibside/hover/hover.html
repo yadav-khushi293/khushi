@@ -4,33 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-        }
-        .container {
-            padding: 20px;
-            margin: 10px;
-            background-color: blue;
-        }
-        .container:hover{
-                 
-            color: black !important;
-            background-color: brown;
-            margin: 50px;
-            padding: 20px;
-         }
-         .container:hover{
-            color: blueviolet;
-            background-color: aqua ! important;
-         }
-
-
-    </style>
 </head>
+<style>
+    img{
+        max-width: 100%;
+    }
+    .contensr{
+        padding: 40px 0px;
+    }
+    figure{
+        max-width: 800px;
+        margin: 0 auto 40px;
+    }
+    figure img {
+        display: block;
+        max-width: 100%;
+       min-width: 100%;
+    }
+    
+    .thumb_img_list ul{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+
+    }
+    .thumb_img_list ul li{
+        text-align: center;
+    }
+    .thumb_img_list ul li{
+        display: inline-block;
+        width: 100px;
+        border: 1px solid #fff;
+        margin: 0 5px; 
+    }
+     
+    .thumb_img_list ul li img{
+          display: block;
+    }
+
+
+</style>
 <body>
-    <h2 class="container"> welcome to my on home</h2>
+    <div class="contensr">
+        <figure>
+            <img src="../../images/11.jpg" id="mainimg">
+        </figure>
+
+        <div class="thumb_img_list">
+         <ul>
+            <li><img src="../../images/12.jpg" id="thum1"></li>
+            <li><img src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" id="thum2"></li>
+            <li><img src="../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg" id="thum3"></li>
+            <li><img src="../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ.jpg" id="thum4"></li>
+         </ul>
+
+        </div>
+
+    </div>
 </body>
+<script>
+ mainimg = document.getElementById('mainimg');
+
+ thum1 = document.getElementById('thum1')
+ thum1src = document.getElementById('thum1').src;
+
+ thum2 = document.getElementById('thum2')
+ thum2src = document.getElementById('thum2').src;
+
+ thum3 = document.getElementById('thum3')
+ thum3src = document.getElementById('thum3').src;
+
+ thum4 = document.getElementById('thum4')
+ thum4src = document.getElementById('thum4').src;
+
+  thum1.addEventListener("click",function(){
+
+    mainimg.src =  thum1src
+  })
+
+ thum2.addEventListener("click",function(){
+
+    mainimg.src =  thum2src
+  })
+
+   thum3.addEventListener("click",function(){
+
+    mainimg.src =  thum3src
+  })
+
+   thum4.addEventListener("click",function(){
+
+    mainimg.src =  thum4src
+  })
+
+
+</script>
 </html>
