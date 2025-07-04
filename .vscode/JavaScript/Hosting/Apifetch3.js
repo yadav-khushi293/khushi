@@ -1,6 +1,8 @@
+/* https://www.omdbapi.com/?i=tt13751694&apikey=3d15e923 */
 const apiKey = `3d15e923`;
 
 const dataLoad = async () => {
+  myFunction();
   let data = [
     { name: 'ironman' },
     { name: 'superman' },
@@ -12,15 +14,11 @@ const dataLoad = async () => {
     { name: 'animal' },
     { name: 'disney' },
   ];
-  function randomNumber(data ){
-    console.log(Math.round(Math.fround()* data ));
-}
+   let randomNumber = Math.round(Math.random() * data.length);
+   console.log('-> randomNumber:', randomNumber);
+  let randomQuery = data[randomNumber].name;
 
-
-
-
-const dataLoad = async () => {
-  const api = `https://www.omdbapi.com/?s=avengers&apikey=${apiKey}`;
+  const api = `https://www.omdbapi.com/?s=${randomQuery}&apikey=${apiKey}`;
   try{
     const respons = await fetch(api);
     const data= await respons.json();
@@ -29,12 +27,11 @@ const dataLoad = async () => {
     console.log(error);
   }
 };
-}
+
 
 const dataInput = async (event) => {
   if (event.key === 'Enter') {
     const searchApi = document.querySelector('#searchInput');
-    console.log('-> searchApi:', searchApi.value.length);
 
     if (searchApi.value.length === 0) return;
 
@@ -43,7 +40,6 @@ const dataInput = async (event) => {
     try {
       const respons = await fetch(api);
       const data = await respons.json();
-      console.log('-> data:', data);
       appendData(data);
       searchApi.value = '';
     } catch (error) {
@@ -55,8 +51,7 @@ const dataInput = async (event) => {
    
 
 const appendData = (data) => {
-  console.log(data);
-  
+   
   const mainDiv = document.getElementById('info');
   mainDiv.innerHTML=''
 
@@ -81,3 +76,14 @@ const appendData = (data) => {
     mainDiv.append(CardDiv);
   });
 };
+
+let myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display="block";
+}
