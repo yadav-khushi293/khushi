@@ -1,5 +1,22 @@
 const apiKey = `3d15e923`;
 
+const dataLoad = async () => {
+  let data = [
+    { name: 'ironman' },
+    { name: 'superman' },
+    { name: 'batman' },
+    { name: 'avengers' },
+    { name: 'evil death' },
+    { name: 'space' },
+    { name: 'earth' },
+    { name: 'animal' },
+    { name: 'disney' },
+  ];
+  function randomNumber(data ){
+    console.log(Math.round(Math.fround()* data ));
+}
+
+
 
 
 const dataLoad = async () => {
@@ -12,6 +29,7 @@ const dataLoad = async () => {
     console.log(error);
   }
 };
+}
 
 const dataInput = async (event) => {
   if (event.key === 'Enter') {
