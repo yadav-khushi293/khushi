@@ -1,144 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Thumbnail Gallery with Arrows</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .gallery {
+      position: relative;
+      display: inline-block;
+    }
+
+    .main-image img {
+      width: 350px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .arrow {
+      font-size: 30px;
+      position: absolute;
+      top: 45%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      text-align: center;
+      user-select: none;
+    }
+
+    .arrow:hover {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .left-arrow {
+      left: -50px;
+    }
+
+    .right-arrow {
+      right: -50px;
+    }
+
+    .thumbnails {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .thumbnails img {
+      width: 70px;
+      height: 70px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .thumbnails img:hover,
+    .thumbnails img.active {
+      border-color: #ff3399;
+      border: 3px solid black;
+      /*transform: scale(1.05);*/
+    }
+  </style>
 </head>
-<style>
-    img{
-        max-width: 100%;
-    }
-    .contensr{
-        padding: 40px 0px;
-    }
-    figure{
-        max-width: 800px;
-        margin: 0 auto 40px;
-    }
-    figure img {
-        display: block;
-        max-width: 100%;
-       min-width: 100%;
-    }
-    
-    .thumb_img_list ul{
-      list-style: none;
-      margin: 0px;
-      padding: 0px;
-
-    }
-    .thumb_img_list ul li{
-        text-align: center;
-    }
-    .thumb_img_list ul li{
-        display: inline-block;
-        width: 100px;
-        border: 1px solid #fff;
-        margin: 0 5px; 
-    }
-     
-    .thumb_img_list ul li img{
-          display: block;
-    }
-   .arrow{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: .3s;
-    rotate: 90deg;
-   }
-   .arrow-1{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: .3s;
-    rotate: -90deg;
-   }
-   .arrow:hover{
-    opacity: .5;
-    width: 35px;
-    height: 35px;
-
-   }
-   .arrow-1:hover{
-    opacity: .5;
-    width: 35px;
-    height: 35px;
-   }
-
-</style>
 <body>
-    <div class="contensr">
-        <figure>
-            <img src="../../images/11.jpg" id="mainimg">
-        </figure>
-
-        <div class="thumb_img_list">
-          <img id="slideleft" class="arrow" src="../../images/Arrow Down.svg">
-
-         <ul>
-            <li><img src="../../images/12.jpg" id="thum1"></li>
-            <li><img src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" id="thum2"></li>
-            <li><img src="../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg" id="thum3"></li>
-            <li><img src="../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ.jpg" id="thum4"></li>
 
 
-         </ul>
-           <img id="slideright" class="arrow-1" src="../../images/Arrow Down.svg">
-        </div>
+  <div class="gallery">
 
+    <img img src="../../images/Arrow Down.svg"  class="arrow left-arrow" onclick="prevImage()">
+    <div class="main-image">
+      <img id="mainDisplay" src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" alt="Main Image">
     </div>
+    <img  src="../../images/Arrow Down.svg" class="arrow right-arrow"   onclick="nextImage()">
+
+  </div>
+
+  <div class="thumbnails">
+    <img src="../../images/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg" onclick="showImage(0)" class="active">
+    <img src="../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ - Copy.jpg" onclick="showImage(1)">
+    <img src="../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg" onclick="showImage(2)">
+    <img src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" onclick="showImage(3)">
+  </div>
+
+  <script>
+    const images = [
+      "../../images/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg",
+      "../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ - Copy.jpg",
+      "../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg",
+      "../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg"
+    ];
+
+    const thumbnails = document.querySelectorAll('.thumbnails img');
+    let currentIndex = 0;
+
+    function showImage(index) {
+      currentIndex = index;
+      document.getElementById('mainDisplay').src = images[index];
+      thumbnails.forEach(img => img.classList.remove('active'));
+      thumbnails[index].classList.add('active');
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+  </script>
+
 </body>
-<script>
- mainimg = document.getElementById('mainimg');
-
- thum1 = document.getElementById('thum1')
- thum1src = document.getElementById('thum1').src;
-
- thum2 = document.getElementById('thum2')
- thum2src = document.getElementById('thum2').src;
-
- thum3 = document.getElementById('thum3')
- thum3src = document.getElementById('thum3').src;
-
- thum4 = document.getElementById('thum4')
- thum4src = document.getElementById('thum4').src;
-
-
-    thum1.addEventListener("click",function(){
-    mainimg.src =  thum1src
-  })
-
-
-    thum2.addEventListener("click",function(){
-    mainimg.src =  thum2src
-
-  })
-
-    thum3.addEventListener("click",function(){
-    mainimg.src =  thum3src
-
-  })
-
-    thum4.addEventListener("click",function(){
-    mainimg.src =  thum4src
-
-  })
-  
-  let buttonright = document.getElementById('slideright')
-
-  let buttonleft = document.getElementById('slideleft')
-
-  buttonleft.addEventListener('click',function(){
-    document.getElementById('ul').slideright +=180
-  })
-
-  buttonright .addEventListener('click',function(){
-    document.getElementById('ul').slideleft +=180
-  })
-</script>
 </html>
-
-
-
