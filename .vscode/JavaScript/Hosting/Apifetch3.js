@@ -63,7 +63,7 @@ const appendData = (data) => {
     const imdbID = document.createElement('p');
     const Type = document.createElement('p');
     const Year = document.createElement('p');
-
+    const link=document.createElement('a');
       CardDiv.className='card_div';
 
     img.src = el.Poster;
@@ -71,9 +71,11 @@ const appendData = (data) => {
     imdbID.innerText = el.imdbID;
     Type.innerText = el.Type;
     Year.innerText = el.Year;
-
+    link.href=`Movieapi.html?id=${el.imdbID}`;
+    
     CardDiv.append(img, Title, imdbID, Type, Year);
-    mainDiv.append(CardDiv);
+    link.append(CardDiv);
+    mainDiv.append(link);
   });
 };
 
