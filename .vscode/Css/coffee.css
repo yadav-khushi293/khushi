@@ -433,11 +433,12 @@ figcaption{
     padding-left: 30px;
 }
 .carousel .list .item .image{
-    top: -70px;
+    top: -10px;
+    left: 494px;
 }
  .img-1{
-    width: 220px !important;
-    height:340px;
+    width: 300px !important;
+    height:400px;
 }
 header .logo img {
     width: 70%;
@@ -461,13 +462,14 @@ figcaption{
     }
     .carousel .list .item .main-content .content .price {
     font-family: 'Aboreto';
-    font-size: 19px;
+    font-size: 25px;
     margin: 15px 0;
 }
 .carousel .list .item .main-content .content  {
-    padding: 130px 20px 20px 80px;
+    padding: 130px 20px 00px 40px;
 }
 .description{
         font-size:13px;
 }
+
 }
