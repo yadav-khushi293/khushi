@@ -42,14 +42,17 @@ header nav a{
     color: #000;
     font-weight: 400;
 }
+
 header nav ul{
     height: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 30px;
+    font-size: 20px;
+    gap: 50px;
     padding-right: 30px;
 }
+
 header nav{
     border-left: 1px solid var(--border-color);
 }
@@ -257,7 +260,7 @@ header nav{
 .prev .list .item.other_2 .main-content{
     opacity: 0;
 }
-/*@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px){
     :root{
         --calculate: 1;
         --w-image: 400px; 
@@ -284,4 +287,187 @@ header nav{
         left: 50%;
         justify-content: center;
     }
+}
+@media (max-width: 320px) {
+    
+    .img-1{
+    width: 170px !important;
+    height: 250px;
+}
+header .logo img {
+    width: 70%;
+}
+figcaption{
+    font-size: 10px !important;
+}
+
+    .carousel .list .item .main-content .content{
+        display: none;
+    }
+    .arrows{
+        left: 50%;
+        top:88%;
+        justify-content: center;
+    }
+    header nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    gap: 15px;
+    padding-left: 30px;
+}
+.carousel .list .item .image{
+    top: 20px;
+}
+
+}
+
+@media (min-width:321px) and (max-width:425px){
+
+ header nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    gap: 15px;
+    padding-left: 30px;
+}
+.carousel .list .item .image{
+    top: 20px;
+}
+ .img-1{
+    width: 170px !important;
+    height: 250px;
+}
+header .logo img {
+    width: 70%;
+}
+figcaption{
+    font-size: 10px !important;
+}
+
+    .carousel .list .item .main-content .content{
+        display: none;
+    }
+    .arrows{
+        left: 50%;
+        top:88%;
+        justify-content: center;
+    }
+}
+/*@media (min-width:430px) and (max-width:440px){
+    
+ 
+ .img-1{
+    width: 100px !important;
+    height: 250px !important;
+}
+
 }*/
+@media (min-width:441px) and (max-width:840px){
+   
+ header nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    gap: 15px;
+    padding-left: 30px;
+}
+.carousel .list .item .image{
+    top: 20px;
+}
+ .img-1{
+    width: 170px !important;
+    height: 250px;
+}
+header .logo img {
+    width: 70%;
+}
+figcaption{
+    font-size: 10px !important;
+}
+
+   /* .carousel .list .item .main-content .content{
+        display: none;
+    }*/
+    .arrows{
+        left: 20%;
+        top:88%;
+        justify-content: center;
+    }
+    
+
+    .carousel .list .item .main-content .content h2 {
+        font-size:16px;
+    }
+    .carousel .list .item .main-content .content .price {
+    font-family: 'Aboreto';
+    font-size: 19px;
+    margin: 15px 0;
+}
+.carousel .list .item .main-content .content  {
+    padding: 130px 20px 20px 80px;
+}
+.description{
+        font-size:13px;
+}
+}
+@media (min-width:841px) and (max-width:1040px){
+   
+ header nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    gap: 15px;
+    padding-left: 30px;
+}
+.carousel .list .item .image{
+    top: -70px;
+}
+ .img-1{
+    width: 220px !important;
+    height:340px;
+}
+header .logo img {
+    width: 70%;
+}
+figcaption{
+    font-size: 10px !important;
+}
+
+   /* .carousel .list .item .main-content .content{
+        display: none;
+    }*/
+    .arrows{
+        left: 20%;
+        top:88%;
+        justify-content: center;
+    }
+    
+
+    .carousel .list .item .main-content .content h2 {
+        font-size:16px;
+    }
+    .carousel .list .item .main-content .content .price {
+    font-family: 'Aboreto';
+    font-size: 19px;
+    margin: 15px 0;
+}
+.carousel .list .item .main-content .content  {
+    padding: 130px 20px 20px 80px;
+}
+.description{
+        font-size:13px;
+}
+}
