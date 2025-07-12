@@ -1,204 +1,141 @@
-<!--DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animated dropdown menu css</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .container{
-      width: 1170px;
-      margin: 50px auto;
-      position: relative;
-    }
-    .nav{
-      display: inline-block;
-      padding: 0 50px;
-      text-align: center;
-      margin: 0px 10px;
-      position: absolute;
-    }
-    .nav>ul{
-      padding: 0px;
-      margin: 0px;
-      display: inline-block;
-      background: #fff;
-      border-radius: 5px;
-      color: #262626;
-    }
-    .nav>ul>li{
-      float: left;
-      width: 200px;
-      height: 50px;
-      position: relative;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 16px;
-        }
-       .nav>ul>li:hover{
-        background: linear-gradient(45deg,#4a148c,#880e4f);
-        color:#fff;
-
-       } 
-       ul.sub-menu{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 0;
-        display: none;
-       }
-       li:hover>ul .sub-men{
-            display: block;
-            perspective: 1000px;
-
-       }
-       ul .sub-men li{
-        background: #fff;
-        opacity: 0;
-        transform: translateX(-100px);
-        color:#262626;
-       }
- ul .sub-men li:hover{
-        background: linear-gradient(45deg,#4a148c,#880e4f);
-        color:#fff;
-
-       } 
-       ul .sub-men li:first-child{
-        border-radius: 5px 5px 0 0;
-       }
-         ul .sub-men li:first-child{
-        border-radius: 0 0 5px 5px;
-       }
-       li:hover>ul .sub-menu .animate li{
-          animation: animate 300ms forwards;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(1){
-        animation-delay:-150ms ;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(2){
-        animation-delay:0ms ;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(3){
-        animation-delay:150ms;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(4){
-        animation-delay:300ms ;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(1){
-        animation-delay:-150ms ;
-       }
-       li:hover>ul .sub-menu .animate li:nth-child(5){
-        animation-delay:450ms ;
-       }
-
-       @keyframes animate{
-        0%{
-          opacity: 0;
-          transform: translateX(-100px);
-        }
-         70%{
-          transform: translateX(20px);
-        }
-        100%{
-          opacity: 1;
-           transform: translateX(0);
-        }
-       }
-  </style>
-</head>
-<body>
-
-  <div class="container">
-    <div class="nav">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services
-          <ul class="sub-menu animate">
-            <li>Services One</li>
-            <li>Services Two</li>
-            <li>Services One</li>
-            <li>Services One</li>
-            <li>Services One</li>
-          </ul>
-        </li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-  </div>
-
-</body>
-</html--->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Drop Shadow List</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Back To Top Enhanced</title>
+
   <style>
-    .dropdown {
-      position: relative;
-      display: inline-block;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: white;
-      font-size: 15px;
-      font-weight:bold ;
-      width: 135px;
-      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-      z-index: 1;
+    html {
+      scroll-behavior: smooth;
     }
 
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
+    section {
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Raleway", sans-serif;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+    }
+
+    .section1 {
+      background: #f0932b;
+    }
+
+    .section2 {
+      background: #eb4d4b;
+    }
+
+    .section3 {
+      background: #7ed6df;
+    }
+
+    .section4 {
+      background: #22a6b3;
+    }
+
+    .to-top {
+      background: white;
+      position: fixed;
+      bottom: 16px;
+      right: 32px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #1f1f1f;
       text-decoration: none;
-      display: block;
-      transition: background-color 0.3s;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.4s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transform: scale(0.8);
     }
 
-    /* Hover effect on item */
-    .dropdown-content a:hover {
-    background: linear-gradient(45deg,#4a148c,#880e4f);
-        color:#fff;
-        transform: 2px;
-
+    .to-top.active {
+      bottom: 32px;
+      opacity: 1;
+      pointer-events: auto;
+      transform: scale(1);
     }
 
-    .dropdown:hover .dropdown-content {
-      display: block;
+    .to-top:hover {
+      background: #f1f1f1;
+      transform: scale(1.1);
     }
-   button {
-    width: 124px;
-    height: 30px;
-    font-size: 15px;
-    font-weight: bold;
-}
-    button:hover{
-       background: linear-gradient(45deg,#4a148c,#880e4f);
-       color: #fff;
+
+    .to-top i {
+      transition: transform 0.3s ease;
     }
+
+    .to-top:hover i {
+      transform: rotate(180deg);
+    }
+
+    /* Tooltip */
+    .to-top::after {
+      content: "Back to Top";
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      background: #333;
+      color: #fff;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      opacity: 0;
+      transform: translateY(5px);
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .to-top:hover::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    
   </style>
 </head>
+
 <body>
 
-<div class="dropdown">
-  <button>Menu</button>
-  <div class="dropdown-content">
-    <a href="#">Red Wine</a>
-    <a href="#">white Wine</a>
-    <a href="#">Orange Wine</a>
-    <a href="#">Natural Wine</a>
-     <a href="#">Sparkling Wine</a>
-       <a href="#">Rose Wine</a>
-        <a href="#">Champagne</a>
+  <section class="section1">Section 1</section>
+  <section class="section2">Section 2</section>
+  <section class="section3">Section 3</section>
+  <section class="section4">Section 4</section>
 
-  </div>
-</div>
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
 
+  <script>
+    const toTop = document.querySelector(".to-top");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+      } else {
+        toTop.classList.remove("active");
+      }
+    });
+  </script>
 </body>
+
 </html>
