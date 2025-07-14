@@ -22,8 +22,7 @@ function formFunctions(e){
 
 //creat a data section
 
-function UI(){
-    const  mainDiv = document.querySelector('#infotable');
+function UI(){        
     mainDiv.innerHTML=''
 
     let table=document.createElement('table');
