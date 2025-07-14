@@ -1,4 +1,4 @@
-/*let arr =['mahfooz','frahan','hetuk','khushi']
+let arr =['mahfooz','frahan','hetuk','khushi']
 
 let arr1=[{name:'mehfooz_khan',age:88},{name:'khushi',age:188}]
 
@@ -18,17 +18,17 @@ console.log(aa2);
 
 /*for(let=1; i<=Array.length;i++){
     console.log(i);
-}*/
+}
 
-/*Array.forEach((Element))=>{
+Array.forEach((Element))=>{
     console.log(Element);
-});*/
+});
 
 //remove the no Array.pop()
 //add a number Array.push()
 
 //ARRAY
-/*
+
 let array=[10,20,30,50,40];
 
 console.log('array:',array);
@@ -53,7 +53,6 @@ console.log(array);
 let g=array.unshift(80);
 console.log(g);
 
-*/
 
 
 //let v=num.sort();
