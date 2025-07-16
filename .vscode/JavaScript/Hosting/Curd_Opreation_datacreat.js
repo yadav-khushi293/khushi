@@ -76,6 +76,8 @@ function UI(){
          })*/
 
             // Inside your map function in UI()
+
+
 dataBase?.map((el, i) => {
     let tr2 = document.createElement('tr');
     let td1 = document.createElement("td");
@@ -113,7 +115,7 @@ dataBase?.map((el, i) => {
     deleteBtn.addEventListener('click', () => {
         dataBase.splice(i, 1); // Remove from array
         localStorage.setItem("formData", JSON.stringify(dataBase)); // Save new array
-        UI(); // Re-render UI
+        UI(); 
     });
 
     //EDIT button logic
@@ -145,7 +147,6 @@ dataBase?.map((el, i) => {
         };
     });
 });
-
 
 
 }
