@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+        }
+        body,form{
+            padding: 20px 0px;
+        }
+        table{
+            border: 3px solid black;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 3px;
+            text-transform: capitalize;
+        }
+        button{
+            width: 100%;
+        }
+        .tablebutton{
+            display: flex;
+            gap: 5px;
+        }
+    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      text-transform: capitalize;
+    }
+    body {
+      padding: 20px;
+      font-family: sans-serif;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      padding: 8px;
+      width: 300px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 8px 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body onload="renderTodoList()">
+
+  <form onsubmit="handleForm(event)">
+    <input id="taskInput" type="text" placeholder="Enter your task" required />
+    <input type="submit" value="Add Task" />
+  </form>
+
+  <section id="todoTable"></section>
+  </body>
+  <script src="../JavaScript/Hosting/ToDo_list.js"></script>
+  </html>
