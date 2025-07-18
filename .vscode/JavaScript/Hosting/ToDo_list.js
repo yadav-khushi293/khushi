@@ -40,3 +40,15 @@ const renderTodoList = () => {
     todoTable.append(div);
   });
 };
+
+let deleteBtn = document.createElement('button');
+ deleteBtn.innerText='delete';
+ deleteBtn.classList='delete-btn';
+
+ deleteBtn.addEventListener('click',function(){
+  let funalData= this.arrStorage.filter((ml)=>ml.id===!el.id);
+ 
+  arrStorage = funalData;
+  localStorage.setItem('formData',JSON.stringify(arrStorage));
+  appendData();
+ });
