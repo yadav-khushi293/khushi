@@ -82,7 +82,7 @@ let dataBase = JSON.parse(localStorage.getItem("formData")) || []; // json to ob
 let editIndex = null;
 console.log(dataBase);
 
-function formFunctions(e) {
+function formFunction(e) {
   e.preventDefault();
 
   let name = document.querySelector("#userName").value;
@@ -113,8 +113,8 @@ function formFunctions(e) {
 }
 
 function UI() {
-  const mainDiv = document.querySelector("#infotable");
-  mainDiv.innerHTML="";
+  const mainDiv = document.querySelector("#infoTable");
+  mainDiv.innerHTML = "";
 
   let table = document.createElement("table");
   let thead = document.createElement("thead");
@@ -152,12 +152,12 @@ function UI() {
     td4.innerText = el.email;
     td5.innerText = el.pass;
     editButton.innerText ="edit";
-    deleteButton.innerText = "Delete";
+    deleteButton.innerText = "delete";
 
-    /*editButton.addEventListener("click", function () {
+    editButton.addEventListener("click", function () {
       editUser(i);
-    });*/
-    editButton.onclick = () => editUser(i);
+    });
+    // editButton.onclick = () => editUser(i);
     deleteButton.onclick = () => deleteUser(i);
 
     tr.append(th1, th2, th3, th4, th5, th6);

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Info Form</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            body,form{
+                padding: 30px 15px;
+            }
+            body{
+                padding-top: 100px;
+            }
+            th,table,td{
+                border: 2px solid;
+                margin-left: 20%;
+                font-size: x-large;
+            }
+            td{
+                padding: 5px 20px;
+            }
+            button{
+                width: 100%;
+                border: 2px solid;
+                border-radius: 5px;
+                padding: 3px;
+                margin: 3px 0;
+                cursor: pointer;
+            }
+            input{
+                padding: 5px;
+                border: 2px solid;
+            }
+            input::placeholder{
+                text-align: center;
+                font-size: medium;
+            }
+            .submit{
+                padding: 5px 10px;
+            }
+      </style>
+    </head>
+    <body onload="UI()">
+        <h1>User Info Form</h1>
+        <form onsubmit="formFunction(event)">
+            <input type="text" id="userName" placeholder="Enter You Name"
+                required>
+            <input type="email" id="userEmail" placeholder="Enter Your Email"
+                required>
+            <input type="password" id="userPass"placeholder="Enter Your Password" required>
+            <input type="submit" class="submit">
+        </form>
+        <section id="infoTable"></section>
+    </body>
+    <script src="../JavaScript/Hosting/Curd_Opreation_datacreat.js"></script>
+</html>
