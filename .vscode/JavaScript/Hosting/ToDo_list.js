@@ -36,19 +36,33 @@ const renderTodoList = () => {
     edits_btn.innerText = "edits";
     delete_btn.innerText = "delete";
 
+    
+//delete button code
+ delete_btn.addEventListener('click',function(){
+  let funalData= dataBase.filter((ml)=>ml.id!==el.id);
+ 
+  dataBase = funalData;
+  localStorage.setItem('formData',JSON.stringify(dataBase));
+ renderTodoList();
+ });
+ 
+ edits_btn.addEventListener('click',function(){
+  let editToggel = dataBase.map((sl)=>{
+    if(el.id===sl.id){
+      return{
+        ...sl,
+        isEdit:!sl.isEdit,
+      };
+    };
+    return sl;
+  });
+  dataBase=editToggel;
+  localStorage.setItem('formData',JSON.stringify(dataBase));
+  renderTodoList();
+ })
+
+
     div.append(checkBox, id, text, edits_btn, delete_btn);
     todoTable.append(div);
   });
 };
-
-let deleteBtn = document.createElement('button');
- deleteBtn.innerText='delete';
- deleteBtn.classList='delete-btn';
-
- deleteBtn.addEventListener('click',function(){
-  let funalData= this.arrStorage.filter((ml)=>ml.id===!el.id);
- 
-  arrStorage = funalData;
-  localStorage.setItem('formData',JSON.stringify(arrStorage));
-  appendData();
- });
