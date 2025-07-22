@@ -13,6 +13,8 @@ const weather_body = document.querySelector('.weather-body');
 
 
 async function checkWeather(city){
+    const maping= "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R";
+   const URL_map=`https://www.google.com/maps/embed/v1/place?q=${value.name}&key=${maping}`;
     const api_key = "bc3879d0be0368c59db7c196ee0dd4e5";
      const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${api_key} `;
 
