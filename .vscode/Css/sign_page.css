@@ -73,7 +73,7 @@ body {
   height: 100%;
 }
 
-.container input {
+/*.container input {
   background-color: #eee;
   border: none;
   margin: 10px 0;
@@ -82,7 +82,7 @@ body {
   border-radius: 8px;
   width: 100%;
   outline: none;
-}
+}*/
 
 .sign-up, .sign-in {
   position: absolute;
@@ -206,4 +206,49 @@ body {
 }
 h2{
     font-size: 28px;
+}
+.content_input{
+    width: 90%;
+    max-width: 19em;
+    margin: 9px 0px;
+    height: 2.5em;
+    border: none;
+    position: relative;
+}
+.form_input{
+    position: absolute;
+    height: 100%;
+    border: none;
+    width: 100%;
+    border-radius: 0.5em;
+    outline: none;
+    padding-left: 1em;
+     background-color: #eee;
+        font-size:14px;
+}
+/*.form_input:hover{
+    border: 1px solid black;
+}
+.form_input:focus{
+    border: 1px solid  black;
+}*/
+input[type="text"]:focus ~ label, .form_input:not(:placeholder-shown).form_input:not(:focus)~lable{
+    top: -0.5em;
+    padding: 0 0.125em;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+label{
+    position: absolute;
+  color: #847e7e;
+    font-family: sans-serif;
+    left: 1em;
+    top: 0.75em;
+    border: none;
+    cursor: text;
+    transition: top 350ms ease-in;
+    font-size: 350ms ease-in;
+
 }
