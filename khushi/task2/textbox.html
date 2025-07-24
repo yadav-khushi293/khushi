@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box </title>
+    <style>
+body{
+    display: flex;  
+    gap: 10px;
+}
+        #red{
+            border: 1px solid black;
+            background-color:red;
+            width: 30px;
+            height: 50px;
+            padding: 40px;
+        }
+        #blue{
+            border: 1px solid black;
+            background-color:blue;
+            width: 30px;
+            height: 50px;
+            padding: 40px;
+        }
+        #green{
+            border: 1px solid black;
+            background-color:green;
+            width: 30px;
+            height: 50px;
+            padding: 40px;
+        }
+    </style>
+</head>
+<script src="./jquery.min.js"></script>
+<body>
+    <div id="red">RED BOX</div>
+  
+    <div id="blue">BLUE BOX</div>
+
+    <div id="green">GREEN BOX</div>
+    <script>
+       
+
+          $(document).ready(function(){
+            $("#red").click(function(){
+                $(this).animate({
+                    height: "300px",
+                    width: "300px",
+                    +
+
+                }, 500); 
+            });
+
+             $("#blue").click(function(){
+                $(this).animate({
+              
+                }, 500); 
+            });
+
+             $("#green").click(function(){
+                $(this).animate({
+                    height: "300px",
+                    width: "300px"
+                }, 500); 
+            });
+        });
+
+    </script>
+
+</body>
+</html>
