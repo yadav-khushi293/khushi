@@ -76,7 +76,7 @@ body {
 .container input {
   background-color: #eee;
   border: none;
-  margin: 8px 0;
+  margin: 10px 0;
   padding: 10px 15px;
   font-size: 13px;
   border-radius: 8px;
@@ -125,8 +125,7 @@ body {
     z-index: 5;
   }
 }
-
-.icons {
+/*.icons {
   margin: 20px 0;
 }
 
@@ -140,7 +139,7 @@ body {
   width: 40px;
   height: 40px;
 }
-
+*/
 .toogle-container {
   position: absolute;
   top: 0;
