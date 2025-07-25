@@ -79,11 +79,44 @@
         text-overflow: ellipsis;
         font-size: 15px;
        }
+       .shop_img{
+        width: 100px;
+        height: 100px;
+          border-radius: 50px;
+       }
+       .shop_card{
+        width: 120px;
+        height: 100px;
+
+       }
+       .parents_div{
+        border: 1px solid black;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+       }
+       .child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+       }
     </style>
 
    </head>
    <body onload="ApiCall()">
-    <h1>Cat Api Call</h1>
+
+    <div class="parents_div">
+        <img src="../../images/40566741-round-vector-logo-shopping-bag.jpg" class="shop_img">
+        <div class="child">
+        <h2>Home</h2>
+        <h2>Cat Api Call</h2>
+        <h2>About-Us</h2>
+        <h2>User-Card</h2>
+        </div>
+        <img src="../../images/shopping-cart-logo-or-icon-design-vector.jpg" class="shop_card">
+    </div>
     <div id="info"></div>
 
    </body>
