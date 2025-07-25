@@ -46,7 +46,9 @@ body {
   margin: 15px 0 10px;
 }
 .container button {
-  background-color: #a82d2d;
+  /* background-color: #a82d2d; */
+background-color: #5487ed;
+  
   color: #fff;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -158,9 +160,10 @@ body {
 }
 
 .toogle {
-  background-color: #a82d2d;
+  /* background-color: #6B7280;  */
+   background-color:#6366F1; 
   height: 100%;
-  background: linear-gradient(to right, #c05c5c, #a82d2d);
+ /* background: linear-gradient(to right, #c05c5c, #a82d2d);*/
   color: #fff;
   position: relative;
   left: -100%;
@@ -206,6 +209,10 @@ body {
 }
 h2{
     font-size: 28px;
+    color: #1f2937;
+}
+.sign_in{
+   color: #1f2937;
 }
 .content_input{
     width: 90%;
@@ -232,7 +239,7 @@ h2{
 .form_input:focus{
     border: 1px solid  rgb(70, 68, 68);
 }
-input[type="text"]:focus ~ label, .form_input:not(:placeholder-shown).form_input:not(:focus)~lable{
+input[type="text"]:focus ~ label, .form_input:not(:placeholder-shown).form_input:not(:focus)~label{
     top: -0.5em;
     padding: 0 0.125em;
     border: none;
