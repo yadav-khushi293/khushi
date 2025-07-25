@@ -48,7 +48,6 @@ body {
 .container button {
   /* background-color: #a82d2d; */
 background-color: #5487ed;
-  
   color: #fff;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -258,5 +257,4 @@ label{
     cursor: text;
     transition: top 350ms ease-in;
     font-size: 350ms ease-in;
-
 }
