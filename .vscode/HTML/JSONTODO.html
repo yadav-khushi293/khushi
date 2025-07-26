@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_div{
+            display: flex;
+            justify-content: center;
+            margin: 100px 0px;
+        }
+        input{
+            width: 230px;
+            height: 40px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 17px;
+        }
+        button{
+            width: 90px;
+            height: 45px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: red;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_div">
+        <div class="input_div">
+            <input id="todos" placeholder="enter the todos" type="text">
+            <button onclick="myTodos()" class="by-primary">ADD</button>
+        </div>
+        <div id="dataInfo"></div>
+    </div>
+    
+</body>
+<script src="../JavaScript/JSONTODO.js"></script>
+</html>
