@@ -266,6 +266,18 @@ input[type="password"]:focus ~ label, .form_input:not(:placeholder-shown).form_i
     font-weight: bold;
     font-size: 15px;
 }
+
+/* input[type="date"]:focus ~ label, .form_input:not(:placeholder-shown).form_input:not(:focus)~label{
+    top: -0.5em;
+    padding: 0 0.125em;
+    border: none;
+    color: black;
+    background-color:#eee;
+    font-weight: bold;
+    font-size: 17px;
+} */
+
+
 label{
     position: absolute;
   color: #696565;
@@ -324,3 +336,6 @@ button:hover {
 button:hover::before {
  width: 100%;
 }
+
+
+
