@@ -1,4 +1,4 @@
-const api = "https://fakestoreapi.com/carts";
+const api = `https://fakestoreapi.com/carts`;
 
 const ApiCall = () => {
   fetch(api)
