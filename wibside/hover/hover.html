@@ -1,155 +1,47 @@
-<!--DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Thumbnail Gallery with Arrows</title>
+  <title>Dropdown Example</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 30px;
+      background-color: #f8f9fa;
+      padding: 40px;
     }
 
-    .gallery {
-      position: relative;
-      display: inline-block;
+    label {
+      font-size: 18px;
+      font-weight: bold;
     }
 
-    .main-image img {
-      width: 350px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    select {
+      width: 200px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      background-color: white;
+      outline: none;
+      transition: border-color 0.3s ease;
     }
 
-    .arrow {
-      font-size: 30px;
-      position: absolute;
-      top: 45%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      background-color: rgba(0, 0, 0, 0.3);
-      color: white;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      line-height: 38px;
-      text-align: center;
-      user-select: none;
-    }
-
-    .arrow:hover {
-      background-color: rgba(0, 0, 0, 0.6);
-    }
-
-    .left-arrow {
-      left: -50px;
-    }
-
-    .right-arrow {
-      right: -50px;
-    }
-
-    .thumbnails {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-    }
-
-    .thumbnails img {
-      width: 70px;
-      height: 70px;
-      cursor: pointer;
-      border: 2px solid transparent;
-      border-radius: 6px;
-      transition: 0.3s;
-    }
-
-    .thumbnails img:hover,
-    .thumbnails img.active {
-      border-color: #ff3399;
-      border: 3px solid black;
-      /*transform: scale(1.05);*/
+    select:focus {
+      border-color: #007bff;
     }
   </style>
 </head>
 <body>
 
+  <label for="country">Choose a country:</label><br><br>
+  <select id="country">
+    <option value="">--Select--</option>
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="canada">Canada</option>
+    <option value="australia">Australia</option>
+  </select>
 
-  <div class="gallery">
-
-    <img img src="../../images/Arrow Down.svg"  class="arrow left-arrow" onclick="prevImage()">
-    <div class="main-image">
-      <img id="mainDisplay" src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" alt="Main Image">
-    </div>
-    <img  src="../../images/Arrow Down.svg" class="arrow right-arrow"   onclick="nextImage()">
-
-  </div>
-
-  <div class="thumbnails">
-    <img src="../../images/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg" onclick="showImage(0)" class="active">
-    <img src="../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ - Copy.jpg" onclick="showImage(1)">
-    <img src="../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg" onclick="showImage(2)">
-    <img src="../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg" onclick="showImage(3)">
-  </div>
-
-  <script>
-    const images = [
-      "../../images/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg",
-      "../../images/360_F_685036582_QOdhu9QUVJQ2JdJJz9rhPbVLtPZ7KNNQ - Copy.jpg",
-      "../../images/a-cup-of-hot-coffee-with-coffee-bean-ai-generative-photo - Copy.jpg",
-      "../../images/360_F_860490078_2emFlcNqj87Ew02xbYmduVboCPVRGNgp - Copy.jpg"
-    ];
-
-    const thumbnails = document.querySelectorAll('.thumbnails img');
-    let currentIndex = 0;
-
-    function showImage(index) {
-      currentIndex = index;
-      document.getElementById('mainDisplay').src = images[index];
-      thumbnails.forEach(img => img.classList.remove('active'));
-      thumbnails[index].classList.add('active');
-    }
-
-    function prevImage() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      showImage(currentIndex);
-    }
-
-    function nextImage() {
-      currentIndex = (currentIndex + 1) % images.length;
-      showImage(currentIndex);
-    }
-  </script>
-
-</body>
-</html--->
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script>
-    function name(){
-
-      const a=document.getElementById('k').value;
-      if(age>=25){
-        document.write('your eligible');
-      }
-       else{
-        document.write('sorry,your not eligible')
-       }
-    }
-  </script>
-</head>
-<body>
-  
-  age:
-  <input type="number" placeholder="enter the number" id="k">
-  <button onclick="name()">button</button>
 </body>
 </html>
