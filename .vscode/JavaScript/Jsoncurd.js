@@ -99,6 +99,7 @@ const formSubmitData = async (e) => {
 
         localStorage.setItem('token', JSON.stringify(data.token));
         if (storage) {
+            
             window.location = 'index.html';
             localStorage.removeItem('token');
         }
