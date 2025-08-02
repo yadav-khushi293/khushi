@@ -1,11 +1,4 @@
 let Api = `https://fakestoreapi.com/products`
-
- 
-
-
-
-
-
 let storage = JSON.parse(localStorage.getItem('token'))
 console.log(' ~ storage:', storage);
 
