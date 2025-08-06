@@ -11,6 +11,7 @@ const appendData = (value) => {
     main.innerHTML = "";
     page_Data.innerHTML = "";
   }
+  
   value.forEach((el) => {
     let container = document.createElement("div");
     let id = document.createElement("p");
