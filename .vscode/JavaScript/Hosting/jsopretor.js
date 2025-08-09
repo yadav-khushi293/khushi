@@ -55,15 +55,15 @@ num1 *= 2;
 console.log(num1);*/
 
 
-/*comparision*/
-let num1=2;
-let num2=3;
-console.log("checking", num1==num2);
+// /*comparision*/
+// let num1=2;
+// let num2=3;
+// console.log("checking", num1==num2);
+// /*
+// 1.== ->Data value
+// 2.=== -> Data types
+
 /*
-1.== ->Data value
-2.=== -> Data types
-
-
 let num4="2";
 let num5=3;
 console.log("checkout", num4===num5);
@@ -122,53 +122,57 @@ console.log("flag4:", !flag4 );*/
 + -> concatination
 += -> Append String
 */
-/*
+
 let name1 = "khushi";
 let name2 = "yadav";
-let full_name = name1 + "" + name2;
+let full_name = name1 + name2;
 console. log("full_name", full_name);
-name1+= "" +name2;
-console.log("name1:",name1);*/
+// name1+= "" +name2;
+// console.log("name1:",name1);*/
 
 /*conditional operators*/
 
-let age=18;
-let Valcheck = 1<18 ? "Eligable for Voting" : "Not Eligable for Voting";
-console.log(Valcheck)
+// let age=18;
+// let Valcheck = 1<18 ? "Eligable for Voting" : "Not Eligable for Voting";
+// console.log(Valcheck)
 
-/* Spread operators*/
-let arr=[1, 2, 3, 4, 5];
-let newarr=[...arr,6, 7, 8, 9,];
-console.log("newarr:", newarr);
+// /* Spread operators*/
+// let arr=[1, 2, 3, 4, 5];
+// let newarr=[...arr,6, 7, 8, 9,];
+// console.log("newarr:", newarr);
 
-/* rest operators*/
-const sum =(...args) =>{
-    console.log("args:",args);
-};
-sum(1,2,3);
+// /* rest operators*/
+// const sum =(...args) =>{
+//     console.log("args:",args);
+// };
+// sum(1,2,3);
 
-/* converstion*/
+// /* converstion*/
 
-let number=42;
-let binaryConv= number.toString(2);
-console.log("binaryConv:",binaryConv);
+// let number=42;
+// let binaryConv= number.toString(2);
+// console.log("binaryConv:",binaryConv);
 
-/* binary to number*/
-let bin_to_num=parseInt(binaryConv,2);
-console.log("bin_to_num:",bin_to_num);
+// /* binary to number*/
+// let bin_to_num=parseInt(binaryConv,2);
+// console.log("bin_to_num:",bin_to_num);
 
-/* number to string*/
-let num=88;
-let Newdata =num33.toString();
-console.log("Newdata:",Newdata);
-console.log("Newdata:",typeof Newdata);
+// /* number to string*/
+// let num=88;
+// let Newdata =num33.toString();
+// console.log("Newdata:",Newdata);
+// console.log("Newdata:",typeof Newdata);
 
-let Newdata1= string(num33);
-console.log("Newdata1:",Newdata1);
-console.log("Newdata1:",typeof Newdata1);
+// let Newdata1= string(num33);
+// console.log("Newdata1:",Newdata1);
+// console.log("Newdata1:",typeof Newdata1);
 
-let Newdata2= string(num33);
-console.log("Newdata2:",Newdata2);
-console.log("Newdata2:",typeof Newdata2);
+// let Newdata2= string(num33);
+// console.log("Newdata2:",Newdata2);
+// console.log("Newdata2:",typeof Newdata2);
 
 
+let num1 = 11;
+let num2 = 12;
+
+console.log(num1!==num2);
