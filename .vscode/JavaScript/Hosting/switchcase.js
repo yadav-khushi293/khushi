@@ -213,3 +213,40 @@ switch(key){
 
 
 // console.log("your name ")
+
+// let day = 5;
+
+// switch(day){
+//     case 1:
+//         console.log("today is monday");
+//         break;
+
+//     case 2:
+//         console.log("today is Tuesday");
+//           break;
+
+
+//     case 3:
+//         console.log("today is wensday");
+//           break;
+
+
+//     case 4:
+//         console.log("today is thursday");
+//           break;
+
+
+//     case 5:
+//         console.log("today is friday ");
+//           break;
+
+
+//     case 6:
+//         console.log("today is sturday");
+//           break;
+
+
+//     default:
+//         console.log("today is holiday 😊");
+// }
+
