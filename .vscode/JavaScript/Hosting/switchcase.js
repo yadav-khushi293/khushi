@@ -332,3 +332,25 @@ switch(key){
 //     default:
 //         console.log("no month");
 // }
+
+// let number = 4;
+
+// switch(number){
+//     case 1:
+//         console.log("addtion");
+//         break;
+//    case 2:
+//     console.log("subtration");
+//     break;
+
+//     case 3:
+//         console.log("multi");
+//         break;
+
+//     case 4 :
+//         console.log("division");
+//         break;
+
+//         default:
+//             console.log("no");
+// }
