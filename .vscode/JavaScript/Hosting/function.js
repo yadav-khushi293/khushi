@@ -70,10 +70,10 @@
 // console.log(sum1);
 
 
-// function khushi(){
-//     console.log("hellow");
-// }
-// khushi()
+function khushi(){
+    console.log("hellow");
+}
+khushi()
 
 
 function number(a,b,c){

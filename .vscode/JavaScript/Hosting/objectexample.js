@@ -1,14 +1,15 @@
-let student = {
-    name:'mohan',
-    s_id:12,
-    email:'mohanyadax--',
-    city:'andheri',
+// let student = {
+//     name:'mohan',
+//     s_id:12,
+//     email:'mohanyadax--',
+//     city:'andheri',
 
-   car :function(){
-       return anjali;
-   }
+//    car :function(){
+//        return anjali;
+//    }
     
-}
-console.log(student);
-console.log(student.name);
-console.log(student.car);
+// }
+// console.log(student);
+// console.log(student.name);
+// console.log(student.car);
+
