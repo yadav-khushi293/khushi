@@ -250,3 +250,85 @@ switch(key){
 //         console.log("today is holiday 😊");
 // }
 
+// let chrecter = 3;
+
+// switch(chrecter){
+//     case 1:
+//         console.log("a");
+//         break;
+
+//     case 2:
+//         console.log("e");
+//         break;
+
+//    case 3:
+//     console.log("i");
+//     break;
+
+//    case 4:
+//     console.log("o");
+//     break;
+
+//     case 5:
+//         console.log("u");
+//         break;
+
+//     default:
+//         console.log("😂");
+// }
+
+
+// let month =4;
+
+// switch(month){
+//     case 1:
+//         console.log("jan");
+//         break;
+
+//     case 2:
+//         console.log("feb");
+//         break;
+
+//     case 3:
+//         console.log("march");
+//         break;
+
+//     case 4:
+//         console.log("april");
+//         break;
+
+//     case 5:
+//         console.log("may");
+//         break;
+
+//     case 6:
+//         console.log("jun");
+//         break;
+
+//     case 7:
+//         console.log("july");
+//         break;
+
+//     case 8:
+//         console.log("agust");
+//         break;
+
+//     case 9:
+//         console.log("sep");
+//         break;
+
+//     case 10:
+//         console.log("oct");
+//         break;
+
+//     case 11:
+//         console.log("nav");
+//         break;
+
+//     case 12:
+//         console.log("dep");
+//         break;
+
+//     default:
+//         console.log("no month");
+// }
