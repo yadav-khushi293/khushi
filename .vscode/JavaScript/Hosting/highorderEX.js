@@ -33,12 +33,12 @@
 // });
 // console.log(num2);
 
-// const num = [1,2,3,4,5,6,7,8];
-// const num2=num.reduce((acc,curr)=>acc+curr,0);
-// console.log(num2)
+const num = [1,2,3,4,5,6,7,8];
+const num2=num.reduce((acc,curr)=>acc+curr,0);
+console.log(num2)
 
-// let array = [1,2,3];
-// let array2=array.forEach((num)=>{
-//     console.log(num);
-// });
-// console.log(array2);
+let array = [1,2,3];
+let array2=array.forEach((num)=>{
+    console.log(num);
+});
+console.log(array2);
