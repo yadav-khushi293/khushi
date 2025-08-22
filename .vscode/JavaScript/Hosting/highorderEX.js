@@ -32,6 +32,3 @@
 //     return mum+70;
 // });
 // console.log(num2);
-
-
-console.log();
