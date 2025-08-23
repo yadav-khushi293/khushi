@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        border: 1px solid orange;
+    }
+    .active{
+        background-color: red;
+    }
+</style>
+<body>
+    <nav>
+        <a href="#" class="nav-link">Html</a>
+        <a href="#" class="nav-link">css</a>
+        <a href="#" class="nav-link">javascript</a>
+        <a href="#" class="nav-link">jQUERy</a>
+        <a href="#" class="nav-link">rect</a>
+        <a href="#" class="nav-link">node js</a>
+    </nav>
+</body>
+<script>
+    const link=document.querySelectorAll('.nav-link');
+    
+    for(let i=0; i<link.length;i++){
+        
+        link[i].addEventListener('click',()=>{
+            const active = document.querySelector('.active');
+            if(active){
+                active.classList.remove('active')
+            }
+            link[i].classList.add('active')
+        })
+    }
+</script>
+</html>
