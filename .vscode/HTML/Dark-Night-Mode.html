@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Light to Dark Mode Toggle</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: consolas;
+      }
+
+      body {
+        background: #f8f8f8;  /* Default Light Mode */
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      body.dark {
+        background: #333;  /* Dark Mode */
+        color: #fff;
+      }
+
+      .btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background: #fff;  /* Light mode button background */
+        color: #000;
+        font-size: 1.5em;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1),
+          5px 5px 30px rgba(0, 0, 0, 0.05),
+          inset -2px -2px 5px rgba(0, 0, 0, 0.1),
+          inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      body.dark .btn {
+        background: #000;  /* Dark mode button background */
+        color: #fff;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
+          5px 5px 30px rgba(0, 0, 0, 0.25),
+          inset -2px -2px 5px rgba(0, 0, 0, 0.25),
+          inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+      }
+
+      .btn strong {
+        display: none;
+      }
+
+      /* 🌙 show by default (light mode) */
+      .btn strong:nth-child(2) {
+        display: block;
+      }
+
+      /* ☀️ show only in dark mode */
+      body.dark .btn strong:nth-child(1) {
+        display: block;
+      }
+
+      body.dark .btn strong:nth-child(2) {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btn" id="toggleBtn">
+         <strong>🌙</strong> 
+      <strong>☀️</strong> 
+    </div>
+
+    <script>
+      const body = document.body;
+      const btn = document.getElementById("toggleBtn");
+
+      // Default: Light mode (no class)
+      btn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
