@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <style>
+    .detail-card {
+      width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .detail-card img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+    }
+    h2, h3, h4, h6 {
+      margin: 10px 0;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="detail-card" id="productDetail"></div>
+
+<script>
+  const product = JSON.parse(localStorage.getItem("product"));
+
+  if (product) {
+    const container = document.getElementById("productDetail");
+
+    container.innerHTML = `
+      <img src="${product.image}" />
+      <h2>${product.title}</h2>
+      <h3>Price: $${product.price}</h3>
+      <h4>Category: ${product.category}</h4>
+      <p>${product.description}</p>
+      <h5>Rating: ${product.rating.rate} | Count: ${product.rating.count}</h5>
+      <button onclick="goBack()">Back to Home</button>
+    `;
+  }
+
+  function goBack() {
+    window.location.href = "apifetch2.html";
+  }
+</script>
+
+</body>
+</html>
