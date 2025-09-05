@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>JavaScript Example</title>
+</head>
+
+<body>
+    <p style="font-size: 20px;"><b>Name: </b>Chhavi Gupta</p>
+    <p id="result">Hello, This is an example of JavaScript.</p>
+    <p id="text">We are TYIT Students</p>
+    <button id="btn">Click Here</button>
+    <script>
+        function msg() {
+            document.getElementById("text").innerHTML = "<b>Changes are done after clicking.</b>";
+        }
+        document.getElementById("btn").addEventListener("click", msg);
+    </script>
+</body>
+
+</html>
+

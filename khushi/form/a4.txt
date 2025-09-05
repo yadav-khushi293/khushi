@@ -1,0 +1,32 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body >
+        <button class="btn btn-success" data-bs-target="#Janvi" data-bs-toggle="modal">Login</button> 
+        <div class="modal fade" id="Janvi">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Master</h5>
+                </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                Enter username: <input type="text" class="form-control" placeholder="janvi" >
+                            </div>
+                            <div class="mb-3">
+                                Enter password: <input type="password" class="form-control" placeholder="janvi"  >
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary " data-bs-dismiss="modal">  login</button>
+                             <button class="btn btn-secondary " data-bs-dismiss="modal">  cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <script src="js/bootstrap.bundle.min.js"></script> 
+    </body>
+</html>
