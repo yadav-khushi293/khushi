@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+   
+    #main {
+      width: 500px;
+      height: 300px;
+      border: 2px dashed #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    #main img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .thumbs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .thumbs img {
+      width: 100px;
+      height: 70px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: 0.3s;
+    }
+    .thumbs img:hover {
+      border: 2px solid blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="main"></div>
+  <div class="thumbs" id="thumbs"></div>
+
+  <script>
+    const API_URL = `https://fakestoreapi.com/products`;
+
+    const mainDiv = document.getElementById("main");
+    const thumbsDiv = document.getElementById("thumbs");
+
+    fetch(API_URL)
+      .then(res => res.json())
+      .then(data => {
+        data.forEach((el,index) => {
+          const img = document.createElement("img");
+          img.src = el.image;
+
+          img.addEventListener("click", () => {
+            mainDiv.innerHTML = `<img src="${el.image}">`;
+          });
+
+          thumbsDiv.appendChild(img);
+
+          // Show first image in main by default
+          if (index === 0) {
+            mainDiv.innerHTML = `<img src="${el.image}">`;
+          }
+        });
+      })
+      .catch(err => {
+        console.error("API Error:", err);
+  
+      });
+  </script>
+
+</body>
+</html>
