@@ -5,3 +5,4 @@
 
    consolelog("hello");
    console.log("by");
+   console.log("khushi");
