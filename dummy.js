@@ -3,7 +3,3 @@
         console.log(useName);       
     }
 
-console.log("khushi")
-console.log("khushi");
-console.log("yadav");
-  
