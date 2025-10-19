@@ -4,4 +4,5 @@
     }
 
 console.log("khushi");
-console.log("khushi")
+console.log("khushi");
+console.log("khusji")
