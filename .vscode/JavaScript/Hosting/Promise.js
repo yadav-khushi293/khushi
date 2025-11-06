@@ -1,136 +1,162 @@
-//promise took callback function and also took(resolve,reject)
-//this ex without deleytime//1:exmaple
-/*let ice_cream = new Promise((res,rej)=>{
-  let got_ice_cream = true;
-  if(got_ice_cream) res(got_ice_cream);
-  else rej(got_ice_cream); 
+// //promise took callback function and also took(resolve,reject)
+// //this ex without deleytime//1:exmaple
+// /*let ice_cream = new Promise((res,rej)=>{
+//   let got_ice_cream = true;
+//   if(got_ice_cream) res(got_ice_cream);
+//   else rej(got_ice_cream); 
 
-});// hrer is created new promises
+// });// hrer is created new promises
 
 
-ice_cream.then(()=>{
- console.log('eat ice cream');
-});
+// ice_cream.then(()=>{
+//  console.log('eat ice cream');
+// });
 
-ice_cream.catch(()=>{
- console.log('call mommy');
+// ice_cream.catch(()=>{
+//  console.log('call mommy');
  
-});
-*/
+// });
+// */
 
 
 
 
-/*
-//!what  if we get delay to get the response
-//2:exmple
+// /*
+// //!what  if we get delay to get the response
+// //2:exmple
 
-let ice_cream = new Promise((res,rej)=>{
+// let ice_cream = new Promise((res,rej)=>{
 
-    let got_ice_cream;
+//     let got_ice_cream;
     
-    retTimeout(()=>{
-        got_ice_cream=false;
-        if(got_ice_cream){
-            res('eat ice cream');
+//     retTimeout(()=>{
+//         got_ice_cream=false;
+//         if(got_ice_cream){
+//             res('eat ice cream');
 
-        }else {
-          rej('call mom');
-        }
-        },3000);
-});
+//         }else {
+//           rej('call mom');
+//         }
+//         },3000);
+// });
 
-ice_cream
-.then(()=>{
-    console.log('eat ice cream');
-})
+// ice_cream
+// .then(()=>{
+//     console.log('eat ice cream');
+// })
 
-.catch(()=>{
-    console.log('call mommy');
-});
+// .catch(()=>{
+//     console.log('call mommy');
+// });
 
-*/
-
-
-//REAL CODE
-
-//code-1
-function appends(s){
-
-    let Script = document.createElement('script');
-    Script.src =s;
-    document.head.append(Script);
-
-    setTimeout(()=>{
-      hello();
-    },3000);
-}
-
-appends('./myScript.js');
+// */
 
 
-//code-2
+// //REAL CODE
 
-function appends(s){
-    return new Promise((res, rej)=>{
-     let script = document.createElement('script');
+// //code-1
+// function appends(s){
 
-     Script.src = s;
+//     let Script = document.createElement('script');
+//     Script.src =s;
+//     document.head.append(Script);
 
-     document.head.append(script);
+//     setTimeout(()=>{
+//       hello();
+//     },3000);
+// }
 
-     Script.onload = function(){
-        res('Script loadind done');
-     };
-
-     script.onerror = function(){
-        res('Not Loaded');
-     };
-    });
-}
-
-appends('./myScript.js')
-
-.then((res)=>{
-    console.log(res);
-    hello();
-})
-
-.catch((err)=>{
-    console.log(err,'->this is error');
-});
+// appends('./myScript.js');
 
 
-//CODE-3
+// //code-2
 
-function appends(s){
-    return new Promise((res, rej)=>{
-     let script = document.createElement('script');
+// function appends(s){
+//     return new Promise((res, rej)=>{
+//      let script = document.createElement('script');
 
-     Script.src = s;
+//      Script.src = s;
 
-     document.head.append(script);
+//      document.head.append(script);
 
-     Script.onload = function(){
-        res('Script loadind done');
-     };
+//      Script.onload = function(){
+//         res('Script loadind done');
+//      };
 
-     script.onerror = function(){
-        res('Not Loaded');
-     };
-    });
-}
+//      script.onerror = function(){
+//         res('Not Loaded');
+//      };
+//     });
+// }
 
-async function handle() {
+// appends('./myScript.js')
+
+// .then((res)=>{
+//     console.log(res);
+//     hello();
+// })
+
+// .catch((err)=>{
+//     console.log(err,'->this is error');
+// });
+
+
+// //CODE-3
+
+// function appends(s){
+//     return new Promise((res, rej)=>{
+//      let script = document.createElement('script');
+
+//      Script.src = s;
+
+//      document.head.append(script);
+
+//      Script.onload = function(){
+//         res('Script loadind done');
+//      };
+
+//      script.onerror = function(){
+//         res('Not Loaded');
+//      };
+//     });
+// }
+
+// async function handle() {
    
-     try{
-       let res = await appends('./myScript.js');
-      console.log(res);
-      hello();
+//      try{
+//        let res = await appends('./myScript.js');
+//       console.log(res);
+//       hello();
 
-     }catch(err){
-        console.log(err);
-     }
+//      }catch(err){
+//         console.log(err);
+//      }
     
-}
+// }
 
+
+
+new Promise(function(resolve,reject){
+     setTimeout(function(){
+        console.log("khushi")
+        resolve()
+     },500)
+})
+.then(function(){
+    console.log("yadav")
+})
+
+
+const promissone = new Promise(function(resolve,reject){
+
+    setTimeout(function(){
+
+        resolve()
+         
+        console.log("hellow");
+    },1000)
+})
+
+promissone.then(function(){
+    console.log("guys..")
+})
