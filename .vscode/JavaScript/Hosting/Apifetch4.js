@@ -24,9 +24,9 @@
 //let ==>  is block-scoped which means everey iteretion of the loop creates a new copy of i 
 //var ==>var is function-scoped ,not block-scoped
 
-for(var i=0; i<3; i++){
-    setTimeout(()=>console.log(i),100)
-}
+// for(var i=0; i<3; i++){
+//     setTimeout(()=>console.log(i),100)
+// }
 
 
 
@@ -38,4 +38,8 @@ for(var i=0; i<3; i++){
 // const reduce1=reduce.filter(num=>num%2==0)
 // console.log(reduce);
 
+const arr=[1,2,3,4,5];
+arr.splice(3);
+console.log(arr);
+console.log(arr.length);
 
