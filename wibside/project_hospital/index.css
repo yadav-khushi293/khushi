@@ -13,6 +13,11 @@
 }
 */
   
+.block{
+   animation: appear 5s linear;
+   animation-timeline: view();
+   animation-range:entry 0% cover;
+}
 .parents{
     display: flex;
     justify-content: space-between;
