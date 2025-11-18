@@ -38,7 +38,14 @@
 // const reduce1=reduce.filter(num=>num%2==0)
 // console.log(reduce);
 
-const arr=[1,2,3,4,5];
-arr.splice(3);
-console.log(arr);
-console.log(arr.length);
+// const arr=[1,2,3,4,5];
+// arr.splice(3);
+// console.log(arr);
+// console.log(arr.length);
+
+
+let a = 0.1+0.2;
+let b=0.3;
+console.log(a===b);
+//out put is false==>beacuse resone is In JavaScript, numbers are stored in binary floating-point (IEEE 754) format. Some decimal numbers cannot be represented exactly in binary, so they are stored as tiny approximations.
+//In short reason==>0.1 and 0.2 can’t be stored exactly in binary, so 0.1 + 0.2 becomes 0.30000000000000004, not 0.3.That’s why a === b is false.
