@@ -13,7 +13,7 @@ const appendsFunc = (data) => {
   data.forEach((videoLink) => {
   let cardDiv = document.createElement('div');
   let video = document.createElement('video');
-  video.src = videoLink; // use direct download link
+  video.src = videoLink; 
   video.controls = true;
   video.width = 400;
   cardDiv.append(video);
