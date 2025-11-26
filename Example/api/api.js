@@ -10,16 +10,16 @@ const ApiCall = () => {
 const appendsFunc = (data) => {
   let dataShow = document.getElementById('info');
 
-  data.forEach((element) => {
-    let cardDiv = document.createElement('div');
-    let video = document.createElement('h4');
-    
+  data.forEach((videoLink) => {
+  let cardDiv = document.createElement('div');
+  let video = document.createElement('video');
+  video.src = videoLink; // use direct download link
+  video.controls = true;
+  video.width = 400;
+  cardDiv.append(video);
+  dataShow.append(cardDiv);
+});
 
-   video.innerText = element.link;
-
-   cardDiv.append(video);
-    dataShow.append(cardDiv);
-  });
 };
 
 
