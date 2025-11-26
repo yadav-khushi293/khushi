@@ -1,6 +1,122 @@
-{
-    "User":[
 
-        123456789
-    ]
+{
+  "shop": [
+    {
+      "id": 1,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%201.jpg?raw=true",
+      "title": "Vintage Outdoor Canvas Backpack",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero in aspernatur iusto voluptate quasi possimus distinctio dolor blanditiis quia, enim recusandae esse eos magni id quisquam placeat sed sit alias autem obcaecati soluta? Inventore facere tempore officiis a, rerum dolores ipsa ipsum cupiditate maiores odio quis deserunt voluptas accusamus vel corrupti atque consectetur pariatur delectus natus fugit commodi quasi blanditiis quo totam. Vel aliquid possimus delectus ex in excepturi rerum consectetur accusantium voluptatum alias laudantium, deleniti dolorem architecto soluta, explicabo impedit voluptate. Officiis provident, quisquam tempora ducimus quam, eveniet nihil quibusdam amet similique maiores, aperiam iure ullam molestias deleniti placeat.",
+      "price": "70.00",
+      "category": "causal"
+    },
+    {
+      "id": 2,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%202.jpg?raw=true",
+      "title": "Modern Black Urban Backpack",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia asperiores sint accusamus explicabo rem voluptatem ad. Omnis dolor unde minus aut eaque iure dolore maiores. Quos ex necessitatibus fuga eaque praesentium nulla aspernatur autem dolorum, qui aut laudantium ab beatae laborum, laboriosam molestias eum itaque amet odit blanditiis magni recusandae? Officiis fugiat adipisci placeat! Excepturi vero quis quasi odit. Fugiat illum quidem adipisci voluptate neque iusto facere autem alias odio molestiae reprehenderit nulla aliquam, ut error maiores, ea incidunt pariatur sapiente inventore ipsum explicabo. Vitae doloremque sunt voluptates excepturi labore alias odio quas iure fugiat a? Eaque officia repellat tempore!",
+      "price": "25.00",
+      "category": "causal"
+    },
+    {
+      "id": 3,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%203.jpg?raw=true",
+      "title": "Minimalist Black Travel Backpack",
+      "description": "Quis rerum culpa architecto aspernatur! Impedit quis aliquid quia, consectetur corrupti quibusdam eaque magnam saepe tempora odit, sequi dolorum eos fugit reprehenderit, nesciunt exercitationem repudiandae culpa molestiae odio optio temporibus alias vel commodi ad. Sed hic sit ipsam quo quas fugiat tempore quasi? Sint nam optio expedita, molestias aliquid recusandae sed vero magnam at unde, rerum eos! Modi itaque, aliquam odio eveniet tempore dolores adipisci cupiditate officiis dignissimos vitae veniam libero corporis non saepe voluptate aliquid enim doloribus minus explicabo quisquam nobis? Nisi dicta cum aperiam iste mollitia ducimus dolorum, quae ipsam illo eos voluptates quos omnis dolore accusantium distinctio!",
+      "price": "35.00",
+      "category": "Travel"
+    },
+    {
+      "id": 4,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%204.jpg?raw=true",
+      "title": "Brown Leather Casual Backpack",
+      "description": "Consequuntur quasi facere dolor odit. Excepturi laboriosam accusamus autem placeat repudiandae voluptatum voluptates? Nisi minima eaque sit dolore quo deserunt harum laboriosam, dolor excepturi at neque, est nostrum animi, ipsa necessitatibus sequi optio. Delectus repellendus possimus maxime rem, ab dolore officia voluptatibus laudantium voluptates provident deserunt illo sed minima aut hic, voluptate eligendi. Natus rerum perspiciatis asperiores eveniet omnis et vero quaerat ea voluptate odio maiores veritatis pariatur accusantium voluptatem provident nesciunt commodi incidunt autem quia, facere, dolorum dolores soluta sed laboriosam. Ipsa sit nisi, dolore blanditiis soluta distinctio obcaecati quam ea, animi omnis repudiandae quasi minus! Doloribus, nostrum alias.",
+      "price": "55.00",
+      "category": "causal"
+    },
+    {
+      "id": 5,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%205.jpg?raw=true",
+      "title": "Haupes Hunter Green Rucksack",
+      "description": "Tempora dolore accusamus, ratione voluptatum cum tempore autem ut delectus commodi sit fuga quisquam maiores, magnam laboriosam, sequi minima omnis accusantium cumque. Commodi saepe necessitatibus tempora perspiciatis maxime? Error illo quibusdam repudiandae voluptatum eligendi, quo tenetur dolorum tempora nobis quam iste eveniet quae omnis ratione illum quidem ab minus veniam magnam. Neque dignissimos alias ut harum. Aspernatur, modi culpa! Enim ad tempora nam dolor exercitationem alias, earum quam aperiam omnis accusantium similique. Non facere officia debitis quo animi modi molestias sequi mollitia? Aut, itaque ex. Aut vero culpa earum reprehenderit soluta odit repudiandae modi enim dolorum! At quisquam autem nostrum?",
+      "price": "45.00",
+      "category": "causal"
+    },
+    {
+      "id": 6,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%206.jpg?raw=true",
+      "title": "Classic Vinta Canvas Backpack",
+      "description": "Qui iste laudantium labore facere maxime, hic omnis nobis quas voluptatibus fugit animi sit sunt nisi quo quam aliquam recusandae! Excepturi, error reiciendis. Quaerat a molestias dolorem similique. Magnam minima eligendi ipsam consequatur sunt repellat, explicabo voluptas tempora? Odio quae illo laudantium, expedita animi officiis quis, corporis perspiciatis nulla veritatis ab pariatur laborum laboriosam quidem autem. Dicta, hic est? Illum aperiam ipsa sunt nemo perspiciatis doloremque officiis voluptates consectetur quam harum placeat magnam incidunt dolor libero labore officia at fugit nulla cumque facilis, eligendi deleniti? Vitae consectetur nostrum, pariatur dicta id veniam error minima optio magni iste hic maiores ut?",
+      "price": "45.00",
+      "category": "causal"
+    },
+    {
+      "id": 7,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%207.jpg?raw=true",
+      "title": "Byork Woven Rattan Backpack",
+      "description": "Aut, soluta! Eius, sequi porro! Vero totam, exercitationem itaque perferendis porro placeat neque nisi expedita aperiam, assumenda laborum, nostrum consequuntur. Molestiae nam veniam nostrum iste ducimus omnis, sint amet tempora officia, a, maiores placeat vel magni deleniti quam ipsum quae vitae! Dolor delectus quasi deleniti officiis ea ut nemo dicta blanditiis aspernatur quos, expedita esse optio accusantium? Praesentium quisquam adipisci, vitae repudiandae repellat exercitationem dignissimos nihil quod possimus odio dolorem. Nobis officiis rem dolor laudantium molestiae quibusdam ad facere? Labore, id ducimus esse, dolore laborum alias tempore libero laudantium distinctio quasi cupiditate voluptas reiciendis omnis, beatae ea corporis quaerat deserunt!",
+      "price": "25.00",
+      "category": "causal"
+    },
+    {
+      "id": 8,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%208.jpg?raw=true",
+      "title": "Olive Drab Adventurer",
+      "description": "Dolores natus, harum eligendi modi magnam qui aspernatur. Optio ipsam officia iure dolores at vitae eius autem, rem nisi porro culpa explicabo accusantium! Nisi ratione possimus dolore in labore quibusdam incidunt inventore, repudiandae nam odit nobis, delectus necessitatibus sed voluptatem non, voluptatum animi deserunt. Est, sit rem perferendis cum in eos quasi et, facilis nemo natus minima. Obcaecati quam, maxime eligendi fuga, corporis earum quos harum, eveniet quia eum cumque facere distinctio rem sequi odio! Earum, ea facilis provident quo suscipit assumenda dignissimos harum expedita distinctio ullam maiores aspernatur, ipsam perspiciatis reprehenderit neque deleniti nostrum vel eaque pariatur! Tempore, labore!",
+      "price": "35.00",
+      "category": "Travel"
+    },
+    {
+      "id": 9,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%209.jpg?raw=true",
+      "title": "Haupes Classic Flap Backpack",
+      "description": "Id nobis provident quaerat voluptatibus qui dicta earum, aut nostrum. Hic in quae optio inventore unde ratione ipsum molestias architecto. Repellat ex, velit eos nemo adipisci rerum accusantium quasi voluptate dignissimos voluptatem, repudiandae quaerat natus possimus neque enim mollitia ipsam totam voluptatum error omnis dolorum. Quasi enim vero ipsa. Tempore, modi rem quasi ullam aspernatur praesentium sint cumque maiores, vitae est accusamus. Nobis quasi porro facere! Consequatur vel dolores ducimus fuga quae optio ullam at repudiandae alias ex incidunt veniam harum, quo tenetur est nostrum. Vero accusamus perspiciatis labore eligendi, aspernatur necessitatibus provident, commodi, similique ipsum quas ullam tenetur architecto!",
+      "price": "40.00",
+      "category": "causal"
+    },
+    {
+      "id": 10,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%2010.jpg?raw=true",
+      "title": "Maroon Canvas Rolltop",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum perferendis asperiores blanditiis nam distinctio dolorum soluta aliquam corporis expedita aut voluptatem qui velit fugit, alias sit quod officiis. Praesentium accusamus sint nisi fuga, ullam rerum non officiis incidunt consectetur, rem necessitatibus? Tempora cumque quae beatae blanditiis eos fugiat impedit non quod exercitationem architecto corrupti possimus tenetur, explicabo veritatis temporibus! Provident fuga optio excepturi. Distinctio reiciendis minus necessitatibus neque eaque maxime nemo id, ipsam est! Iure, maxime? Architecto obcaecati est nihil asperiores porro totam numquam at quam doloremque perferendis laboriosam nemo corrupti aliquam, possimus dolore sed voluptates, placeat incidunt nisi?",
+      "price": "45.00",
+      "category": "causal"
+    },
+    {
+      "id": 11,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%2011.jpg?raw=true",
+      "title": "Last Craft Two-Tone Heritage Rucksack",
+      "description": "Possimus sint qui recusandae ipsum aliquam. Alias dolores excepturi iusto culpa perspiciatis molestias, maxime, esse est quae adipisci voluptatum assumenda hic earum deserunt nihil voluptas distinctio blanditiis voluptatibus temporibus animi in libero, a odio sed? Fuga ullam placeat laboriosam sequi totam qui nulla quis deserunt sunt dolores vitae veniam at blanditiis impedit, a tenetur fugiat iusto molestias libero? Deleniti rem ad dolor, cupiditate fuga eius assumenda nisi dolorum hic laudantium amet maxime, sit accusantium id quae eligendi odio quos quaerat quo, ipsum repudiandae? Dicta, aut eius amet cumque laudantium in harum excepturi earum consectetur minus impedit. Molestiae voluptatibus maxime autem.",
+      "price": "35.00",
+      "category": "Travel"
+    },
+    {
+      "id": 12,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%2012.jpg?raw=true",
+      "title": "White Elephant Print Backpack",
+      "description": "Recusandae hic quam expedita numquam harum temporibus in! Facere repellat aut error ea nam? Sed nisi asperiores rerum dolorum saepe nihil, sapiente ut, accusamus vero possimus molestias obcaecati adipisci, laudantium quos reprehenderit ipsum accusantium eaque placeat illum error! Esse repudiandae aperiam eveniet laboriosam at in ullam expedita deleniti necessitatibus non harum, fugiat, magnam et dicta soluta odit suscipit ut id culpa vero totam voluptatibus laudantium saepe. Maxime modi aliquid cum aspernatur nemo repudiandae harum facilis ullam sit fugit architecto, placeat libero minus pariatur consectetur nostrum quo labore ipsam ipsum enim in. Natus voluptatem aliquid soluta, voluptatibus mollitia officia omnis fugit!",
+      "price": "25.00",
+      "category": "Travel"
+    },
+    {
+      "id": 13,
+      "img": "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%2013.jpg?raw=true",
+      "title": "Fjallraven Black Rolltop Backpack",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ad molestias autem animi, consequatur officiis voluptatum atque eos quaerat dolores veniam? Minima, voluptate laudantium aliquid quaerat distinctio et autem excepturi optio! Delectus, est. Eum ullam libero voluptatum maiores est, soluta magnam possimus ipsa veritatis expedita eligendi quas, maxime suscipit reiciendis obcaecati nemo labore molestiae odit quibusdam distinctio inventore iusto? Consequuntur accusamus omnis adipisci dignissimos reprehenderit ullam optio magni est, quidem impedit earum cupiditate accusantium laboriosam perspiciatis harum ratione incidunt amet quod labore maiores, nostrum iusto ut! Earum illum rem molestias, magni ipsum neque omnis officia suscipit possimus quod officiis et!",
+      "price": "25.00",
+      "category": "Travel"
+    }
+  ],
+  "variable": [
+    "https://raw.githubusercontent.com/hetuk2005/webDevelopment/refs/heads/main/Utils/Bag%203.jpg",
+    "https://github.com/hetuk2005/Weather_App/blob/main/Utils/Image-9.jpg?raw=true",
+    "https://github.com/hetuk2005/Weather_App/blob/main/Utils/Image-10.jpg?raw=true",
+    "https://github.com/hetuk2005/Weather_App/blob/main/Utils/Image-11.jpg?raw=true"
+  ],
+  "external": [
+    "https://github.com/hetuk2005/webDevelopment/blob/main/Utils/Bag%207.jpg?raw=true",
+    "https://github.com/yadav-khushi293/MONDERN_SHOP/blob/hetuk/Utils/Image-12.jpg?raw=true",
+    "https://github.com/yadav-khushi293/MONDERN_SHOP/blob/hetuk/Utils/Image-13.jpg?raw=true"
+  ],
+  "cart": [],
+  "user": []
 }
