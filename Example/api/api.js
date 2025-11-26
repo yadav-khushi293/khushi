@@ -14,7 +14,9 @@ const appendsFunc = (data) => {
   let cardDiv = document.createElement('div');
   let video = document.createElement('video');
   video.src = videoLink; 
-  video.controls = true;
+  // video.controls = true;
+  video.autoplay = true;
+  video.loop = true;
   video.width = 400;
   cardDiv.append(video);
   dataShow.append(cardDiv);
