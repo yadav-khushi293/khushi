@@ -11,14 +11,19 @@ const appendsFunc = (data) => {
   let dataShow = document.getElementById('info');
 
   data.forEach((videoLink) => {
+  let video_1=document.createElement('div');
   let cardDiv = document.createElement('div');
   let video = document.createElement('video');
+
+  cardDiv.className ="cardDiv";
+   video_1.className="video_1";
   video.src = videoLink; 
   // video.controls = true;
   video.autoplay = true;
   video.loop = true;
   video.width = 400;
-  cardDiv.append(video);
+   video_1.append(video)
+  cardDiv.append(video_1);
   dataShow.append(cardDiv);
 });
 
