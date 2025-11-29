@@ -11,17 +11,18 @@ const appendsFunc = (data) => {
   let dataShow = document.getElementById('info');
 
   data.forEach((el) => {
-
+    let main_div = document.createElement('div')
     let cardDiv = document.createElement('div');
     let videoWrap = document.createElement('div');
     let video = document.createElement('video');
-
+     
     let titleoffer = document.createElement('div');
     let title = document.createElement('p');
     let price = document.createElement('p');
     let offer = document.createElement('p');
 
     // Classes
+    main_div.classList="main_div";
     cardDiv.className = "cardDiv";
     videoWrap.className = "video_1";
     titleoffer.className = "titleoffer";
@@ -34,7 +35,7 @@ const appendsFunc = (data) => {
     video.autoplay = true;
     video.loop = true;
     video.muted = true;
-    video.width = 300;
+    video.width = 250;
 
     // Text
     title.innerText = el.title;
@@ -44,8 +45,8 @@ const appendsFunc = (data) => {
     // Build structure
     titleoffer.append(title, price, offer);
     videoWrap.append(video);
-
-    cardDiv.append(videoWrap, titleoffer);
+    main_div.append(videoWrap, titleoffer)
+    cardDiv.append(main_div);
 
     dataShow.append(cardDiv);
   });

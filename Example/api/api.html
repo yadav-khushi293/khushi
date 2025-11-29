@@ -6,6 +6,62 @@
     <title>Document</title>
    
     <style>
+ #info {
+  display: flex; 
+  gap: 20px;        
+  overflow-x: auto; 
+  scrollbar-width: none;
+  height:690px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cardDiv {
+  flex: 0 0 auto;  
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow: hidden;       
+  border-radius: 8px;
+  width: 300px;         
+}
+
+.main_div {
+  display: flex;
+  flex-direction: column;  /* stack video + text vertically inside card */
+  align-items: center;
+}
+
+.video_1 video {
+  width: 100%;
+  height: auto;
+}
+
+.titleoffer {
+  text-align: center;
+  margin-top: 10px;
+}
+.titleoffer >.title{
+ font-size: 27px;
+ padding-bottom: 6px;
+ word-spacing: 2px;
+ letter-spacing: 0.5px;
+}
+.titleoffer >.price{
+  font-size: 21px;
+  color: #636161;
+}
+.titleoffer >.offer{
+   font-size: 22px;
+   font-weight: bold;
+   padding: 5px 0px;
+   color: #444444;
+   word-spacing: 2px;
+}
+.title, .price, .offer {
+  margin: 2px 0;
+}
+
 
 
 </style>
