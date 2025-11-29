@@ -10,26 +10,43 @@ const ApiCall = () => {
 const appendsFunc = (data) => {
   let dataShow = document.getElementById('info');
 
-  data.forEach((videoLink) => {
-    let video_1 = document.createElement('div');
-    let cardDiv = document.createElement('div');
-    let video = document.createElement('video');
-    
-    cardDiv.className = "cardDiv";
-    video_1.className = "video_1";
+  data.forEach((el) => {
 
-    video.src = videoLink;
+    let cardDiv = document.createElement('div');
+    let videoWrap = document.createElement('div');
+    let video = document.createElement('video');
+
+    let titleoffer = document.createElement('div');
+    let title = document.createElement('p');
+    let price = document.createElement('p');
+    let offer = document.createElement('p');
+
+    // Classes
+    cardDiv.className = "cardDiv";
+    videoWrap.className = "video_1";
+    titleoffer.className = "titleoffer";
+    title.className = "title";
+    price.className = "price";
+    offer.className = "offer";
+
+    // Video URL (important)
+    video.src = el.img;   // ✔ Correct key: "img"
     video.autoplay = true;
     video.loop = true;
-    video.muted = true; // ye Important hai for autoplay
+    video.muted = true;
     video.width = 300;
-    video_1.append(video);
-    cardDiv.append(video_1);
+
+    // Text
+    title.innerText = el.title;
+    price.innerText = el.price;
+    offer.innerText = el.offer;
+
+    // Build structure
+    titleoffer.append(title, price, offer);
+    videoWrap.append(video);
+
+    cardDiv.append(videoWrap, titleoffer);
+
     dataShow.append(cardDiv);
   });
 };
-
-
-
-
-
