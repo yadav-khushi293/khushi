@@ -2,15 +2,84 @@
 {
   "video": [
 
-    "https://neeshperfumes.com/cdn/shop/files/quinn_yoqq0ldupgc4ty4uj7l9vxi9.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_atyhd55725vorl2mii89fzgg.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_aodgjcnlw4g2y359f2eyqfmw.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_cwe0fulbafdtlb0okwqtalm5.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_tg6o0e548k4602g65hy86xgz.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_hjphy9np9gteahbel0pjrbp4.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_itnj10nslj3suwbbh3fv6x4z.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_ezmmoioqqwnaq8jqlaeyzr41.mp4",
-    "https://neeshperfumes.com/cdn/shop/files/quinn_kltttvph12c1m9dnf97dk0en.mp4"
+    {"img":"https://neeshperfumes.com/cdn/shop/files/quinn_yoqq0ldupgc4ty4uj7l9vxi9.mp4",
+      "title":"Milky Way",
+      "price":"Rs.6,800",
+      "offer":"20% off"
+
+    },
+
+      {"img":"https://neeshperfumes.com/cdn/shop/files/quinn_atyhd55725vorl2mii89fzgg.mp4",
+      "title":"Haute Tobacco",
+      "price":"Rs.6,860",
+      "offer":"20% off"
+
+    },
+
+      {
+      "img":"https://neeshperfumes.com/cdn/shop/files/quinn_aodgjcnlw4g2y359f2eyqfmw.mp4",
+      "title":"Luxe Aoud",
+      "price":"Rs.6,280",
+      "offer":"20% off"
+
+    },
+
+       {
+      "img":"https://neeshperfumes.com/cdn/shop/files/quinn_atyhd55725vorl2mii89fzgg.mp4",
+      "title":"Luxe Hayet",
+      "price":"Rs.7,280",
+      "offer":"20% off"
+
+    },
+
+         {
+      "img":"https://neeshperfumes.com/cdn/shop/files/quinn_cwe0fulbafdtlb0okwqtalm5.mp4",
+      "title":"Haute Tobacco",
+      "price":"Rs.8,280",
+      "offer":"20% off"
+
+    },
+
+     {
+      "img":"https://neeshperfumes.com/cdn/shop/files/quinn_tg6o0e548k4602g65hy86xgz.mp4",
+      "title":"Luxe Hayet",
+      "price":"Rs.7,280",
+      "offer":"20% off"
+
+    },
+
+      {
+      "img": "https://neeshperfumes.com/cdn/shop/files/quinn_hjphy9np9gteahbel0pjrbp4.mp4",
+      "title":"Luxe Mirage",
+      "price":"Rs.8,280",
+      "offer":"20% off"
+
+    },
+
+         {
+      "img":"https://neeshperfumes.com/cdn/shop/files/quinn_itnj10nslj3suwbbh3fv6x4z.mp4",
+      "title":"Shafran",
+      "price":"Rs.6,280",
+      "offer":"20% off"
+
+    },
+    
+       {
+      "img": "https://neeshperfumes.com/cdn/shop/files/quinn_ezmmoioqqwnaq8jqlaeyzr41.mp4",
+      "title":"Mehr",
+      "price":"Rs.5,290",
+      "offer":"20% off"
+
+    },
+
+        {
+      "img": "https://neeshperfumes.com/cdn/shop/files/quinn_kltttvph12c1m9dnf97dk0en.mp4",
+      "title":"Flora Divine",
+      "price":"Rs.9,890",
+      "offer":"20% off"
+
+    }
+  
    
   ]
 }
