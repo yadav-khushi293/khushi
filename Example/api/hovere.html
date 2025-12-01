@@ -1,113 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Hover Effect</title>
 <style>
-     
-     .card{
-        width: 550px;
-        height: 560px;
-        background-color: #000;
-        box-shadow: 0.5px 10px rgba(0,0,0,0.5);
-        margin: 10% auto;
-        position: relative;
-        border-radius: 10px;
-        overflow: hidden;
-     }
-  
-     .card span{
-        height: 100%;
-        left: 0;
-        background: url(../../Example/bag_img_3.webp);
-        position: absolute;
-        transition: 1s;
-     }
-      .card span:nth-child(1){
-        z-index: 10;
-        width: 25%;
-        transition-delay:0s;
-      }
+/* ===== Card Container ===== */
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: #000;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+    /* margin: 0px auto; */
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
 
-        .card span:nth-child(2){
-        z-index: 9;
-        width: 50%;
-         transition-delay:0.3s;
-      }
- 
-   .card span:nth-child(3){
-        z-index: 8;
-        width: 75%;
-         transition-delay:0.6s;
-      }
+/* ===== Image Layer Spans ===== */
+.card span{
+    height: 100%;
+    left: 0;
+    background: url('../../Example/ba_img_1.webp');
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    transition: 1s ease;
+}
 
-  .card span:nth-child(4){
-        z-index:7;
-        width: 100%;
-         transition-delay:0.8s;
-      }
-     
-     .card:hover span{
-        transform: translateY(-100%);
-        transition: 1s;
-     }
+.card span:nth-child(1){ z-index: 10; width: 25%; transition-delay:0s; }
+.card span:nth-child(2){ z-index: 9; width: 50%; transition-delay:0.3s; }
+.card span:nth-child(3){ z-index: 8; width: 75%; transition-delay:0.6s; }
+.card span:nth-child(4){ z-index: 7; width: 100%; transition-delay:0.8s; }
 
-       
-     .card:hover span:nth-child(1){
-        transition-delay:0.8s;
-     }
-     .card:hover span:nth-child(2){
-        transition-delay:0.6s;
-     }
-     .card:hover span:nth-child(3){
-        transition-delay:0.3s;
-     }
-     .card:hover span:nth-child(4){
-        transition-delay:0s;
-     }
+/* ===== Hover Effect (Slide Up Layers) ===== */
+.card:hover span{
+    transform: translateY(-100%);
+}
 
-     .content{
-        color: #fff;
-        text-align: center;
-        padding: 80px 20px;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        transform: translateY(100%);
-        transition: 2s;
-     }
-     .card:hover .content{
+.card:hover span:nth-child(1){ transition-delay:0.8s; }
+.card:hover span:nth-child(2){ transition-delay:0.6s; }
+.card:hover span:nth-child(3){ transition-delay:0.3s; }
+.card:hover span:nth-child(4){ transition-delay:0s; }
 
-         transform: translateY(0%);
-     }
-     .content p{
-        color: #999;
+/* ===== Content Section ===== */
+.content{
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: 2s ease;
+}
 
-     }
-     .content a{
-        width: 100px;
-        text-decoration: none;
-        border-radius: 50px;
-        border: 1px solid #fff;
-        display: block;
-        margin: auto;
-        padding: 10px;
-        color: #fff;
-    }
+.card:hover .content{
+    transform: translateY(0);
+}
+
+.content p{
+    color: #bbb;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content a{
+    width: 120px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.content a:hover{
+    background: #fff;
+    color: #000;
+}
 </style>
-
+</head>
 <body>
-    <div class="card">
-        <span></span> <span></span> <span></span> <span></span>
-        <div class="content">
-            <h1>hellow one</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit omnis deleniti minus illo sed illum odio doloribus, quam cum fugiat ullam velit iste aliquam cumque reiciendis? Enim, quisquam inventore.</p>
 
-            <a href="">readmore</a>
-        </div>
+<!-- ===== Card Div ===== -->
+<div class="card">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <div class="content">
+        <h2>Card Title</h2>
+        <p>This is a description for the card. You can add anything here.</p>
+        <a href="#">Read More</a>
     </div>
+</div>
+
 </body>
 </html>
