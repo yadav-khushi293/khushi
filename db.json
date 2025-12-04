@@ -241,5 +241,171 @@
     "https://neeshperfumes.com/cdn/shop/files/GW_sub_images_4.jpg?v=1751705526&width=600",
     "https://neeshperfumes.com/cdn/shop/files/GW_sub_images_2.jpg?v=1751553899&width=1100",
     "https://neeshperfumes.com/cdn/shop/files/GW15mlbottle_box.jpg?v=1751705526&width=1100"
+  ],
+
+  "For_her":[
+     
+    {
+    "id":1,
+    "img":"https://myop.in/cdn/shop/files/bomb.webp?v=1752146420&width=1080",
+    "title":"SONG OF SERENITY",
+    "discription":"A floral–fruity sparkle wrapped in seductive spice for unforgettable charm.",
+    "price":"Rs.4992"
+    },
+        {
+    "id":2,
+    "img":"https://myop.in/cdn/shop/files/florence.webp?v=1752146320&width=1080",
+    "title":"SPLENDID ROSE",
+    "discription":"Lush petals and sweet fruits ignite with fiery warmth in a sensual trail.",
+    "price":"Rs.3992"
+    },
+
+    {
+    "id":3,
+    "img":"https://myop.in/cdn/shop/files/urban_chic.webp?v=1752146276&width=1080",
+    "title":"FLORA DIVINE",
+    "discription":"Crisp freshness meets bold florals and spice for a confident, sultry glow.",
+    "price":"Rs.5992"
+    },
+
+     {
+    "id":4,
+     "img":"https://myop.in/cdn/shop/files/marshamallow_fluff_thumbnail.webp?v=1753800557&width=1080",
+    "title":"MEHR",
+    "discription":"Juicy berries and jasmine melt into a warm, spicy seduction.",
+    "price":"Rs.2992"
+    },
+
+     {
+    "id":5,
+     "img":"https://myop.in/cdn/shop/files/bangalore_bloom.webp?v=1752146312&width=1080",
+    "title":"Bangalore Bloom",
+    "discription":"A bright burst of freshness deepens into a spicy, high-end allure.",
+    "price":"Rs.7992"
+    },
+      {
+    "id":6,
+     "img":"https://myop.in/cdn/shop/files/Thumbnail_new_Streight_copy.webp?v=1763718901&width=1080",
+    "title":"Venom",
+    "discription":"Fruity sweetness and floral elegance linger with seductive warmth.",
+    "price":"Rs.1992"
+    }
+     ,
+       {
+    "id":7,
+     "img":"https://myop.in/cdn/shop/files/floral_1.webp?v=1714048608&width=1080",
+    "title":"Bomb",
+    "discription":"Sparkling fresh notes blend with exotic florals for a magnetic sillage.",
+    "price":"Rs.3992"
+    }
+      ,
+       {
+    "id":8,
+     "img":"https://myop.in/cdn/shop/files/fresh_1.webp?v=1714048533&width=1080",
+    "title":"Crystal",
+    "discription":"A sensual mix of ripe fruits, soft petals, and sultry spice.",
+    "price":"Rs.2992"
+    }
+      ,
+       {
+    "id":9,
+     "img":"https://myop.in/cdn/shop/files/mens_code.webp?v=1754559776&width=720",
+    "title":"Madras Malar",
+    "discription":"Fresh, floral, and deliciously spicy—crafted for pure seductive luxury.",
+    "price":"Rs.4992"
+    }
+      ,
+       {
+    "id":10,
+     "img":"https://myop.in/cdn/shop/files/Purple_Mystqiue.webp?v=1759560690&width=1080",
+    "title":"Urban Chic",
+    "discription":"Fresh, fruity, floral, spicy A sillage of high-end sultry seduction",
+    "price":"Rs.1,199"
+    }
+  
+  ],
+
+  "ForHim":[
+
+    {
+      "id":1,
+     "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
+    "title":"Ibiza",
+    "discription":"Fresh woods and spicy citrus collide for a bold, masculine seduction.",
+    "price":"Rs.1,279"
+    },
+
+    {
+      "id":2,
+     "img":"https://myop.in/cdn/shop/files/the_woody.webp?v=1752146482&width=1080",
+    "title":"The Woody",
+    "discription":"A crisp burst of bergamot deepens into warm, smoky spice—pure power.",
+    "price":" Rs.1,279"
+    },
+     {
+      "id":3,
+     "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
+    "title":"The Woody",
+    "discription":"Cool freshness wrapped in rugged woods creates an unforgettable masculine trail.",
+    "price":" Rs.3,279"
+    }
+    ,
+     {
+      "id":4,
+     "img":"https://myop.in/cdn/shop/files/menscoode.webp?v=1752146371&width=1080",
+    "title":"Men's Code",
+    "discription":"Spicy amber and fresh citrus deliver confident, high-end allure.",
+    "price":" Rs.4,279"
+    },
+
+    {
+      "id":5,
+     "img":"https://myop.in/cdn/shop/files/Frame_1.webp?v=1764337765&width=1080",
+    "title":"Ocean Bliss",
+    "discription":"A sharp, fruity spark softens into dark woods for effortless charm.",
+    "price":" Rs.3,279"
+    },
+
+     {
+      "id":6,
+     "img":"https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
+    "title":"Afterparty",
+    "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
+    "price":" Rs.6,279"
+    },
+
+    {
+      "id":7,
+     "img":"https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720",
+    "title":"Nightfall",
+    "discription":"Bright citrus lifts rich cedar and amber for refined seduction.",
+    "price":" Rs.2,449"
+    },
+     {
+      "id":8,
+     "img":"https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
+    "title":"California Sunshine",
+    "discription":"Clean, crisp notes fused with bold pepper for irresistible masculinity.",
+    "price":" Rs.7,279"
+    },
+      {
+      "id":9,
+     "img":"https://myop.in/cdn/shop/files/califronia_sunshine.webp?v=1754982697&width=720",
+    "title":"Moroccan Rose",
+    "discription":"A fresh, woody-spicy blend crafted for men who own every moment.",
+    "price":" Rs.3,279"
+    },
+      
+     {
+      "id":10,
+     "img":"https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
+    "title":"High On You",
+    "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
+    "price":" Rs.1,279"
+    }
+    
   ]
+
+ 
 }
+
