@@ -404,8 +404,518 @@
     "price":" Rs.1,279"
     }
     
+  ],
+
+  "Gift_Perfume":[
+     
+    {
+      "id":1,
+      "title":"Carlton London Eau De Parfum Gift Set For Her",
+      "parice":"Rs.4000",
+      
+      "img":[
+    "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_1.jpg",
+  "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_2.jpg",
+   "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_3.jpg",
+   "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_5.jpg",
+    "https://static-assets-prod.fnp.com/images/pr/l/v20240603134025/eau-de-parfum-gift-set-for-her_7.jpg"
+      ]
+    },
+
+    {
+     "id":2,
+      "title":"Luxury Collection Gift Set 20ml*4",
+      "parice":"Rs.4990",
+      "img":[
+             "https://myaromajunction.in/cdn/shop/files/4_x_20ml_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745050959",
+             "https://myaromajunction.in/cdn/shop/files/4_x_20ml_perfume_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745050993",
+             "https://myaromajunction.in/cdn/shop/files/4_x_20ml_perfume_premium_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745051028",
+             "https://myaromajunction.in/cdn/shop/files/best-perfume-shop-in-lucknow-my-aroma-junction-_gift_pack_600x.png?v=1745051331",
+              "https://myaromajunction.in/cdn/shop/files/best-perfume-shop-in-lucknow-my-aroma-junction-Gift_pack_attars_600x.png?v=1745051832"
+      ]
+    },
+   
+     {
+     "id":3,
+      "title":"Insight Cosmetics Eau De Perfume Combo",
+      "parice":"Rs.7990",
+      "img":[
+        "https://www.mcaffeine.com/cdn/shop/files/Card1withoutseal.jpg?v=1709211914",
+        "https://www.mcaffeine.com/cdn/shop/files/Card2_6701b93f-2f43-494d-b4e7-cff793c3da9a.jpg?v=1709211914",
+        "https://www.mcaffeine.com/cdn/shop/files/Card4_87e662d2-0e37-4311-8f34-627cec577993.jpg?v=1709211914",
+        "https://www.mcaffeine.com/cdn/shop/files/Card5_2365e5e0-1530-4629-86d8-b28f341573a7.jpg?v=1709211914",
+        "https://www.mcaffeine.com/cdn/shop/files/Card8_5ef28a34-92f3-426c-bbf5-16529a4fc32c.jpg?v=1709211914"
+      ]
+    }, 
+
+     
+     {
+     "id":4,
+      "title":"Arabian Aroma Luxury Unisex Perfume Gift Set",
+      "parice":"Rs.6990",
+      "img":[
+        "https://myaromajunction.in/cdn/shop/files/Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION-12ml_suroor-gift_pack_600x.png?v=1745052333",
+        "https://myaromajunction.in/cdn/shop/files/Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION-12ml_gift_pack_600x.png?v=1745052362",
+        "https://myaromajunction.in/cdn/shop/files/10ML_Attar_gift_pack_600x.png?v=1754226338",
+        "https://myaromajunction.in/cdn/shop/files/Customized_10ml_attar_gift_pack_600x.png?v=1754226425",
+        "https://myaromajunction.in/cdn/shop/files/Attar_Gift_Pack_10ML_600x.png?v=1754226510"
+      ]
+    },
+    {
+     "id":5,
+      "title":"Aurum Series Perfume Gift Set",
+      "parice":"Rs.2,800",
+      "img":[
+        "https://in.ajmal.com/cdn/shop/files/WISALSERIES_GIFTSET_42ML_1_79c12512-ab6a-4344-8bac-0f1b81a4323f.jpg?v=1762846593&width=1100",
+        "https://in.ajmal.com/cdn/shop/files/WISALSERIES_GIFTSET_42ML_2_80f84601-a0cd-420f-89fe-bee52ee661a5.jpg?v=1762846593&width=1100",
+        "https://in.ajmal.com/cdn/shop/files/WISALSERIES_GIFTSET_42ML_3_e565a343-bb5d-4a48-997c-1341cd711bf2.jpg?v=1762846593&width=1100",
+        "https://in.ajmal.com/cdn/shop/files/ARTISAN_GIFTSET_80ML_1_cc6215dd-3a39-4c52-b08e-2ba33fcf607b.jpg?v=1746422400",
+        "https://in.ajmal.com/cdn/shop/files/ARTISAN_GIFTSET_80ML_2_1.jpg?v=1746422400"
+      ]
+    },
+    {
+      "id":6,
+      "title":"Mini Perfume Gift Pack of 4",
+      "parice":"Rs.2000",
+      "img":[
+        "https://secrettemptation.in/cdn/shop/files/1ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574&width=600",
+        "https://secrettemptation.in/cdn/shop/files/2ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574",
+        "https://secrettemptation.in/cdn/shop/files/3ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574",
+        "https://secrettemptation.in/cdn/shop/files/4ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574",
+        "https://secrettemptation.in/cdn/shop/files/6ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574&width=600",
+        "https://secrettemptation.in/cdn/shop/files/ST_GiftingBox_B_ee48321f-41b5-4996-9475-fc0df69228d8.jpg?v=1732513623&width=1100"
+      ]
+    },
+        {
+      "id":7,
+      "title":"Joyful Fragrance Pack",
+      "parice":"Rs.2000",
+      "img":[
+       
+        "https://secrettemptation.in/cdn/shop/files/IMAGE4_cde22801-7d3c-4f03-bcd2-af82cd4fa705.jpg?v=1709111953",
+        "https://secrettemptation.in/cdn/shop/files/IMAGE1_db0a3561-2006-430f-864e-452a79a06a0e.jpg?v=1709111867",
+        "https://secrettemptation.in/cdn/shop/files/IMAGE3_d2050217-a1fa-486c-a214-fcfdb130d01d.jpg?v=1709111953",
+        "https://secrettemptation.in/cdn/shop/files/IMAGE3_f904472c-8705-41b4-b091-3e76429b87ac.jpg?v=1709111953",
+        "https://secrettemptation.in/cdn/shop/files/IMAGE5_9acadec5-05db-458c-8cf0-f75c626a8f16.jpg?v=1709111953&width=600"
+
+      ]
+
+    },
+
+    {
+      "id":8,
+      "title":"Joyful Fragrance Pack",
+      "parice":"Rs.4000",
+      "img":[
+      "https://m.media-amazon.com/images/I/710nCIjU6ML._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/81YlPPNNFjL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/71eukPQn5CL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/71b1k7VMvFL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/71i1rfWw1TL._SX425_.jpg"
+      ]
+
+    },
+    {
+      "id":9,
+      "title":"Her Eau De Perfum",
+      "parice":"Rs.2,999",
+      "img":[
+      "https://m.media-amazon.com/images/I/61-S4gzE7yL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/41vPRixWefL._SS40_.jpg",
+      "https://m.media-amazon.com/images/I/51Ap+5CkZfL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/51SAjaIUxLL._SX425_PIbundle-4,TopRight,0,0_AA425SH20_.jpg",
+      "https://m.media-amazon.com/images/I/51mAwizquwL._SX425_.jpg"
+      ]
+
+    },
+    {
+      "id":10,
+      "title":"Grandeur Premium Collection Gift Set",
+      "parice":"Rs.3,999",
+      "img":[
+      "https://m.media-amazon.com/images/I/811T8fNADYL._SY550_PIbundle-3,TopRight,0,0_SX413SY550SH20_.jpg",
+      "https://m.media-amazon.com/images/I/81zddVClcuL._SY550_.jpg",
+      "https://m.media-amazon.com/images/I/81twAZEYCQL._SY550_.jpg",
+      "https://m.media-amazon.com/images/I/71Gb7De6L4L._SY550_.jpg",
+      "https://m.media-amazon.com/images/I/819LjEkIyWL._SY550_.jpg"
+      ]
+
+    },
+
+        {
+      "id":11,
+      "title":"Grandeur Premium Collection Gift Set",
+      "parice":"Rs.4,999",
+      "img":[
+      "https://www.engageshop.in/cdn/shop/files/PENPS0219-3_1.jpg?v=1743765724&width=600",
+      "https://www.engageshop.in/cdn/shop/files/PENPS0219-6_1.jpg?v=1743765724&width=600",
+      "https://www.engageshop.in/cdn/shop/files/PENPS0219-5_1.jpg?v=1743765724&width=600",
+      "https://www.engageshop.in/cdn/shop/files/PENPS0219-7_1.jpg?v=1743765724&width=600",
+      "https://www.engageshop.in/cdn/shop/files/PENPS0219-1.jpg?v=1743765724&width=1100"
+      ]
+    },
+       {
+      "id":12,
+      "title":"Bespoke Fragrance Gift Set Unisex",
+      "parice":"Rs.9,999",
+      "img":[
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_1.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_2.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_3.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_4.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_6.jpg"
+      ]
+
+    },
+     {
+      "id":13,
+      "title":"Luxury Fragrance Duo Collection",
+      "parice":"Rs.10,000",
+      "img":[
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240912161215/luxury-fragrance-duo-collection_1.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240912161215/luxury-fragrance-duo-collection_2.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240912161216/luxury-fragrance-duo-collection_3.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240912161216/luxury-fragrance-duo-collection_4.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240912161217/luxury-fragrance-duo-collection_5.jpg"
+      ]
+
+    },
+      {
+      "id":14,
+      "title":"Carlton London Blissful Bath Essentials",
+      "parice":"Rs.11,000",
+      "img":[
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240604102153/blissful-bath-essentials_1.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240604102154/blissful-bath-essentials_2.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240604102154/blissful-bath-essentials_3.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240604102154/blissful-bath-essentials_4.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240604102154/blissful-bath-essentials_5.jpg"
+      ]
+
+    },
+    {
+      "id":15,
+      "title":"Carlton London Blush Gift Set",
+      "parice":"Rs.8,000",
+      "img":[
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_1.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_2.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_3.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_4.jpg",
+      "https://static-assets-prod.fnp.com/images/pr/l/v20240603134017/carlton-london-blush-gift-set_5.jpg"
+      ]
+
+    }
+
+  ],
+
+  "Luxury_perfumes":[
+
+    {
+      "id":1,
+      "title":"Passion Women Luxury Perfume ",
+      "parice":"Rs.20,000",
+
+      "img":[
+
+        "https://www.frenchessence.com/cdn/shop/files/60ML-BLEU-2.jpg?v=1758784109&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/60ML-URBAN.jpg?v=1758783535&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/60ML-ENCHNATE.jpg?v=1758784040&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/60ML-ENCHNATE-3.jpg?v=1758783568&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-6.jpg?v=1757505288&width=208"
+      ]
+    },
+    
+    {
+      "id":2,
+      "title":"Bleu Men Luxury Perfume - 60ml",
+      "parice":"Rs.10,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/30ML-PASSION.png?v=1758783106&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Luxury_Perfume_for_Women.jpg?v=1758782823&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/30ML-PASSION-2.jpg?v=1758783111&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Women_Luxury_Perfume.jpg?v=1758782823&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/PASSION-CREATIVE-3.jpg?v=1758782823&width=208"
+      ]
+    },
+     {
+      "id":3,
+      "title":"Oud Royale Luxury Unisex Perfume",
+      "parice":"Rs.15,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/OUD-ROYALE-2.jpg?v=1757499993&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD-ROYALE-4.jpg?v=1757499993&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD-ROYALE-5.jpg?v=1757499993&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD-ROYALE-1.jpg?v=1757499993&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD-ROYALE-6.jpg?v=1757499993&width=208"
+      ]
+    },
+
+    {
+      "id":4,
+      "title":"Urban Men Perfume",
+      "parice":"Rs.12,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/URBAN-MEN-PERFUME-_-DEO-6.jpg?v=1760184448&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/URBAN-MEN-PERFUME-_-DEO-1.jpg?v=1760184448&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/URBAN-MEN-PERFUME-_-DEO-7.jpg?v=1760184448&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/URBAN-MEN-PERFUME-_-DEO-3.jpg?v=1760184448&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/URBAN-MEN-PERFUME-_-DEO-4.jpg?v=1760184448&width=208"
+      ]
+    },
+       {
+      "id":5,
+      "title":"Noir Men Luxury Perfume",
+      "parice":"Rs.9,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/60ML-NOIR-2.jpg?v=1758783488&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/60ML-NOIR.jpg?v=1758783918&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Noir_60ml.jpg?v=1758783310&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/60ML-RECHARGE.jpg?v=1758783605&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/60ML-BLEU.jpg?v=1758783619&width=208"
+      ]
+    },
+         {
+      "id":6,
+      "title":"Bloom Women Luxury Perfume",
+      "parice":"Rs.9,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/30ML-BLOOM.jpg?v=1758783177&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/BLOOM-CREATIVE.jpg?v=1758782948&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Bloom_30ml.jpg?v=1758782948&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/BLOOM-CREATIVE-2.jpg?v=1758782948&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/BLOOM-CREATIVE-3.jpg?v=1758782948&width=208"
+      ]
+    },
+          {
+      "id":7,
+      "title":"Floral Bouquet Luxury Unisex Perfume",
+      "parice":"Rs.13,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-2.jpg?v=1757505288&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-6.jpg?v=1757505288&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-4.jpg?v=1757505288&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-3.jpg?v=1757505288&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/FLORAL-BOUQUET-5.jpg?v=1757505288&width=208"
+      ]
+    },
+
+          {
+      "id":8,
+      "title":"Oud Men Luxury Perfume",
+      "parice":"Rs.11,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/30ML-OUD.png?v=1758783087&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD_30ml.jpg?v=1758782857&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Oud_Men_Agarwood_Musk_Patchouli_Perfume.jpg?v=1758782857&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/Oud_Men_Luxury_Perfume.jpg?v=1758782857&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/OUD_30ml.jpg?v=1758782857&width=208"
+      ]
+    },
+       {
+      "id":9,
+      "title":"Oud Men Luxury Perfume",
+      "parice":"Rs.11,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-3.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-6.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-4.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-2.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-5.jpg?v=1757499873&width=208"
+      ]
+    },
+         {
+      "id":9,
+      "title":"Enchante Women Luxury Perfume",
+      "parice":"Rs.11,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-3.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-6.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-4.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-2.jpg?v=1757499873&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/ENCHNATE-5.jpg?v=1757499873&width=208"
+      ]
+    } ,
+    
+     {
+      "id":10,
+      "title":"Amber Magic Luxury Unisex Perfume",
+      "parice":"Rs.12,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/AMBER-MAGIC-3.jpg?v=1757499673&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/AMBER-MAGIC-1.jpg?v=1757499673&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/AMBER-MAGIC-2.jpg?v=1757499673&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/AMBER-MAGIC-6.jpg?v=1757499673&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/AMBER-MAGIC-4.jpg?v=1757499673&width=208"
+      ]
+    } ,
+    {
+      "id":11,
+      "title":"Oud Royale Unisex Parfum Body Spray",
+      "parice":"Rs.11,000",
+
+      "img":[
+
+       "https://www.frenchessence.com/cdn/shop/files/5_13c1f6d0-3884-4a49-8b50-1c198f6d9f26.jpg?v=1705748449&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/7_cab268ac-b7a4-408a-a52a-2a9ca6d1490e.jpg?v=1698826759&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/2_9eb0596f-ac9e-46bc-9a58-bb1539325d0b.jpg?v=1705748414&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/4_a0a0f9da-688c-4f01-97d8-61fb21881514.jpg?v=1705748437&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/3_a26f8cfe-c690-47cb-8e8c-59538daed0b2.jpg?v=1705748425&width=208"
+      ]
+    },
+     {
+      "id":12,
+      "title":"Triumph Unisex Deodorant Body Spray",
+      "parice":"Rs.11,000",
+
+      "img":[
+
+        "https://www.frenchessence.com/cdn/shop/files/8_1d9ddc4f-6993-4e85-b60c-b98975bbf99a.jpg?v=1698826808&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/2_40faa6a3-0162-4f51-b8b7-68dc8188a237.jpg?v=1698826808&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/cansforweb-05.jpg?v=1698826808&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/6_8111d430-1e0d-4588-8749-e6b346b403ac.jpg?v=1698826808&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/4_7e21e762-a857-4321-83e8-9c1dc279a58d.jpg?v=1698826808&width=208"  
+        
+      ]
+    },
+        {
+      "id":13,
+      "title":"Unisex Luxury Perfume Gift Combo..",
+      "parice":"Rs.15,000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/pack-of-6-ads.jpg?v=1763389675&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/NEW-6-COMBO-CREATIVE-3.jpg?v=1763389675&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/BestOfUnisexPerfumeComboPack_Packof6.jpg?v=1763389675&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/6-PERFUMES-COMBO-3.jpg?v=1763389675&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/UnisexPerfumeComboPack.jpg?v=1763389675&width=208"
+      ]
+    },
+         {
+      "id":14,
+      "title":"Amber Magic Unisex Parfum Body Spray",
+      "parice":"Rs.12,000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/5_3.jpg?v=1727781636&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/7_cfca5f2f-2058-4342-a109-c4d3aee2982a.jpg?v=1698825797&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/BestOfUnisexPerfumeComboPack_Packof6.jpg?v=1763389675&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/3_07a4be8d-dbd6-4577-9aa8-0c6718c00ce6.jpg?v=1705747701&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/4_2e8e3a18-265f-49b9-a051-67dbd139605e.jpg?v=1705747712&width=208"
+      ]
+    },
+    
+         {
+      "id":15,
+      "title":"Urban Pocket Perfume - 18ML",
+      "parice":"Rs.1000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET_3e216c30-eb85-4e49-9c33-73c4e6257cb4.jpg?v=1752219134&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-1_10fe9d0b-469b-4c9e-81e8-62a97104bfbb.jpg?v=1752219133&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-2_e9750bd4-d0e0-4b33-9ebf-592e1b6fe065.jpg?v=1752219134&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-3_d08fb335-29a2-4ca1-ae90-a578ee7c8c58.jpg?v=1752219134&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-4_91333c27-1dfd-4a0e-9921-636b0e790b69.jpg?v=1752219134&width=208"
+      ]
+    },
+
+    {
+      "id":16,
+      "title":"Triumph Pocket Perfume- 18ML",
+      "parice":"Rs.1000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET.jpg?v=1752211811&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-1.jpg?v=1752211811&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-2.jpg?v=1752211811&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-4.jpg?v=1752211812&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-3.jpg?v=1752211812&width=208"
+        
+      ]
+    },
+     {
+      "id":17,
+      "title":"Noir Unisex Deodorant Body Spray",
+      "parice":"Rs.2000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/5_1.jpg?v=1727779858&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/7_f85bdb77-4e76-4290-9e82-648fea4df65c.jpg?v=1698826714&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/3_583b4cbc-b011-47a0-9537-d73744501c63.jpg?v=1705748935&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/6_c7696719-9bef-429a-9b85-d1f125b44286.jpg?v=1705748960&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/4_545396d8-9b2a-4135-b517-ad59b0a47e0a.jpg?v=1705748946&width=208"
+        
+      ]
+    },
+     {
+      "id":18,
+      "title":"Oud Unisex Deodorant Body Spray",
+      "parice":"Rs.2000",
+
+      "img":[
+        
+        "https://www.frenchessence.com/cdn/shop/files/5_980f494b-8a15-48de-b9fe-f2670859ac7e.jpg?v=1705748335&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/3_c5e68b42-a672-4ad9-bfca-f6dfff587c34.jpg?v=1705748358&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/6_2b2d5c67-03eb-45b9-9181-8f45c99de07e.jpg?v=1705748379&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/2_cb6a68a2-6aa3-4b2a-b630-47b0fb731842.jpg?v=1705748347&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/4_db7a4172-6dcc-472c-826b-bb76763ba704.jpg?v=1705748368&width=208"
+        
+      ]
+    },
+    {
+      "id":19,
+      "title":"Recharge & Bleu Men's Perfume Combo",
+      "parice":"Rs.20,000",
+
+      "img":[
+        
+       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES.jpg?v=1733383904&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-6.jpg?v=1733555405&width=208",
+       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-2.jpg?v=1733555405&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-4.jpg?v=1733555404&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-2.jpg?v=1733555405&width=208"
+      ]
+    },
+    {
+      "id":20,
+      "title":"Jazz Men Perfume ",
+      "parice":"Rs.5,000",
+
+      "img":[
+        "https://www.frenchessence.com/cdn/shop/files/Jazz-Men-Perfume-_60ml_-_-Deodorant-_150ml_-Combo-Pack.jpg?v=1760087667&width=208",
+        "https://www.frenchessence.com/cdn/shop/files/1_2fcb62b1-24a9-4e2e-b5a6-53567f1ed3c9.jpg?v=1760087667&width=104",
+        "https://www.frenchessence.com/cdn/shop/files/2_f8b5555c-87ab-41b8-8413-eb0b4c52f961.jpg?v=1760087667&width=162",
+        "https://www.frenchessence.com/cdn/shop/files/JAZZ-PERFUEM-_-DEO-2.jpg?v=1760087667&width=104",
+        "https://www.frenchessence.com/cdn/shop/files/JAAZ-1.jpg?v=1760087667&width=162"
+      ]
+    }
+
   ]
 
- 
 }
 
