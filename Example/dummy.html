@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.wine-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.scroll-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;        /* 🔥 Fixed */
+}
+
+.cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    min-width: 200px;        /* card width */
+    max-width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-btn {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffffcc;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 50;
+}
+
+.scroll-btn.left { left: 5px; }
+.scroll-btn.right { right: 5px; }
+
+</style>
+<body>
+    <div class="wine-container">
+    <h2>Discover Wines</h2>
+
+    <div class="scroll-wrapper">
+        <button class="scroll-btn left" onclick="scrollLeft()">&#10094;</button>
+
+        <div class="cards" id="cardScroll">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="wine">
+                <p class="title">Saint Clair, Sauvignon Blanc 2023</p>
+                <p class="price">MRP ₹ 3,995</p>
+                <button class="add-btn">ADD TO CART</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="wine">
+                <p class="title">Tenuta Sant Antonio, Scaia Corvina 2022</p>
+                <p class="price">MRP ₹ 3,295</p>
+                <button class="add-btn">ADD TO CART</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="wine">
+                <p class="title">Bisol, BELSTAR Cult, Prosecco Extra Dry NV</p>
+                <p class="price">MRP ₹ 2,995</p>
+                <button class="add-btn">ADD TO CART</button>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="wine">
+                <p class="title">The Chocolate Block 2022</p>
+                <p class="price">MRP ₹ 6,995</p>
+                <button class="add-btn">ADD TO CART</button>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="wine">
+                <p class="title">Susana Balbo 2022</p>
+                <p class="price">MRP ₹ 5,995</p>
+                <button class="add-btn">ADD TO CART</button>
+            </div>
+        </div>
+
+        <button class="scroll-btn right" onclick="scrollRight()">&#10095;</button>
+    </div>
+</div>
+
+</body>
+<script>
+    function scrollLeft() {
+    const slider = document.getElementById("cardScroll");
+    let cardWidth = slider.querySelector(".card").offsetWidth + 20; // width + gap
+
+    slider.scrollBy({
+        left: -cardWidth,
+        behavior: 'smooth'
+    });
+}
+
+function scrollRight() {
+    const slider = document.getElementById("cardScroll");
+    let cardWidth = slider.querySelector(".card").offsetWidth + 20; // width + gap
+
+    slider.scrollBy({
+        left: cardWidth,
+        behavior: 'smooth'
+    });
+}
+
+</script>
+</html>
