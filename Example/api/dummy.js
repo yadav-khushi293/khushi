@@ -7,6 +7,7 @@ const Apicall = () => {
         .catch((err) => console.log(err));
 };
 
+
 const database = (data) => {
     const maindiv = document.getElementById("info");
 
@@ -16,28 +17,30 @@ const database = (data) => {
         const title = document.createElement("p");
         const price = document.createElement("p");
         const imgContainer = document.createElement("div");
-        const slider = document.createElement('div');
-        const figure=document.createElement('div');
-     
-        title.classList="titile_head";
-        price.classList="price";
-        imgContainer.classList="imgContainer";
-        
+        const slider = document.createElement("div");
+        const figure = document.createElement("figure");  // correct tag
 
+        
+        
+        title.className = "title_head";
+        price.className = "price";
+        imgContainer.className = "imgContainer";
+        slider.className = "slider";
 
         title.innerHTML = el.title;
-        price.innerHTML = el.parice;
+        price.innerHTML = el.price || el.parice; // support both spellings
 
-        // ---- ONLY ACCESS IMAGES ----
+        // ---- ADD IMAGES ----
         el.img.forEach((url) => {
             const img = document.createElement("img");
             img.src = url;
             figure.appendChild(img);
-            slider.appendChild(figure);
-            imgContainer.appendChild(slider);
         });
 
-        card.append( imgContainer,title,price);
+        slider.appendChild(figure);
+        imgContainer.appendChild(slider);
+
+        card.append(imgContainer, title, price);
         maindiv.append(card);
     });
 };
