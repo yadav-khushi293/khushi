@@ -690,6 +690,8 @@
         "https://hamidi.in/cdn/shop/files/Addicted-Silver-3_1199f02a-0f9e-4edc-925e-c0ef96e4282d_360x.jpg?v=1747038718",
         "https://hamidi.in/cdn/shop/files/MG_5504_360x.jpg?v=1747038865"
       ]
+
+      
     },
     
     {
@@ -713,12 +715,13 @@
 
       "img":[
 
-       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Accord-Bottle_360x.jpg?v=1747038874",
-       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Amity-Bottle_360x.jpg?v=1747038875",
-       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Concord-Bottle_360x.jpg?v=1747038876",
-       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Harmony-Bottle_360x.jpg?v=1747038877",
-       "https://hamidi.in/cdn/shop/files/Enchanted_360x.webp?v=1747038895"
+       "https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
+       "https://myop.in/cdn/shop/files/califronia_sunshine.webp?v=1754982697&width=720",
+       "https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
+      "https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
+      "https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720"
       ]
+
     },
 
     {
@@ -737,17 +740,18 @@
     },
        {
       "id":5,
-      "title":"Noir Men Luxury Perfume",
+      "title":"Bangalore Bloom",
       "parice":"Rs.9,000",
 
       "img":[
 
-       "https://hamidi.in/cdn/shop/files/DCS0010_3_360x.jpg?v=1747038855",
-       "https://hamidi.in/cdn/shop/files/DCS0010_2_360x.jpg?v=1747038855",
-       "https://hamidi.in/cdn/shop/files/DCS0010_1_360x.jpg?v=1747038854",
-       "https://hamidi.in/cdn/shop/files/DCS0010_1_360x.jpg?v=1747038854",
-       "https://hamidi.in/cdn/shop/files/DCS0010_360x.jpg?v=1747038856"
+       "https://myop.in/cdn/shop/files/bomb.webp?v=1752146420&width=1080",
+       "https://myop.in/cdn/shop/files/florence.webp?v=1752146320&width=1080",
+       "https://myop.in/cdn/shop/files/urban_chic.webp?v=1752146276&width=1080",
+       "https://myop.in/cdn/shop/files/marshamallow_fluff_thumbnail.webp?v=1753800557&width=1080",
+       "https://myop.in/cdn/shop/files/bangalore_bloom.webp?v=1752146312&width=1080"
       ]
+
     },
          {
       "id":6,
@@ -765,16 +769,15 @@
     },
           {
       "id":7,
-      "title":"Floral Bouquet Luxury Unisex Perfume",
+      "title":"FLORA DIVINE",
       "parice":"Rs.13,000",
 
       "img":[
-
-       "https://m.media-amazon.com/images/I/81hKS8WylaL._SX522_.jpg",
-       "https://m.media-amazon.com/images/I/51lI80qw6bL._SX522_.jpg",
-       "https://m.media-amazon.com/images/I/71JPDCg0oeL._SX522_.jpg",
-       "https://m.media-amazon.com/images/I/714PB2FzFOL._SX522_.jpg",
-       "https://m.media-amazon.com/images/I/71f0e61VYAL._SX522_.jpg"
+        "https://myop.in/cdn/shop/files/Purple_Mystqiue.webp?v=1759560690&width=1080",
+        "https://myop.in/cdn/shop/files/mens_code.webp?v=1754559776&width=720",
+        "https://myop.in/cdn/shop/files/fresh_1.webp?v=1714048533&width=1080",
+        "https://myop.in/cdn/shop/files/floral_1.webp?v=1714048608&width=1080",
+        "https://myop.in/cdn/shop/files/Thumbnail_new_Streight_copy.webp?v=1763718901&width=1080"
       ]
     },
 
@@ -837,74 +840,74 @@
     } ,
     {
       "id":12,
-      "title":"Oud Royale Unisex Parfum Body Spray",
+      "title":"The British Racing Club Green Perfume For Men",
       "parice":"Rs.11,000",
 
       "img":[
 
-       "https://www.frenchessence.com/cdn/shop/files/5_13c1f6d0-3884-4a49-8b50-1c198f6d9f26.jpg?v=1705748449&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/7_cab268ac-b7a4-408a-a52a-2a9ca6d1490e.jpg?v=1698826759&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/2_9eb0596f-ac9e-46bc-9a58-bb1539325d0b.jpg?v=1705748414&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/4_a0a0f9da-688c-4f01-97d8-61fb21881514.jpg?v=1705748437&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/3_a26f8cfe-c690-47cb-8e8c-59538daed0b2.jpg?v=1705748425&width=208"
+        "https://laurelle.in/cdn/shop/files/British-Racing-Club-Green.jpg?v=1733823754",
+        "https://laurelle.in/cdn/shop/files/British-Racing-Club-Green-Listing-Image-02.jpg?v=1738563990",
+        "https://laurelle.in/cdn/shop/files/British-Racing-Club-Green-Listing-Image-04.jpg?v=1738563990",
+        "https://laurelle.in/cdn/shop/files/Executive-Men-Listing-Image-05.jpg?v=1738563990",
+        "https://laurelle.in/cdn/shop/files/British-Racing-Club-Green-Listing-Image-01.jpg?v=1738563990"
+
       ]
     },
      {
       "id":13,
-      "title":"Triumph Unisex Deodorant Body Spray",
+      "title":"Sinful Rose",
       "parice":"Rs.11,000",
 
       "img":[
 
-        "https://www.frenchessence.com/cdn/shop/files/8_1d9ddc4f-6993-4e85-b60c-b98975bbf99a.jpg?v=1698826808&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/2_40faa6a3-0162-4f51-b8b7-68dc8188a237.jpg?v=1698826808&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/cansforweb-05.jpg?v=1698826808&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/6_8111d430-1e0d-4588-8749-e6b346b403ac.jpg?v=1698826808&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/4_7e21e762-a857-4321-83e8-9c1dc279a58d.jpg?v=1698826808&width=208"  
-        
+       "https://fraganote.com/cdn/shop/files/1_14.webp?v=1761807753&width=493",
+       "https://fraganote.com/cdn/shop/files/2_15.webp?v=1761807753&width=493",
+       "https://fraganote.com/cdn/shop/files/5_15.webp?v=1761804392&width=493",
+       "https://fraganote.com/cdn/shop/files/4_16.webp?v=1761804392&width=493",
+       "https://fraganote.com/cdn/shop/files/3_13.webp?v=1761807753&width=493"
       ]
     },
         {
       "id":14,
-      "title":"Unisex Luxury Perfume Gift Combo..",
-      "parice":"Rs.15,000",
+      "title":"Baked Vanilla",
+      "parice":"Rs.2,000",
 
       "img":[
         
-        "https://www.frenchessence.com/cdn/shop/files/pack-of-6-ads.jpg?v=1763389675&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/NEW-6-COMBO-CREATIVE-3.jpg?v=1763389675&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/BestOfUnisexPerfumeComboPack_Packof6.jpg?v=1763389675&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/6-PERFUMES-COMBO-3.jpg?v=1763389675&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/UnisexPerfumeComboPack.jpg?v=1763389675&width=208"
+        "https://fraganote.com/cdn/shop/files/1._1.webp?v=1761804392&width=493",
+        "https://fraganote.com/cdn/shop/files/2_3.webp?v=1761804393&width=493",
+        "https://fraganote.com/cdn/shop/files/7_1.webp?v=1761805050&width=493",
+        "https://fraganote.com/cdn/shop/files/4_3.webp?v=1761805050&width=493",
+        "https://fraganote.com/cdn/shop/files/5_2.webp?v=1761805050&width=493"
       ]
     },
          {
       "id":15,
-      "title":"Amber Magic Unisex Parfum Body Spray",
+      "title":"Black Eau De Parfum Pour Homme",
       "parice":"Rs.12,000",
 
       "img":[
         
-        "https://www.frenchessence.com/cdn/shop/files/5_3.jpg?v=1727781636&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/7_cfca5f2f-2058-4342-a109-c4d3aee2982a.jpg?v=1698825797&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/BestOfUnisexPerfumeComboPack_Packof6.jpg?v=1763389675&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/3_07a4be8d-dbd6-4577-9aa8-0c6718c00ce6.jpg?v=1705747701&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/4_2e8e3a18-265f-49b9-a051-67dbd139605e.jpg?v=1705747712&width=208"
+        "https://scentialsworld.com/cdn/shop/files/4.png?v=1758619080&width=493",
+        "https://scentialsworld.com/cdn/shop/files/TheBoldandCaptivatingScent-2.png?v=1758829520&width=1100",
+        "https://scentialsworld.com/cdn/shop/files/The_Bold_and_Captivating_Scent-3.jpg?v=1758829520&width=1100",
+        "https://scentialsworld.com/cdn/shop/files/Artboard_2_1_12bc2860-b8bb-4908-9caf-5dadf62d9ca9.jpg?v=1758829520&width=493",
+        "https://scentialsworld.com/cdn/shop/files/Artboard_2_fa7b73ad-20dd-43a9-b461-6740cdd5ca7e.jpg?v=1758829520&width=493"
       ]
     },
     
          {
       "id":16,
-      "title":"Urban Pocket Perfume - 18ML",
+      "title":"Lucifer Eau De Parfum Pour Homme",
       "parice":"Rs.1000",
 
       "img":[
+        "https://scentialsworld.com/cdn/shop/files/1.png?v=1758619150&width=1100",
+        "https://scentialsworld.com/cdn/shop/files/LuciferBlackTheSeductiveandEnigmaticScen-3.png?v=1758829785&width=1100",
+         "https://scentialsworld.com/cdn/shop/files/LuciferBlackTheSeductiveandEnigmaticScen-2.png?v=1758829785&width=493",
+         "https://scentialsworld.com/cdn/shop/files/LuciferBlackTheSeductiveandEnigmaticScen-4.png?v=1758829785&width=493",
+         "https://scentialsworld.com/cdn/shop/files/LuciferBlackTheSeductiveandEnigmaticScen-1.png?v=1758829785&width=493"
         
-        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET_3e216c30-eb85-4e49-9c33-73c4e6257cb4.jpg?v=1752219134&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-1_10fe9d0b-469b-4c9e-81e8-62a97104bfbb.jpg?v=1752219133&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-2_e9750bd4-d0e0-4b33-9ebf-592e1b6fe065.jpg?v=1752219134&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-3_d08fb335-29a2-4ca1-ae90-a578ee7c8c58.jpg?v=1752219134&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/URBAN-POCKET-4_91333c27-1dfd-4a0e-9921-636b0e790b69.jpg?v=1752219134&width=208"
       ]
     },
 
@@ -913,29 +916,26 @@
       "title":"Triumph Pocket Perfume- 18ML",
       "parice":"Rs.1000",
 
-      "img":[
-        
-        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET.jpg?v=1752211811&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-1.jpg?v=1752211811&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-2.jpg?v=1752211811&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-4.jpg?v=1752211812&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/TRIUMPH-POCKET-3.jpg?v=1752211812&width=208"
-        
+       "img":[
+
+       "https://m.media-amazon.com/images/I/81hKS8WylaL._SX522_.jpg",
+       "https://m.media-amazon.com/images/I/51lI80qw6bL._SX522_.jpg",
+       "https://m.media-amazon.com/images/I/71JPDCg0oeL._SX522_.jpg",
+       "https://m.media-amazon.com/images/I/714PB2FzFOL._SX522_.jpg",
+       "https://m.media-amazon.com/images/I/71f0e61VYAL._SX522_.jpg"
       ]
     },
      {
       "id":18,
       "title":"Noir Unisex Deodorant Body Spray",
       "parice":"Rs.2000",
+ "img":[
 
-      "img":[
-        
-        "https://www.frenchessence.com/cdn/shop/files/5_1.jpg?v=1727779858&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/7_f85bdb77-4e76-4290-9e82-648fea4df65c.jpg?v=1698826714&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/3_583b4cbc-b011-47a0-9537-d73744501c63.jpg?v=1705748935&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/6_c7696719-9bef-429a-9b85-d1f125b44286.jpg?v=1705748960&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/4_545396d8-9b2a-4135-b517-ad59b0a47e0a.jpg?v=1705748946&width=208"
-        
+       "https://hamidi.in/cdn/shop/files/DCS0010_3_360x.jpg?v=1747038855",
+       "https://hamidi.in/cdn/shop/files/DCS0010_2_360x.jpg?v=1747038855",
+       "https://hamidi.in/cdn/shop/files/DCS0010_1_360x.jpg?v=1747038854",
+       "https://hamidi.in/cdn/shop/files/DCS0010_1_360x.jpg?v=1747038854",
+       "https://hamidi.in/cdn/shop/files/DCS0010_360x.jpg?v=1747038856"
       ]
     },
      {
@@ -944,12 +944,12 @@
       "parice":"Rs.2000",
 
       "img":[
-        
-        "https://www.frenchessence.com/cdn/shop/files/5_980f494b-8a15-48de-b9fe-f2670859ac7e.jpg?v=1705748335&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/3_c5e68b42-a672-4ad9-bfca-f6dfff587c34.jpg?v=1705748358&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/6_2b2d5c67-03eb-45b9-9181-8f45c99de07e.jpg?v=1705748379&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/2_cb6a68a2-6aa3-4b2a-b630-47b0fb731842.jpg?v=1705748347&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/4_db7a4172-6dcc-472c-826b-bb76763ba704.jpg?v=1705748368&width=208"
+
+        "https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
+        "https://myop.in/cdn/shop/files/the_woody.webp?v=1752146482&width=1080",
+        "https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
+        "https://myop.in/cdn/shop/files/menscoode.webp?v=1752146371&width=1080",
+        "https://myop.in/cdn/shop/files/Frame_1.webp?v=1764337765&width=1080"
         
       ]
     },
@@ -957,14 +957,13 @@
       "id":20,
       "title":"Recharge & Bleu Men's Perfume Combo",
       "parice":"Rs.20,000",
-
       "img":[
-        
-       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES.jpg?v=1733383904&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-6.jpg?v=1733555405&width=208",
-       "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-2.jpg?v=1733555405&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-4.jpg?v=1733555404&width=208",
-        "https://www.frenchessence.com/cdn/shop/files/RECHARGE-_-BLEU-MENS-PERFUMES-2.jpg?v=1733555405&width=208"
+
+       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Accord-Bottle_360x.jpg?v=1747038874",
+       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Amity-Bottle_360x.jpg?v=1747038875",
+       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Concord-Bottle_360x.jpg?v=1747038876",
+       "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Harmony-Bottle_360x.jpg?v=1747038877",
+       "https://hamidi.in/cdn/shop/files/Enchanted_360x.webp?v=1747038895"
       ]
     }
     

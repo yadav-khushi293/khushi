@@ -1,4 +1,4 @@
-const api = `https://khushi-uedn.onrender.com/Gift_Perfume`;
+const api = `https://khushi-uedn.onrender.com/Luxury_perfumes`;
 
 const Apicall = () => {
     fetch(api)
