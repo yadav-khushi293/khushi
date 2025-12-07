@@ -698,15 +698,16 @@
       "id":2,
       "title":"Spice Wood 50ML",
       "parice":"Rs.4,000",
-
+      
       "img":[
 
-       "https://fraganote.com/cdn/shop/files/1_15.webp?v=1761809235&width=493",
-       "https://fraganote.com/cdn/shop/files/2_16.webp?v=1761809235&width=493",
-       "https://fraganote.com/cdn/shop/files/3_14.webp?v=1761809235&width=493",
-       "https://fraganote.com/cdn/shop/files/4_17.webp?v=1761809235&width=493",
-       "https://fraganote.com/cdn/shop/files/6_9.webp?v=1761809235&width=493"
+       "https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
+       "https://myop.in/cdn/shop/files/califronia_sunshine.webp?v=1754982697&width=720",
+       "https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
+      "https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
+      "https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720"
       ]
+      
     },
      {
       "id":3,
@@ -715,11 +716,11 @@
 
       "img":[
 
-       "https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
-       "https://myop.in/cdn/shop/files/califronia_sunshine.webp?v=1754982697&width=720",
-       "https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
-      "https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
-      "https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720"
+       "https://fraganote.com/cdn/shop/files/1_15.webp?v=1761809235&width=493",
+       "https://fraganote.com/cdn/shop/files/2_16.webp?v=1761809235&width=493",
+       "https://fraganote.com/cdn/shop/files/3_14.webp?v=1761809235&width=493",
+       "https://fraganote.com/cdn/shop/files/4_17.webp?v=1761809235&width=493",
+       "https://fraganote.com/cdn/shop/files/6_9.webp?v=1761809235&width=493"
       ]
 
     },
