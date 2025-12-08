@@ -89,14 +89,13 @@
           if (!slideInterval) startSliding();
         });
         slider.addEventListener("mouseleave", () => {
-          clearInterval(slideInterval);
-          slideInterval = null;
+          clearInterval(slideInterval);//interval reference clear karo
+          slideInterval = null;//index reset karo first image pe.
           currentIndex = 0;
-          updateSlide();
+          updateSlide();//slider ko reset karo
         });
-
-        // no auto-start, wait hover
+        
       });
     }
 
-    window.onload = Apicall;
+    // window.onload = Apicall;
