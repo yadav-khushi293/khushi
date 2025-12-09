@@ -711,7 +711,7 @@
     },
      {
       "id":3,
-      "title":"Oud Royale Luxury Unisex Perfume",
+      "title":"OudRoyale Luxury Perfume",
       "parice":"Rs.9,000",
 
       "img":[
@@ -784,8 +784,8 @@
 
           {
       "id":8,
-      "title":"Royal Gardens - West Perfume",
-      "parice":"Rs.11,000",
+      "title":"RoyalGardens West Perfume",
+      "parice":"Rs.5,000",
 
       "img":[
 
@@ -798,7 +798,7 @@
     },
        {
       "id":9,
-      "title":"Royal Amber - East Perfume",
+      "title":"Royal Amber Perfume",
       "parice":"Rs.11,000",
 
       "img":[
@@ -811,7 +811,7 @@
     },
          {
       "id":10,
-      "title":"Enchante Women Luxury Perfume",
+      "title":"Enchante Luxury Perfume",
       "parice":"Rs.11,000",
 
       "img":[
@@ -826,7 +826,7 @@
     
      {
       "id":11,
-      "title":"Amber Magic Luxury Unisex Perfume",
+      "title":"Amber Magic Luxury Perfume",
       "parice":"Rs.12,000",
 
       "img":[
@@ -840,7 +840,7 @@
     } ,
     {
       "id":12,
-      "title":"The British Racing Club Green Perfume For Men",
+      "title":"British Club Green Perfume",
       "parice":"Rs.11,000",
 
       "img":[
@@ -883,7 +883,7 @@
     },
          {
       "id":15,
-      "title":"Persian Oud 50ML Parfum",
+      "title":"Persian Oud Parfum",
       "parice":"Rs.12,000",
 
       "img":[
@@ -897,7 +897,7 @@
     },
          {
       "id":16,
-      "title":"London Bar 50ML Parfum",
+      "title":"London Bar Parfum",
       "parice":"Rs.1000",
 
       "img":[
@@ -911,7 +911,7 @@
 
     {
       "id":17,
-      "title":"Triumph Pocket Perfume- 18ML",
+      "title":"Triumph Pocket Perfume",
       "parice":"Rs.1000",
 
        "img":[
@@ -925,7 +925,7 @@
     },
      {
       "id":18,
-      "title":"Noir Unisex Deodorant Body Spray",
+      "title":"Noir Unisex Deodorant..",
       "parice":"Rs.2000",
  "img":[
 
@@ -938,7 +938,7 @@
     },
      {
       "id":19,
-      "title":"Oud Unisex Deodorant Body Spray",
+      "title":"Oud Unisex Deodorant..",
       "parice":"Rs.2000",
 
       "img":[
@@ -953,7 +953,7 @@
     },
     {
       "id":20,
-      "title":"Recharge & Bleu Men's Perfume Combo",
+      "title":"Recharge & Bleu Men's Perfume",
       "parice":"Rs.20,000",
       "img":[
 
