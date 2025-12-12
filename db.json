@@ -970,93 +970,103 @@
 
   "kids_perfume":[
 
-    
-    {
-     "id":1,
-      "title":"Flower Power Girls Perfume",
-      "parice":"Rs.299",
-      "img":[
-
-        "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_5.webp?v=1747116908&width=120",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-pink.jpg?v=1747116382&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_3.webp?v=1747116952&width=600",
-         "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-blue.jpg?v=1747116952&width=600",
-         "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_BLUE.png?v=1748331349&width=600"
-
-      ]
-    },
-
      {
-     "id":2,
-      "title":"Orange Blossom Girls Perfume",
-      "parice":"Rs.299",
+     "id":1,
+      "title":"recharge & bleu perfume",
+      "parice":"Rs.1,499",
       "img":[
-
-       "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_2.webp?v=1747116908&width=600",
-       "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-orange.jpg?v=1747116456&width=600",
-       "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAIIpost1.webp?v=1747112394&width=600",
-       "https://kaawaiicosmetics.com/cdn/shop/files/742850-TimberGold.webp?v=1747112394&width=600",
-       "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_YELLOW.png?v=1748331349&width=600"
+       
+        "https://bachaaparty.com/cdn/shop/files/BPE_0989-1_1024x1024.jpg?v=1762257593&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0990_04a76e9e-2810-4cec-b4fa-8a529c04e933.jpg?v=1762257593&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0991_9f5c6755-9c18-4dfc-8b78-0f67e5cd63fb.jpg?v=1762257593&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0985_b5a3f6d7-33a1-40a8-9a09-bb4bead7c75a.jpg?v=1762257593&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0987_64a83faf-7d32-4114-a039-fd8d714327eb.jpg?v=1762257593&width=1080"
       ]
     },
+       {
+     "id":2,
+      "title":"BP Flurry Kids Perfume",
+      "parice":"Rs.1,499",
+      "img":[
+        "https://bachaaparty.com/cdn/shop/files/BPE_0982_851041bf-c8ec-46e8-b398-e670404622e5.jpg?v=1762762522&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0980_242e86e0-b5ae-416f-a3db-1cd23f8611f7.jpg?v=1762762522&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0983_dfd6a509-1e94-47fe-a898-ebe4c3a9439c.jpg?v=1763019823&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0984_0ecb58eb-b235-49fe-b57a-d59ae243cb5c.jpg?v=1763019823&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0977_506627b8-ae1b-4e46-82a5-b092dd2738e0.jpg?v=1763019823&width=1080"
+      ]
+   },
     {
      "id":3,
-      "title":"MIMI Girls/ Kids Perfume Duo",
-      "parice":"Rs.599",
+      "title":"BP Elefiona Kids Perfume",
+      "parice":"Rs.1,499",
       "img":[
-
-        "https://kaawaiicosmetics.com/cdn/shop/files/ORANGE_BLOSSOM_AND_FLOWER_POWER.png?v=1747469862&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/1.jpg?v=1747469862&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/1.2.jpg?v=1747469862&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/1.1.jpg?v=1747469862&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_PINK.png?v=1748331349&width=600"
+        "https://bachaaparty.com/cdn/shop/files/BPE_0995_cf6228f2-89a1-4349-bc06-e9b960e3c9d9.jpg?v=1762762595&width=900",
+        "https://bachaaparty.com/cdn/shop/files/BPE_1000_d0971d15-1451-4405-8eb4-a6bc0434bfa8.jpg?v=1762762595&width=900",
+        "https://bachaaparty.com/cdn/shop/files/BPE_1001_9a6280da-b015-4c06-9740-e50600d4589d.jpg?v=1762762595&width=900",
+        "https://bachaaparty.com/cdn/shop/files/BPE_1002_f7236666-fc48-4ef0-9528-a68cb35ec8f6.jpg?v=1762762595&width=900",
+        "https://bachaaparty.com/cdn/shop/files/BPE_0994_82fa1709-5747-4546-94cd-da89f6635666.jpg?v=1762762595&width=900"
       ]
-    },
-    {
+   },
+
+   {
      "id":4,
-      "title":"BLOOP Boys/ Kids Perfume Duo",
-      "parice":"Rs.599",
+      "title":"starshine purple Fragrance",
+      "parice":"Rs.2,499",
       "img":[
 
-        "https://kaawaiicosmetics.com/cdn/shop/files/AQUA_BLUE_AND_TIMBER_GOLD.png?v=1747470003&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/CBMvaLP8NPbSmtUPjKnnoAI_1_gps_generated.png?v=1747915693&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/CBMvaLP8NPbSmtUPjKnnoAI_0_gps_generated.png?v=1747915680&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-RAINBOW-IMG1.jpg?v=1747470003&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post1feb4boys.jpg?v=1747470003&width=600"
-
+        "https://bachaaparty.com/cdn/shop/files/DSC_9236_690de4bf-5ce4-46a3-bca9-27dcb433539a.jpg?v=1763724778&width=900",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9233_5f0b17f0-4f7f-4774-a513-ffcf5775f83a.jpg?v=1763724778&width=900",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9230_320b1a74-922b-4128-b382-6ba6707c7562.jpg?v=1763724742&width=540",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9227_661ecded-c097-4c48-940a-bb5cba9fc9f2.jpg?v=1763724742&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9242_a6b85753-363f-498b-b9d5-da2bc37605de_1024x1024.jpg?v=1763724826&width=1080"
       ]
-    },
+   },
 
     {
      "id":5,
-      "title":"TWINKLEO Kids Perfume Duo for Girl & Boy",
-      "parice":"Rs.699",
+      "title":"Space Stunner Premium Perfume",
+      "parice":"Rs.1,000",
       "img":[
-          
-        "https://kaawaiicosmetics.com/cdn/shop/files/TIMBER_GOLD_AND_FLOWER_POWER.png?v=1747469979&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-boys-img5.jpg?v=1747469979&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-2girls-lifestyle.jpg?v=1747469979&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post5feb4boys.jpg?v=1747469979&width=600",
-        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_YELLOW.png?v=1748331349&width=600"
+         
+        "https://bachaaparty.com/cdn/shop/files/DSC_9673-1.jpg?v=1734756607&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9672_9850d25d-ea6b-46bd-9528-b9bf3a5e974b.jpg?v=1734756607&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9679_4a866403-3f98-47c8-8118-72f4fe8e9f94.jpg?v=1734756607&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9675_cae60c25-0220-4f53-b85c-ca7bdd7854be_1024x1024.jpg?v=1734430224&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9673_a57c2cde-8509-47ff-8d07-152bfb2107f9.jpg?v=1734430224&width=1080"
       ]
-    },
-     
-     {
+   },
+
+    {
      "id":6,
-      "title":"Mango Mischief 277",
-      "parice":"Rs.799",
+      "title":"Space Stunner Premium Perfume",
+      "parice":"Rs.1,000",
       "img":[
-          
-        "https://purefume.in/uploads/products/2025/05/14/20250514121646_68243c563dbe72-92099959.jpg",
-        "https://purefume.in/uploads/products/2024/10/18/20241018034720_671235b0be5d93-01194341.jpg",
-        "https://purefume.in/uploads/products/2024/09/13/20240913095440_66e46748c73903-91456991.png",
-        "https://purefume.in/uploads/products/2024/09/13/20240913095446_66e4674e458540-79590886.png",
-        "https://purefume.in/uploads/products/2024/09/13/20240913095444_66e4674c9b5865-71922978.png"
+         "https://bachaaparty.com/cdn/shop/files/BPE_1009_7938f72b-0afc-48e8-9bb1-ecffa0de1b29_1024x1024.jpg?v=1762762555&width=1080",
+         "https://bachaaparty.com/cdn/shop/files/BPE_1007_db4e2106-4572-4eef-b8e0-d24b5b337a55.jpg?v=1762762555&width=1080",
+         "https://bachaaparty.com/cdn/shop/files/BPE_1008_83148f39-9e7d-45b6-b241-2a3868f9ea6c.jpg?v=1762762555&width=1080",
+         "https://bachaaparty.com/cdn/shop/files/BPE_1010_c279a81a-835e-4515-9228-8cb7990238db.jpg?v=1762762555&width=1080",
+         "https://bachaaparty.com/cdn/shop/files/BPE_1003_933e7aad-f607-48d1-b488-12dfa1e033da.jpg?v=1762762555&width=1080"
       ]
-    },
-     {
+   },
+   
+    {
      "id":7,
-      "title":"Green Apple Giggles 445",
+      "title":"Boy Perfume Brave Heart",
+      "parice":"Rs.1,000",
+      "img":[
+        "https://bachaaparty.com/cdn/shop/files/DSC_9683-1.jpg?v=1734756591&width=540",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9682_5310ca1a-30f9-4ffb-b5f3-2167ba8d66d9.jpg?v=1734756591&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9693_a4cac0da-3a98-42a0-8eed-251b47a639ec.jpg?v=1734756591&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9681_66c99da4-426f-47a1-8562-ff98dff80752.jpg?v=1734430258&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_9683_4d60c430-5864-4a08-893e-b2c9f713f661.jpg?v=1734430258&width=1080"
+      ]
+   },
+   
+
+
+     {
+     "id":8,
+      "title":"Green Apple Giggles",
       "parice":"Rs.999",
       "img":[
 
@@ -1068,7 +1078,7 @@
       ]
     },
     {
-     "id":8,
+     "id":9,
       "title":"Floral Fabulous 555",
       "parice":"Rs.799",
       "img":[
@@ -1082,7 +1092,7 @@
       ]
     },
     {
-     "id":9,
+     "id":10,
       "title":"Melon Mix 344",
       "parice":"Rs.999",
       "img":[
@@ -1095,7 +1105,7 @@
       ]
     },
      {
-     "id":10,
+     "id":11,
       "title":"Berry Beauty 844",
       "parice":"Rs.999",
       "img":[
@@ -1107,8 +1117,8 @@
       ]
     },
      {
-     "id":11,
-      "title":"Puff Puff Wonder Whiz EDP For Kids 50ML",
+     "id":12,
+      "title":"Puff Puff Whiz",
       "parice":"Rs.299",
       "img":[
         "https://media.vperfumes.com/products/Puff-Puff-Wonder-Whiz-EDP-For-Kids-50ML-1731398351436.webp",
@@ -1119,8 +1129,8 @@
       ]
     },
      {
-     "id":12,
-      "title":"Whimsy Water-Based Fragrances for Kids - Pack Of 2L",
+     "id":13,
+      "title":"Whimsy Water-Based Fragrances",
       "parice":"Rs.1,450",
       "img":[
 
@@ -1132,32 +1142,32 @@
       ]
     },
      {
-     "id":13,
-      "title":"Jad In the Jungle EDT 100 ml",
+     "id":14,
+      "title":"Jad In the Jungle",
       "parice":"Rs.1,450",
       "img":[
-        "",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-perfume-railway-edt-for-babies-100ml%2Fkn9q69-https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-bella-edt-100-ml%2Fszbxh-large.jpeg&w=1600&q=75base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-in-the-jungle-edt-100-ml%2F5l2rc-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-astro-edt-100-ml%2Fv77tl-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-scare-squard-edt-for-babies-100ml%2Fpaq4u-base.jpeg&w=1600&q=75"
+        "https://bachaaparty.com/cdn/shop/files/DSC_2777_141ed46b-c843-46ea-9d0c-9b6f6569777c.jpg?v=1762934704&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_4112_d2374d62-06dc-4fcc-bb6c-78ba9ea419c2.jpg?v=1762931061&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_4111_6afc32eb-0e35-4ce0-9560-8c0ecc928270.jpg?v=1762931076&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_4096_ed92c30e-f7d1-48ea-9638-551d65dc1aed.jpg?v=1762930930&width=540",
+        "https://bachaaparty.com/cdn/shop/files/DSC_0865_b09b5105-6459-4384-9e88-033005c1d46e.jpg?v=1718106916&width=540"
       ]
     },
     {
-     "id":14,
-      "title":"Jad Hummingbird EDT 100ml",
+     "id":15,
+      "title":"Eskulin Ariel Spray",
       "parice":"Rs.2,450",
       "img":[
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-palm-tree-for-kids-edt-100-ml%2Fpopz3w-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-perfume-on-a-cloudy-day-edt-100-ml%2Ft6cd9g-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-shooting-star-edt-exclusive-perfume-100ml-%2Fd7djy-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-hummingbird-edt-100ml%2Fpnfhze-base.jpeg&w=1600&q=75",
-        "https://www.shababuna.com/_next/image?url=https%3A%2F%2Fd3b1m2wz5ltyqb.cloudfront.net%2Fproducts%2Fjad-bonbon-edt-exclusive-perfume-100ml--%2Fwyjopj-base.jpeg&w=1600&q=75"
+        "https://bachaaparty.com/cdn/shop/files/BPE_4132-1.jpg?v=1762931570&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_4132_958a8d02-4a11-4247-bddb-c547d650bff6.jpg?v=1762931510&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/BPE_4130_e6df7fee-c2be-4d0c-8b77-e8a219c1e948.jpg?v=1762931570&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_7250_f15e2d0e-2c2f-4adf-a5e7-2c1b9b64715c.jpg?v=1762936028&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_7251_991e9f7d-aa8a-4c2e-8c6a-7626506b6d26.jpg?v=1762936028&width=1080"
       ]
     },
      {
-     "id":15,
-      "title":"Baby Shark Pink Perfume For Girls",
+     "id":16,
+      "title":"Baby Shark Pink Perfume",
       "parice":"Rs.2,450",
       "img":[
 
@@ -1169,123 +1179,113 @@
       ]
     },
      {
-     "id":16,
-      "title":"Baby Shark Blue Perfume For Girls",
+     "id":17,
+      "title":"Eskulin Blossom Mist",
       "parice":"Rs.3,450",
       "img":[
-
-        "https://www.gulahmedshop.com/cdn/shop/files/baby_shark_blue_2.jpg?v=1758369561",
-         "https://www.gulahmedshop.com/cdn/shop/files/cute_kitty_1_1.jpg?v=1758369560",
-        "https://www.gulahmedshop.com/cdn/shop/files/baby_shark_blue_3.jpg?v=1758369561",
-        "https://www.gulahmedshop.com/cdn/shop/files/cute_kitty_3.jpg?v=1758369559",
-         "https://www.gulahmedshop.com/cdn/shop/files/baby_shark_blue.jpg?v=1758369561"
-      ]
-    },
-    {
-     "id":17,
-      "title":"Junior Perfume For Boys",
-      "parice":"Rs.2,450",
-      "img":[
-        "https://www.gulahmedshop.com/cdn/shop/files/junior_baby3.jpg?v=1758369560",
-        "https://www.gulahmedshop.com/cdn/shop/files/junior_baby2.jpg?v=1758369560",
-        "https://www.gulahmedshop.com/cdn/shop/files/junior_baby1.jpg?v=1758369561",
-        "https://www.gulahmedshop.com/cdn/shop/files/velvet_royal_2.jpg?v=1758369560",
-        "https://www.gulahmedshop.com/cdn/shop/files/velvet_royal_1.jpg?v=1758369559"
+        "https://bachaaparty.com/cdn/shop/files/BPE_4149-1.jpg?v=1762931717&width=900",
+       "https://bachaaparty.com/cdn/shop/files/BPE_4147_a93b0cc4-f7c2-4a6a-908d-0c14b01d807e.jpg?v=1762931717&width=900",
+       "https://bachaaparty.com/cdn/shop/files/BPE_4149_6ef80041-621a-4447-a59e-4b37c24cbf0a.jpg?v=1762931708&width=1080",
+       "https://bachaaparty.com/cdn/shop/files/BPE_4139_00d9e47e-fbc0-4cf1-ad5c-2e66da2c919a.jpg?v=1762931636&width=900",
+       "https://bachaaparty.com/cdn/shop/files/BPE_4140-1.jpg?v=1762931644&width=1080"
+      
       ]
     },
     {
      "id":18,
-      "title":"BP Snuggle Kids Perfume",
-      "parice":"Rs.1,499",
+      "title":"Junior Perfume",
+      "parice":"Rs.2,450",
       "img":[
-       
-        "https://bachaaparty.com/cdn/shop/files/BPE_0989-1_1024x1024.jpg?v=1762257593&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0990_04a76e9e-2810-4cec-b4fa-8a529c04e933.jpg?v=1762257593&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0991_9f5c6755-9c18-4dfc-8b78-0f67e5cd63fb.jpg?v=1762257593&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0985_b5a3f6d7-33a1-40a8-9a09-bb4bead7c75a.jpg?v=1762257593&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0987_64a83faf-7d32-4114-a039-fd8d714327eb.jpg?v=1762257593&width=1080"
+        "https://bachaaparty.com/cdn/shop/files/DSC_0865_b09b5105-6459-4384-9e88-033005c1d46e.jpg?v=1718106916&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_0855_be97a90a-e3e3-4520-9c6b-a8d13896709a_1024x1024.jpg?v=1718106893&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC_0856_8e58c653-5656-4673-be14-f88611b63554.jpg?v=1718106893&width=1080",
+        "https://bachaaparty.com/cdn/shop/files/DSC00719_d49daba8-9859-499d-a95d-7a498b49ca79.jpg?v=1694775321&width=540",
+        "https://bachaaparty.com/cdn/shop/files/DSC_2752_08549e52-c5a2-40e5-81f2-00117f2f3b35.jpg?v=1762934467&width=540"
       ]
     },
-       {
-     "id":19,
-      "title":"BP Flurry Kids Perfume",
-      "parice":"Rs.1,499",
-      "img":[
-        "https://bachaaparty.com/cdn/shop/files/BPE_0982_851041bf-c8ec-46e8-b398-e670404622e5.jpg?v=1762762522&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0980_242e86e0-b5ae-416f-a3db-1cd23f8611f7.jpg?v=1762762522&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0983_dfd6a509-1e94-47fe-a898-ebe4c3a9439c.jpg?v=1763019823&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0984_0ecb58eb-b235-49fe-b57a-d59ae243cb5c.jpg?v=1763019823&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0977_506627b8-ae1b-4e46-82a5-b092dd2738e0.jpg?v=1763019823&width=1080"
-      ]
-   },
+    
     {
+     "id":19,
+      "title":"Flower Power",
+      "parice":"Rs.299",
+      "img":[
+        "https://bachaaparty.com/cdn/shop/files/DSC_0866_0f7a9a3a-4ac5-4777-9a2e-71c2c32e7315.jpg?v=1718106916&width=1080",
+        "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_3.webp?v=1747116952&width=600",
+        "https://purefume.in/uploads/products/2024/10/18/20241018034720_671235b0be5d93-01194341.jpg",
+         "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-blue.jpg?v=1747116952&width=600",
+         "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_BLUE.png?v=1748331349&width=600"
+
+      ]
+    },
+
+     {
      "id":20,
-      "title":"BP Elefiona Kids Perfume",
-      "parice":"Rs.1,499",
+      "title":"Orange Blossom Perfume",
+      "parice":"Rs.299",
       "img":[
-        "https://bachaaparty.com/cdn/shop/files/BPE_0995_cf6228f2-89a1-4349-bc06-e9b960e3c9d9.jpg?v=1762762595&width=900",
-        "https://bachaaparty.com/cdn/shop/files/BPE_1000_d0971d15-1451-4405-8eb4-a6bc0434bfa8.jpg?v=1762762595&width=900",
-        "https://bachaaparty.com/cdn/shop/files/BPE_1001_9a6280da-b015-4c06-9740-e50600d4589d.jpg?v=1762762595&width=900",
-        "https://bachaaparty.com/cdn/shop/files/BPE_1002_f7236666-fc48-4ef0-9528-a68cb35ec8f6.jpg?v=1762762595&width=900",
-        "https://bachaaparty.com/cdn/shop/files/BPE_0994_82fa1709-5747-4546-94cd-da89f6635666.jpg?v=1762762595&width=900"
-      ]
-   },
 
-   {
+       "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_2.webp?v=1747116908&width=600",
+       "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-orange.jpg?v=1747116456&width=600",
+       "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAIIpost1.webp?v=1747112394&width=600",
+       "https://kaawaiicosmetics.com/cdn/shop/files/742850-TimberGold.webp?v=1747112394&width=600",
+       "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_YELLOW.png?v=1748331349&width=600"
+      ]
+    },
+    {
      "id":21,
-      "title":"Martinelia Starshine Purple Shimmer Fragrance",
-      "parice":"Rs.2,499",
+      "title":"MIMI Kids Perfume Duo",
+      "parice":"Rs.599",
       "img":[
 
-        "https://bachaaparty.com/cdn/shop/files/DSC_9236_690de4bf-5ce4-46a3-bca9-27dcb433539a.jpg?v=1763724778&width=900",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9233_5f0b17f0-4f7f-4774-a513-ffcf5775f83a.jpg?v=1763724778&width=900",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9230_320b1a74-922b-4128-b382-6ba6707c7562.jpg?v=1763724742&width=540",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9227_661ecded-c097-4c48-940a-bb5cba9fc9f2.jpg?v=1763724742&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9242_a6b85753-363f-498b-b9d5-da2bc37605de_1024x1024.jpg?v=1763724826&width=1080"
+        "https://kaawaiicosmetics.com/cdn/shop/files/ORANGE_BLOSSOM_AND_FLOWER_POWER.png?v=1747469862&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/1.jpg?v=1747469862&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/1.2.jpg?v=1747469862&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/1.1.jpg?v=1747469862&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_PINK.png?v=1748331349&width=600"
       ]
-   },
-
+    },
     {
      "id":22,
-      "title":"Space Stunner Premium Perfume - For Girls- 50ml",
-      "parice":"Rs.1,000",
+      "title":"BLOOP Kids Perfume Duo",
+      "parice":"Rs.599",
       "img":[
-         
-        "https://bachaaparty.com/cdn/shop/files/DSC_9673-1.jpg?v=1734756607&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9672_9850d25d-ea6b-46bd-9528-b9bf3a5e974b.jpg?v=1734756607&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9679_4a866403-3f98-47c8-8118-72f4fe8e9f94.jpg?v=1734756607&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9675_cae60c25-0220-4f53-b85c-ca7bdd7854be_1024x1024.jpg?v=1734430224&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9673_a57c2cde-8509-47ff-8d07-152bfb2107f9.jpg?v=1734430224&width=1080"
+
+        "https://kaawaiicosmetics.com/cdn/shop/files/AQUA_BLUE_AND_TIMBER_GOLD.png?v=1747470003&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/CBMvaLP8NPbSmtUPjKnnoAI_1_gps_generated.png?v=1747915693&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/CBMvaLP8NPbSmtUPjKnnoAI_0_gps_generated.png?v=1747915680&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-RAINBOW-IMG1.jpg?v=1747470003&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post1feb4boys.jpg?v=1747470003&width=600"
+
       ]
-   },
+    },
 
     {
      "id":23,
-      "title":"Space Stunner Premium Perfume - For Girls- 50ml",
-      "parice":"Rs.1,000",
+      "title":"TWINKLEO Kids Perfume Duo",
+      "parice":"Rs.699",
       "img":[
-         "https://bachaaparty.com/cdn/shop/files/BPE_1009_7938f72b-0afc-48e8-9bb1-ecffa0de1b29_1024x1024.jpg?v=1762762555&width=1080",
-         "https://bachaaparty.com/cdn/shop/files/BPE_1007_db4e2106-4572-4eef-b8e0-d24b5b337a55.jpg?v=1762762555&width=1080",
-         "https://bachaaparty.com/cdn/shop/files/BPE_1008_83148f39-9e7d-45b6-b241-2a3868f9ea6c.jpg?v=1762762555&width=1080",
-         "https://bachaaparty.com/cdn/shop/files/BPE_1010_c279a81a-835e-4515-9228-8cb7990238db.jpg?v=1762762555&width=1080",
-         "https://bachaaparty.com/cdn/shop/files/BPE_1003_933e7aad-f607-48d1-b488-12dfa1e033da.jpg?v=1762762555&width=1080"
+          
+        "https://kaawaiicosmetics.com/cdn/shop/files/TIMBER_GOLD_AND_FLOWER_POWER.png?v=1747469979&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-boys-img5.jpg?v=1747469979&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post-2girls-lifestyle.jpg?v=1747469979&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii-post5feb4boys.jpg?v=1747469979&width=600",
+        "https://kaawaiicosmetics.com/cdn/shop/files/kaawaii_Features_YELLOW.png?v=1748331349&width=600"
       ]
-   },
-   
-    {
+    },
+     
+     {
      "id":24,
-      "title":"Boy Perfume Brave Heart 50ml",
-      "parice":"Rs.1,000",
+      "title":"Mango Mischief 277",
+      "parice":"Rs.799",
       "img":[
-        "https://bachaaparty.com/cdn/shop/files/DSC_9683-1.jpg?v=1734756591&width=540",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9682_5310ca1a-30f9-4ffb-b5f3-2167ba8d66d9.jpg?v=1734756591&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9693_a4cac0da-3a98-42a0-8eed-251b47a639ec.jpg?v=1734756591&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9681_66c99da4-426f-47a1-8562-ff98dff80752.jpg?v=1734430258&width=1080",
-        "https://bachaaparty.com/cdn/shop/files/DSC_9683_4d60c430-5864-4a08-893e-b2c9f713f661.jpg?v=1734430258&width=1080"
+          
+        "https://purefume.in/uploads/products/2025/05/14/20250514121646_68243c563dbe72-92099959.jpg",
+        "https://purefume.in/uploads/products/2024/10/18/20241018034720_671235b0be5d93-01194341.jpg",
+        "https://purefume.in/uploads/products/2024/09/13/20240913095440_66e46748c73903-91456991.png",
+        "https://purefume.in/uploads/products/2024/09/13/20240913095446_66e4674e458540-79590886.png",
+        "https://purefume.in/uploads/products/2024/09/13/20240913095444_66e4674c9b5865-71922978.png"
       ]
-   }
-   
-
+    }
 
 
 
