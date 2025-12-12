@@ -1293,11 +1293,11 @@
      "title":"BloomBerry Attar",
      "parice":"Rs.1,000",
      "img":[
+      "https://ittarstore.com/wp-content/uploads/2024/05/Choco-Musk-Attar-300x300.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/06/Shahi-Gulab.jpg",
       "https://ittarstore.com/wp-content/uploads/2025/03/Bloom-Berry-1.webp",
       "https://ittarstore.com/wp-content/uploads/2025/03/Bloom-Berry-2.webp",
-      "https://ittarstore.com/wp-content/uploads/2025/03/Libre-1.webp",
-      "https://ittarstore.com/wp-content/uploads/2024/05/Choco-Musk-Attar-300x300.jpg"
+      "https://ittarstore.com/wp-content/uploads/2025/03/Libre-1.webp"
      ]
     },
     {
@@ -1410,8 +1410,75 @@
       "https://www.isakfragrances.com/cdn/shop/files/1_2.png?v=1704784731&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/16_bc11ff39-3a0e-4dc0-a628-a956599e781d.png?v=1705561946&width=800"
      ]
+    },
+    {
+     "id":11,
+     "title":"Hawas Attar Perfume Roll on",
+     "parice":"Rs.4,200",
+     "img":[
+      "https://ittarstore.com/wp-content/uploads/2023/10/Hawas.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/11/Kewda.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/07/Kewda-attar-ittarstore-arihant-fragrance.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/05/Blue-Musk-Attar.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/04/Arihant_Fragranc_Blue_Musk_IttarStore.jpg"
+     ]
+    },
+     {
+     "id":12,
+     "title":"Fantasy Attar Perfume Roll on",
+     "parice":"Rs.1,200",
+     "img":[
+      "https://ittarstore.com/wp-content/uploads/2024/04/Fantasy.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/02/fantasy-10-ml-attar-ittar-store-arihant-fragrance.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/11/Joohi.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/11/Shahi-Oudh.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/Shahi-oudh-attar-ittarstore-arihant-fragrance.jpg"
+     ]
+    },
+     {
+     "id":13,
+     "title":"Vedika Chandan Attar Roll On Perfume",
+     "parice":"Rs.2,200",
+     "img":[
+      "https://ittarstore.com/wp-content/uploads/2023/12/8ml-Vedika-Chandan-IttarStore.jpg",
+      "https://ittarstore.com/wp-content/uploads/2023/12/Vedika-Chandan-IttarStore.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/8ml-vedika-chandan-attar-ittar-store-arihant-fragrance.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/04/Amber.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/02/Amber-10-ml-attar-ittar-store-arihant-fragrance.jpg"
+     ]
+    },
+     {
+     "id":14,
+     "title":"Vedika Chandan Attar Roll On Perfume",
+     "parice":"Rs.2,200",
+     "img":[
+      "https://ittarstore.com/wp-content/uploads/2022/06/Rose-essential-oil.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/Dehen-al-Oud-Abiyad.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/oudh-abiyad-attar-ittar-store-arihant-fragrance.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/Jasmine-Essential-Oil.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/06/Dehen-al-Oud-Seofi.jpg"
+     ]
+    },
+    {
+     "id":15,
+     "title":"Mukhallat Oud Attar Roll on Perfume",
+     "parice":"Rs.6,200",
+     "img":[
+
+      "https://ittarstore.com/wp-content/uploads/2023/10/Mukhallat-Oudh.jpg",
+      "https://ittarstore.com/wp-content/uploads/2023/12/Mukhallat_oud_attar_Arihant_Fragrance-IttarStore.jpg",
+      "https://ittarstore.com/wp-content/uploads/2023/12/Mukhallat_oudh_attar_Arihant_Fragrance-IttarStore.jpg",
+      "https://ittarstore.com/wp-content/uploads/2022/02/White_oud_attar_price_Arihant_fragrance-IttarStore.jpg",
+      "https://ittarstore.com/wp-content/uploads/2024/04/Al-Habib.jpg"
+     ]
     }
+
+
+
+
+
   ]
+
 
 }
 
