@@ -1291,19 +1291,19 @@
     {
      "id":1,
      "title":"BloomBerry Attar",
-     "price":"Rs.1,000",
+     "parice":"Rs.1,000",
      "img":[
-      "https://nirmalaya.com/cdn/shop/videos/c/vp/7b95774158664103a1b519dd11f11d64/7b95774158664103a1b519dd11f11d64.SD-480p-0.9Mbps-39259282.mp4?v=0",
+      "https://ittarstore.com/wp-content/uploads/2022/06/Shahi-Gulab.jpg",
+      "https://ittarstore.com/wp-content/uploads/2025/03/Bloom-Berry-1.webp",
       "https://ittarstore.com/wp-content/uploads/2025/03/Bloom-Berry-2.webp",
       "https://ittarstore.com/wp-content/uploads/2025/03/Libre-1.webp",
-      "https://ittarstore.com/wp-content/uploads/2022/06/Shahi-Gulab.jpg",
       "https://ittarstore.com/wp-content/uploads/2024/05/Choco-Musk-Attar-300x300.jpg"
      ]
     },
     {
      "id":2,
      "title":"Rajnigandha Attar",
-     "price":"Rs.2,000",
+     "parice":"Rs.2,000",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2022/06/Rajnigandha.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/05/rajnigandha-attar-ittar-store-arihant-fragrance.jpg",
@@ -1316,7 +1316,7 @@
      {
      "id":3,
      "title":"HarSingar Attar",
-     "price":"Rs.2,200",
+     "parice":"Rs.2,200",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2022/02/Har-Shringar.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Tropical-Punch.jpg",
@@ -1329,7 +1329,7 @@
      {
      "id":4,
      "title":"Arabian Nights Attar Perfume Roll on",
-     "price":"Rs.2,200",
+     "parice":"Rs.2,200",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/04/Arabian-Nights.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Arabian_nights_attar_fragrance_ittarstore.jpg",
@@ -1341,7 +1341,7 @@
     {
      "id":5,
      "title":"Loving Heart Attar Perfume Roll on",
-     "price":"Rs.3,200",
+     "parice":"Rs.3,200",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/04/Loving-Heart.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Tea-rose.jpg",
@@ -1353,7 +1353,7 @@
     {
      "id":6,
      "title":"Attar Perfume Combo For Women",
-     "price":"Rs.1,200",
+     "parice":"Rs.1,200",
      "img":[
       "https://nirmalaya.com/cdn/shop/products/11-2.jpg?v=1735374022&width=800",
       "https://nirmalaya.com/cdn/shop/products/10-2.jpg?v=1735374022&width=800",
@@ -1366,7 +1366,7 @@
      {
      "id":7,
      "title":"First Rain Attar - Minis",
-     "price":"Rs.1,200",
+     "parice":"Rs.1,200",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/First_Rain_Roll_on_Attar.jpg?v=1725360244&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/1_35.png?v=1762258084&width=800",
@@ -1378,7 +1378,7 @@
     {
      "id":8,
      "title":"Memoirs Of Love Attar Minis",
-     "price":"Rs.2,200",
+     "parice":"Rs.2,200",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/Memoirs_of_love_attar.png?v=1743670043&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/2_30.png?v=1743670043&width=800",
@@ -1390,7 +1390,7 @@
     {
      "id":9,
      "title":"Dew of Life",
-     "price":"Rs.2,200",
+     "parice":"Rs.2,200",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/DewofLife50ml_20231018_134541650.jpg?v=1697710022&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/DewofLifexBox50ml.png?v=1697710022&width=800",
@@ -1402,7 +1402,7 @@
      {
      "id":10,
      "title":"Dew of Life",
-     "price":"Rs.2,200",
+     "parice":"Rs.2,200",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/pebblely_1.jpg?v=1696489323&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/2_2.png?v=1696489323&width=800",
