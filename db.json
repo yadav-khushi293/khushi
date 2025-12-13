@@ -1486,7 +1486,7 @@
         "https://www.isakfragrances.com/cdn/shop/files/Discovery_pack_ISAK_Fragrances.png?v=1725358579&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/2_1828c3a5-96b4-4758-801c-e1334b1e05bc.png?v=1735535377&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/3_bb7e41aa-8973-4277-886c-88da50a7d0dc.png?v=1735535377&width=800",
-        "https://www.isakfragrances.com/cdn/shop/files/ISAKA_-06.jpg?v=1735535377&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/8_453f2d54-ba7f-4f08-8832-28af56a5e780.png?v=1705307767&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/isakCATALOG-02.jpg?v=1735535377&width=800"
       ]
    },
@@ -1546,7 +1546,7 @@
    },
     {
      "id":6,
-      "title":"Attars Festive Gift Box",
+      "title":"Attars Festive Gift",
       "parice":"Rs.5,000",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/Attars_Gift_Box.png?v=1725099520&width=800",
@@ -1559,7 +1559,7 @@
 
     {
      "id":7,
-      "title":"Perfumes Festive Gift Box",
+      "title":"Perfumes Festive Gift",
       "parice":"Rs.5,000",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/WhatsApp_Image_2024-10-02_at_3.55.53_PM_2.jpg?v=1728366824&width=800",
@@ -1571,7 +1571,7 @@
    },
    {
      "id":8,
-      "title":"Valentine Gift Package for her",
+      "title":"Valentine Gift Package",
       "parice":"Rs.5,000",
       "img":[
         "https://ittarstore.com/wp-content/uploads/2024/07/Gift-Pack-For-Sisters.webp",
@@ -1583,7 +1583,7 @@
    },
    {
      "id":9,
-      "title":"Adilqadri Assorted Luxury Attar Perfume Gift",
+      "title":"AQ Luxury Attar Gift",
       "parice":"Rs.6,000",
       "img":[
            "https://www.adilqadri.com/cdn/shop/files/6PCS_Combo.jpg?v=1726827164&width=800",
@@ -1595,7 +1595,7 @@
    },
       {
      "id":10,
-      "title":"Adilqadri Perfume Discovery Set - Pack of 10 ",
+      "title":"setadilqadri discovery set",
       "parice":"Rs.5,000",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/hero-img.jpg?v=1760790030&width=800",
@@ -1604,7 +1604,134 @@
         "https://www.adilqadri.com/cdn/shop/files/PSP04612.jpg?v=1760634113&width=800",
         "https://www.adilqadri.com/cdn/shop/files/PSP04538.jpg?v=1760634113&width=800"
       ]
+   },
+    {
+     "id":11,
+      "title":"heritage premium attars",
+      "parice":"Rs.9,000",
+      "img":[
+        "https://static.wixstatic.com/media/19fe93_4808f38d94fd4ecead218c4c483d39fc~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_4808f38d94fd4ecead218c4c483d39fc~mv2.jpg",
+        "https://static.wixstatic.com/media/19fe93_d1089c31dd6b468fa24067c8d0a11ba5~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_d1089c31dd6b468fa24067c8d0a11ba5~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_23988fdc7f7547a39b812c3b7867eb97~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_23988fdc7f7547a39b812c3b7867eb97~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_00a6f327a9df422e99bb84d4777cf502~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_00a6f327a9df422e99bb84d4777cf502~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_2edd71b164354922934cf27715413811~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_2edd71b164354922934cf27715413811~mv2.png"
+      ]
+   },
+   {
+     "id":12,
+      "title":"royal attars combo",
+      "parice":"Rs.3,000",
+      "img":[
+        "https://static.wixstatic.com/media/19fe93_8cec0a111c5d42ec96f38140872a17b8~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_8cec0a111c5d42ec96f38140872a17b8~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_c034c89a02e8483ea2c04731675e481f~mv2.png/v1/fill/w_550,h_549,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_c034c89a02e8483ea2c04731675e481f~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_40724f60bbe7439a90199a026258f699~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_40724f60bbe7439a90199a026258f699~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_8eb6e2035a434aa189fac50c877d2b51~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_8eb6e2035a434aa189fac50c877d2b51~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_b71531b12ab44cedb0a9bf36fb527d2d~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_b71531b12ab44cedb0a9bf36fb527d2d~mv2.jpg"
+      ]
+   },
+   {
+     "id":13,
+      "title":"Kannauj Valentine Gift",
+      "parice":"Rs.5,000",
+      "img":[
+          
+        "https://static.wixstatic.com/media/19fe93_66baaaec49714f73ab19742644b621d6~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_66baaaec49714f73ab19742644b621d6~mv2.jpg",
+        "https://static.wixstatic.com/media/19fe93_58f9fe4f2c1a4d57a0fa21636591e5e8~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_58f9fe4f2c1a4d57a0fa21636591e5e8~mv2.png",
+        "https://static.wixstatic.com/media/19fe93_79f08bad23d34b3cb17dcd4a73ce5f5e~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_79f08bad23d34b3cb17dcd4a73ce5f5e~mv2.jpg",
+        "https://static.wixstatic.com/media/19fe93_3c97b8c88dec4425a7786f1898639944~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_3c97b8c88dec4425a7786f1898639944~mv2.jpg",
+        "https://static.wixstatic.com/media/19fe93_0f3a39e579074df2a476438927d44c5b~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_0f3a39e579074df2a476438927d44c5b~mv2.jpg"
+      ]
+   },
+
+   {
+     "id":14,
+      "title":"ibadat attar set",
+      "parice":"Rs.5,000",
+      "img":[
+          "https://noorson.com/cdn/shop/files/03_8261cb38-3e88-432b-bd00-6750072273cc.jpg?v=1739625585&width=620",
+          "https://noorson.com/cdn/shop/files/04.jpg?v=1739625641&width=620",
+          "https://noorson.com/cdn/shop/files/01_86c38d0a-8aa1-44cf-ad86-55b4ced4ea22.jpg?v=1739625641&width=620",
+          "https://noorson.com/cdn/shop/files/05.jpg?v=1739625641&width=620",
+          "https://noorson.com/cdn/shop/files/02_d1b55504-0d03-44c4-8271-380a696b62bf.jpg?v=1739625641&width=620"
+      ]
+   },
+   {
+     "id":15,
+      "title":"Royal Combo ",
+      "parice":"Rs.2,000",
+      "img":[
+        "https://noorson.com/cdn/shop/files/01_1842c672-ecf0-459f-bffc-7a63975d08ef.jpg?v=1740067143&width=620",
+        "https://noorson.com/cdn/shop/files/02_b6da6962-14c9-44db-a64e-af4458029eec.jpg?v=1740067143&width=620",
+        "https://noorson.com/cdn/shop/files/03_01ead6dd-5b9a-4b6c-aa20-69e5e7a62da5.jpg?v=1740067143&width=620",
+        "https://noorson.com/cdn/shop/files/04_d3d5b733-8bd1-469a-a4f7-b4de26ecb9d7.jpg?v=1740067143&width=620",
+        "https://noorson.com/cdn/shop/files/05_98137b44-817c-4aad-b8c6-2e8aa394cd1f.jpg?v=1740067143&width=620"
+      ]
+   },
+    {
+     "id":16,
+      "title":"Attar Floral Gift Set",
+      "parice":"Rs.2,000",
+      "img":[
+        "https://indrasugandh.com/cdn/shop/files/White-And_Gold_Luxury_Perfume_Sale_Promotion_Instagram_Post_1.png?v=1700024987",
+        "https://indrasugandh.com/cdn/shop/files/9.png?v=1700024987",
+        "https://indrasugandh.com/cdn/shop/files/5.png?v=1700024987",
+        "https://indrasugandh.com/cdn/shop/files/Untitleddesign-2023-11-30T134334.099.png?v=1705407686",
+        "https://indrasugandh.com/cdn/shop/files/1_2cace1d7-d042-41f5-8c49-7c12c633c490.png?v=1705407686"
+  
+      ]
+   },
+   {
+     "id":17,
+      "title":"majestic attar set",
+      "parice":"Rs.2,300",
+      "img":[
+
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/01/luxury-attars-sample-kit-1.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/01/Luxury-Attars-Sample-Kit.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/Majestic-twelve.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/Majestic.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/IMG_9616-scaled-1.jpg"
+      ]
+   },
+    {
+     "id":18,
+      "title":"sugandhit pooja attar",
+      "parice":"Rs.2,500",
+      "img":[
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/devlok-kit.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/devlok-kit-2-1000x1000.webp",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/IMG_9594-scaled-1-1000x1333.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/IMG_9612-scaled-1-1000x1333.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_5164-scaled-1.jpg"
+      ]
+   },
+   {
+     "id":19  ,
+      "title":"black wooden box",
+      "parice":"Rs3,850.00",
+      "img":[
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6094-scaled-1.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6082-scaled-1-1000x667.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6094-scaled-1.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6095-scaled-1-1000x667.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6097-scaled-1-1000x667.jpg"
+      ]
+   },
+     {
+     "id":20,
+      "title":"6mlx3 Black Wood Box",
+      "parice":"Rs3,950.00",
+      "img":[
+        "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5901-scaled-1.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5898-scaled-1-1000x667.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5907-scaled-1-1000x667.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5909-scaled-1-1000x667.jpg",
+        "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5919-scaled-1-1000x667.jpg"
+      ]
    }
+
+
+
 
 
 
