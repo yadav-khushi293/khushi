@@ -1732,8 +1732,211 @@
     ],
     "Men_Attar":[
       {
+     "id":1,
+      "title":"Amber Hasan Premium Fragrances Alcohol Free Attar By Hasan Oud",
+      "parice":"Rs.1,000",
+      "img":[
+          
+        "https://hasanoud.com/cdn/shop/files/Amber_Hasan_01.png?v=1749807349&width=493",
+        "https://hasanoud.com/cdn/shop/files/Amber_Hasan_02.png?v=1749807350&width=493",
+        "https://hasanoud.com/cdn/shop/files/Amber_Hasan_03.png?v=1749807350&width=493",
+        "https://hasanoud.com/cdn/shop/files/Amber_Oud-scaled.png?v=1749807364&width=493",
+        "https://hasanoud.com/cdn/shop/files/Amber_Rose-min.png?v=1749807410&width=493"
+      ]
+   },
+    {
+     "id":2,
+      "title":"Kinam Premium Fragrances By Hasanoud Attar Alcohol Free",
+      "parice":"Rs.12,999.",
+      "img":[
+          "https://hasanoud.com/cdn/shop/files/Kinam_copy_650x650_1.png?v=1749807432&width=493",
+          "https://hasanoud.com/cdn/shop/files/kinam-resize.png?v=1749807432&width=493",
+          "https://hasanoud.com/cdn/shop/files/20240526-004114.jpg?v=1749807432&width=493",
+          "https://hasanoud.com/cdn/shop/files/Mukhallat-nasreen-1.png?v=1749807438&width=493",
+          "https://hasanoud.com/cdn/shop/files/MG_6981_4b54ec6f-5118-45c8-97c9-b21c0729b1d7.jpg?v=1749807433&width=493"
+      ]
+   },
+   {
+     "id":3,
+      "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
+      "parice":"Rs.2,999.",
+      "img":[
+        "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.05_AM_2.jpg?v=1753556411&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/shanayagoldboxandbottlee_1.png?v=1753556411&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/shanayabottleonly.png?v=1753556411&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/shanaya_gold-mDIy2mSNG-transformed_40d62370-72ea-4aa9-a9bb-8bbc0794dfd4.webp?v=1753556411&width=700",
+        "https://www.adilqadri.com/cdn/shop/files/3_ca7d8668-ecf5-4945-966b-8ae813b7e636.jpg?v=1754128614&width=800"
+      ]
+   },
 
-      }
+   {
+     "id":4,
+      "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
+      "parice":"Rs.2,999.",
+      "img":[
+        "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.04_AM_1.jpg?v=1755198327&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/1_d8761dc3-bfaa-4c76-8bd0-d0dce49b96ce.jpg?v=1755198327&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/2_97e06864-de47-423e-a336-fc53a4c97528.jpg?v=1755198327&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/3_5ba7702b-0bd8-4b53-b2bb-27690cc064b4.jpg?v=1755198327&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/thestory_4eb0aeb9-3eaa-4452-b8a9-7ed7c6697527.png?v=1755196743&width=800"
+      ]
+   },
+    {
+     "id":5,
+      "title":"Adilqadri AQ Aqua Luxury Attar Perfume",
+      "parice":"Rs.3,999.",
+      "img":[
+        "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.07_AM_1.jpg?v=1753556438&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/B_cf63878c-9412-4ce5-b4f2-4fb763ee9597.png?v=1753556438&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/A_e9507b05-0607-4899-b26d-4b1ee84b53a9.png?v=1753556438&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/AQAQUAboxandbottlewhite.png?v=1753556438&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/Aqua_5.5_ml_Attar_5_combo.jpg?v=1760697050&width=800"
+      ]
+   },
+   {
+     "id":6,
+      "title":"Adilqadri Oudh Al Hashmi Luxury Attar Perfume",
+      "parice":"Rs.3,999.",
+      "img":[
+        "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.06_AM_2.jpg?v=1755198391&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/oudhalhashmi.jpg?v=1755198391&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/Oudhashmi.jpg?v=1755198391&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/OudhAHashimi5.5ml.1.jpg?v=1755197941&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/OudhAHashimi6ml.1.jpg?v=1755197941&width=800"
+      ]
+   },
+    {
+     "id":7,
+      "title":"Adilqadri Shanaya Luxury Attar Perfume 10 ML",
+      "parice":"Rs.2,999.",
+      "img":[
+        "https://www.adilqadri.com/cdn/shop/files/1_232def41-d2d5-4530-ab75-4f79e5c28d7b.jpg?v=1754565731&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/2_dba5b2cf-176c-4d47-9d32-407834f16dee.jpg?v=1754565731&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/3_1e02ce37-53ae-4d26-b10d-8ccad0ba3835.jpg?v=1754565731&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/1_7c05783e-1c6b-4fb4-9e85-c856840eaa1e.jpg?v=1754565981&width=800",
+        "https://www.adilqadri.com/cdn/shop/files/3_7a39b3c5-a8fd-4f0d-93e7-bb2e79a129d0.jpg?v=1754565981&width=800"
+      ]
+   },
+   {
+     "id":8,
+      "title":"Crimson Oudh Attar",
+      "parice":"Rs.1,999.",
+      "img":[
+        "https://www.isakfragrances.com/cdn/shop/files/LCATTARPNGS_1.5x.png?v=1762257466&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/LC_Fragrance_ingredients__1.5x_1.png?v=1762257466&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/LC_ATTAR_PNGS3_1.5x_1.png?v=1762257466&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/pebblely_1.jpg?v=1696489323&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/2_2_4310974c-25d1-4ff9-957a-cef384a3618e.jpg?v=1704784731&width=800"
+      ]
+   },
+   {
+     "id":9,
+      "title":"Rain Kissed Roses Attar - Minis",
+      "parice":"Rs.500.",
+      "img":[
+        "https://www.isakfragrances.com/cdn/shop/files/12_cb479f23-79d5-4711-a834-9fb1e90b98b3.png?v=1699270810&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/RainKissedRoses3ml.png?v=1762256621&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/pebblely_2.jpg?v=1762256621&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/RainKissedRoses.png?v=1762256621&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/Forest_Rain_Roll_on.png?v=1725363814&width=800"
+      ]
+   },
+   {
+     "id":10,
+      "title":"Forest Rain Attar",
+      "parice":"Rs.600.",
+      "img":[
+        "https://www.isakfragrances.com/cdn/shop/products/2_7d669b9c-00e3-4183-bf9b-a23ad5d7d742.png?v=1676706791&width=800",
+        "https://www.isakfragrances.com/cdn/shop/products/1_b5147046-1bc2-4563-a2d3-bbc3e7c3b595.png?v=1676706796&width=800",
+        "https://www.isakfragrances.com/cdn/shop/products/10_069b21c8-9632-428f-8c32-6c9461851305.png?v=1676978045&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/Forest_Rain_Attar.png?v=1725363343&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/ForestRain12ml.png?v=1762255459&width=800"
+      ]
+   },
+   {
+     "id":11,
+      "title":"Memoirs Of Love Attar Minis",
+      "parice":"Rs.600.",
+      "img":[
+        "https://www.isakfragrances.com/cdn/shop/files/Memoirs_of_love_attar.png?v=1743670043&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/2_30.png?v=1743670043&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/5_17.png?v=1743670043&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/1_1.5x_2.png?v=1743669772&width=800",
+        "https://www.isakfragrances.com/cdn/shop/files/4_12.png?v=1743669772&width=800"
+      ]
+   },
+   {
+     "id":12,
+      "title":"Dukhni's Real Rose Attar Oil",
+      "parice":"Rs.900.",
+      "img":[
+        "https://m.media-amazon.com/images/I/61BHkJOarcL._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61whdDF-M7L._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61aus8-uE+L._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61bZdC1mO2L._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61v3y5Q3Q-L._SX425_.jpg"
+      ]
+   },
+    {
+     "id":13,
+      "title":"TPO Jasmine Attar Oil by Dukhni",
+      "parice":"Rs.900.",
+      "img":[
+        "https://m.media-amazon.com/images/I/61ixYPQsSdL._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61U1uxbsXNL._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61GqFbTlgLL._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/61AaQVkCRJL._SX425_.jpg",
+        "https://m.media-amazon.com/images/I/71sdmxUCQkL._SX425_.jpg"
+      ]
+   },
+   {
+     "id":14,
+      "title":"Golden Dust Attar",
+      "parice":"Rs.900.",
+      "img":[
+        "https://ittarstore.com/wp-content/uploads/2025/12/3-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/12/1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Amber-Wood-1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Sweet-Wood-1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Sweet-Wood-1-2.webp"
+      ]
+   },
+    {
+     "id":15,
+      "title":"Golden Dust Attar",
+      "parice":"Rs.900.",
+      "img":[
+        "https://ittarstore.com/wp-content/uploads/2025/12/3-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/12/1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Amber-Wood-1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Sweet-Wood-1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2025/03/Sweet-Wood-1-2.webp"
+      ]
+   },
+    {
+     "id":16,
+      "title":"Arihant Fragrance Trial Pack Floral Fragrance",
+      "parice":"Rs.800.",
+      "img":[
+        "https://ittarstore.com/wp-content/uploads/2022/06/Floral_Trial-Pack-768x768.jpg",
+        "https://ittarstore.com/wp-content/uploads/2025/01/Arihant-Fragrance-Winter-Trial-Pack_IttarStore-1-1-768x768.webp",
+        "https://ittarstore.com/wp-content/uploads/2022/06/Fruity-Trial-Pack-768x768.jpg",
+        "https://ittarstore.com/wp-content/uploads/2022/06/Aquatic_Trial-Pack-768x768.jpg",
+        "https://ittarstore.com/wp-content/uploads/2022/02/Unisex_Trial-Pack-768x768.png"
+      ]
+   },
+    {
+     "id":17,
+      "title":"PARADYSE PERFUME Caramel Oud Attar",
+      "parice":"Rs.600.",
+      "img":[
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRQWmbLMZxz_AhkT1faTRfXQ9aIlpVM7DnRLBhuKhjKlQETAy65WB5359cXS1g3nfZJQB8hNnkN9L9IRnIg_zhrPZFGEbH7snNB3Wpzg_27QVdVrLIHMxB4g",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTaHfH5XPQF8xT8L9oiWHgLf9OU1K2qd202Ao_IHVUfYoAKbxBBDzXsWingOE-YP9zCvTuN83lcF6H1vcpwxVGo0Y8W6CBFMg",
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQc26me5CtiGguqw9rJhGbrCX1KtHZLCfGPxsoTXGZpH2UL41wgl4t3A6zh1Ae1s45wsbEllPw0FrK_tPa0T6kum2a5GCe_wPBtY8n83NVRSDSrz395-fXz5A",
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSLZcDLQjWzrxaCz9HcKJMaZYuLsSnqS4PikDb6dC402lnX1fi8edY3zbqUoOc9DA6gCTtBw51sb-o5GJdhhWK07R-ZxjktPenLe6FeYwXa",
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzBzGbCgb7x3SXYiv4d5Bi9qnEhz2HQV5MD1MVDFn-kVGvwbfHVjmryq7WcrYHcQsJ2ceVHdcKDWL3faRI3CfDRXAyux_gWOmmK-QK8I1ELxcyZ0gP7flY"
+      ]
+   }
     ]
   
 
