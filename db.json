@@ -250,14 +250,16 @@
     "img":"https://myop.in/cdn/shop/files/bomb.webp?v=1752146420&width=1080",
     "title":"SONG OF SERENITY",
     "discription":"A floral–fruity sparkle wrapped in seductive spice for unforgettable charm.",
-    "price":"Rs.4992"
+    "price":"Rs.4992",
+     "category ": "For_her"
     },
         {
     "id":2,
     "img":"https://myop.in/cdn/shop/files/florence.webp?v=1752146320&width=1080",
     "title":"SPLENDID ROSE",
     "discription":"Lush petals and sweet fruits ignite with fiery warmth in a sensual trail.",
-    "price":"Rs.3992"
+    "price":"Rs.3992",
+     "category ": "For_her"
     },
 
     {
@@ -265,7 +267,8 @@
     "img":"https://myop.in/cdn/shop/files/urban_chic.webp?v=1752146276&width=1080",
     "title":"FLORA DIVINE",
     "discription":"Crisp freshness meets bold florals and spice for a confident, sultry glow.",
-    "price":"Rs.5992"
+    "price":"Rs.5992",
+     "category ": "For_her"
     },
 
      {
@@ -273,7 +276,8 @@
      "img":"https://myop.in/cdn/shop/files/marshamallow_fluff_thumbnail.webp?v=1753800557&width=1080",
     "title":"MEHR",
     "discription":"Juicy berries and jasmine melt into a warm, spicy seduction.",
-    "price":"Rs.2992"
+    "price":"Rs.2992",
+    "category ": "For_her"
     },
 
      {
@@ -281,14 +285,16 @@
      "img":"https://myop.in/cdn/shop/files/bangalore_bloom.webp?v=1752146312&width=1080",
     "title":"Bangalore Bloom",
     "discription":"A bright burst of freshness deepens into a spicy, high-end allure.",
-    "price":"Rs.7992"
+    "price":"Rs.7992",
+    "category ": "For_her"
     },
       {
     "id":6,
      "img":"https://myop.in/cdn/shop/files/Thumbnail_new_Streight_copy.webp?v=1763718901&width=1080",
     "title":"Venom",
     "discription":"Fruity sweetness and floral elegance linger with seductive warmth.",
-    "price":"Rs.1992"
+    "price":"Rs.1992",
+    "category ": "For_her"
     }
      ,
        {
@@ -296,7 +302,8 @@
      "img":"https://myop.in/cdn/shop/files/floral_1.webp?v=1714048608&width=1080",
     "title":"Bomb",
     "discription":"Sparkling fresh notes blend with exotic florals for a magnetic sillage.",
-    "price":"Rs.3992"
+    "price":"Rs.3992",
+    "category ": "For_her"
     }
       ,
        {
@@ -304,7 +311,8 @@
      "img":"https://myop.in/cdn/shop/files/fresh_1.webp?v=1714048533&width=1080",
     "title":"Crystal",
     "discription":"A sensual mix of ripe fruits, soft petals, and sultry spice.",
-    "price":"Rs.2992"
+    "price":"Rs.2992",
+    "category ": "For_her"
     }
       ,
        {
@@ -312,7 +320,8 @@
      "img":"https://myop.in/cdn/shop/files/mens_code.webp?v=1754559776&width=720",
     "title":"Madras Malar",
     "discription":"Fresh, floral, and deliciously spicy—crafted for pure seductive luxury.",
-    "price":"Rs.4992"
+    "price":"Rs.4992",
+    "category ": "For_her"
     }
       ,
        {
@@ -320,7 +329,8 @@
      "img":"https://myop.in/cdn/shop/files/Purple_Mystqiue.webp?v=1759560690&width=1080",
     "title":"Urban Chic",
     "discription":"Fresh, fruity, floral, spicy A sillage of high-end sultry seduction",
-    "price":"Rs.1,199"
+    "price":"Rs.1,199",
+    "category ": "For_her"
     }
   
   ],
@@ -332,7 +342,8 @@
      "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
     "title":"Ibiza",
     "discription":"Fresh woods and spicy citrus collide for a bold, masculine seduction.",
-    "price":"Rs.1,279"
+    "price":"Rs.1,279",
+    "category ":"ForHim"
     },
 
     {
@@ -340,14 +351,16 @@
      "img":"https://myop.in/cdn/shop/files/the_woody.webp?v=1752146482&width=1080",
     "title":"The Woody",
     "discription":"A crisp burst of bergamot deepens into warm, smoky spice—pure power.",
-    "price":" Rs.1,279"
+    "price":" Rs.1,279",
+    "category ":"ForHim"
     },
      {
       "id":3,
      "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
     "title":"The Woody",
     "discription":"Cool freshness wrapped in rugged woods creates an unforgettable masculine trail.",
-    "price":" Rs.3,279"
+    "price":" Rs.3,279",
+    "category ":"ForHim"
     }
     ,
      {
@@ -355,7 +368,8 @@
      "img":"https://myop.in/cdn/shop/files/menscoode.webp?v=1752146371&width=1080",
     "title":"Men's Code",
     "discription":"Spicy amber and fresh citrus deliver confident, high-end allure.",
-    "price":" Rs.4,279"
+    "price":" Rs.4,279",
+    "category ":"ForHim"
     },
 
     {
@@ -363,7 +377,8 @@
      "img":"https://myop.in/cdn/shop/files/Frame_1.webp?v=1764337765&width=1080",
     "title":"Ocean Bliss",
     "discription":"A sharp, fruity spark softens into dark woods for effortless charm.",
-    "price":" Rs.3,279"
+    "price":" Rs.3,279",
+    "category ":"ForHim"
     },
 
      {
@@ -371,7 +386,8 @@
      "img":"https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
     "title":"Afterparty",
     "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
-    "price":" Rs.6,279"
+    "price":" Rs.6,279",
+    "category ":"ForHim"
     },
 
     {
@@ -379,14 +395,16 @@
      "img":"https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720",
     "title":"Nightfall",
     "discription":"Bright citrus lifts rich cedar and amber for refined seduction.",
-    "price":" Rs.2,449"
+    "price":" Rs.2,449",
+    "category ":"ForHim"
     },
      {
       "id":8,
      "img":"https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
     "title":"California Sunshine",
     "discription":"Clean, crisp notes fused with bold pepper for irresistible masculinity.",
-    "price":" Rs.7,279"
+    "price":" Rs.7,279",
+    "category ":"ForHim"
     },
       {
       "id":9,
@@ -401,7 +419,8 @@
      "img":"https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
     "title":"High On You",
     "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
-    "price":" Rs.1,279"
+    "price":" Rs.1,279",
+    "category ":"ForHim"
     }
     
   ],
@@ -412,7 +431,7 @@
       "id":1,
       "title":"Carlton EDP Set for Her",
       "parice":"Rs.4000",
-      
+      "category ":"Gift_Perfume",
       "img":[
     "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_1.jpg",
   "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_2.jpg",
@@ -426,6 +445,7 @@
      "id":2,
       "title":"Luxury 4-in-1 Gift Set",
       "parice":"Rs.4990",
+      "category ":"Gift_Perfume",
       "img":[
              "https://myaromajunction.in/cdn/shop/files/4_x_20ml_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745050959",
              "https://myaromajunction.in/cdn/shop/files/4_x_20ml_perfume_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745050993",
@@ -439,6 +459,7 @@
      "id":3,
       "title":"Insight Perfume Set",
       "parice":"Rs.7990",
+      "category ":"Gift_Perfume",
       "img":[
         "https://www.mcaffeine.com/cdn/shop/files/Card1withoutseal.jpg?v=1709211914",
         "https://www.mcaffeine.com/cdn/shop/files/Card2_6701b93f-2f43-494d-b4e7-cff793c3da9a.jpg?v=1709211914",
@@ -453,6 +474,7 @@
      "id":4,
       "title":"Arabian Aroma Luxury Set",
       "parice":"Rs.6990",
+      "category ":"Gift_Perfume",
       "img":[
         "https://myaromajunction.in/cdn/shop/files/Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION-12ml_suroor-gift_pack_600x.png?v=1745052333",
         "https://myaromajunction.in/cdn/shop/files/Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION-12ml_gift_pack_600x.png?v=1745052362",
@@ -465,6 +487,7 @@
      "id":5,
       "title":"Aurum Series Gift Set",
       "parice":"Rs.2,800",
+       "category ":"Gift_Perfume",
       "img":[
         "https://in.ajmal.com/cdn/shop/files/WISALSERIES_GIFTSET_42ML_1_79c12512-ab6a-4344-8bac-0f1b81a4323f.jpg?v=1762846593&width=1100",
         "https://in.ajmal.com/cdn/shop/files/WISALSERIES_GIFTSET_42ML_2_80f84601-a0cd-420f-89fe-bee52ee661a5.jpg?v=1762846593&width=1100",
@@ -477,6 +500,7 @@
       "id":6,
       "title":"Mini Perfume Quad Set",
       "parice":"Rs.2000",
+       "category ":"Gift_Perfume",
       "img":[
         "https://secrettemptation.in/cdn/shop/files/1ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574&width=600",
         "https://secrettemptation.in/cdn/shop/files/2ST_Mini_Perfume_Gift_Box_Catalogue_Images.jpg?v=1726049574",
@@ -490,6 +514,7 @@
       "id":7,
       "title":"Joyful Fragrance Pack",
       "parice":"Rs.2000",
+      "category ":"Gift_Perfume",
       "img":[
        
         "https://secrettemptation.in/cdn/shop/files/IMAGE4_cde22801-7d3c-4f03-bcd2-af82cd4fa705.jpg?v=1709111953",
@@ -506,6 +531,7 @@
       "id":8,
       "title":"Joyful Fragrance Pack",
       "parice":"Rs.4000",
+      "category ":"Gift_Perfume",
       "img":[
       "https://m.media-amazon.com/images/I/710nCIjU6ML._SX425_.jpg",
       "https://m.media-amazon.com/images/I/81YlPPNNFjL._SX425_.jpg",
@@ -519,6 +545,7 @@
       "id":9,
       "title":"Her Eau De Perfum",
       "parice":"Rs.2,999",
+      "category ":"Gift_Perfume",
       "img":[
       "https://m.media-amazon.com/images/I/61-S4gzE7yL._SX425_.jpg",
       "https://m.media-amazon.com/images/I/51axXrTmiWL._SY550_.jpg",
@@ -532,6 +559,7 @@
       "id":10,
       "title":"Grandeur Fragrance Set",
       "parice":"Rs.3,999",
+      "category ":"Gift_Perfume",
       "img":[
       "https://www.engageshop.in/cdn/shop/files/PENPS0249_1.jpg?v=1743765709&width=990",
       "https://www.engageshop.in/cdn/shop/files/PENPS0249_2_1.jpg?v=1743765710&width=600",
@@ -546,6 +574,7 @@
       "id":11,
       "title":"Grandeur Perfume Collection",
       "parice":"Rs.4,999",
+      "category ":"Gift_Perfume",
       "img":[
       "https://www.engageshop.in/cdn/shop/files/PENPS0219-3_1.jpg?v=1743765724&width=600",
       "https://www.engageshop.in/cdn/shop/files/PENPS0219-6_1.jpg?v=1743765724&width=600",
@@ -558,6 +587,7 @@
       "id":12,
       "title":"Bespoke Perfume Set",
       "parice":"Rs.9,999",
+      "category ":"Gift_Perfume",
       "img":[
       "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_1.jpg",
       "https://static-assets-prod.fnp.com/images/pr/l/v20240603134037/bespoke-fragrance-gift-set-unisex_2.jpg",
@@ -571,6 +601,7 @@
       "id":13,
       "title":"Luxury Duo Set",
       "parice":"Rs.10,000",
+      "category ":"Gift_Perfume",
       "img":[
       "https://static-assets-prod.fnp.com/images/pr/l/v20240912161215/luxury-fragrance-duo-collection_1.jpg",
       "https://static-assets-prod.fnp.com/images/pr/l/v20240912161215/luxury-fragrance-duo-collection_2.jpg",
@@ -584,6 +615,7 @@
       "id":14,
       "title":"Carlton Bliss Bath Kit",
       "parice":"Rs.11,000",
+      "category ":"Gift_Perfume",
       "img":[
       "https://static-assets-prod.fnp.com/images/pr/l/v20240604102153/blissful-bath-essentials_1.jpg",
       "https://static-assets-prod.fnp.com/images/pr/l/v20240604102154/blissful-bath-essentials_2.jpg",
@@ -597,6 +629,7 @@
       "id":15,
       "title":"Carlton London Blush",
       "parice":"Rs.8,000",
+      "category ":"Gift_Perfume",
       "img":[
       "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_1.jpg",
       "https://static-assets-prod.fnp.com/images/pr/l/v20240603134016/carlton-london-blush-gift-set_2.jpg",
@@ -611,6 +644,7 @@
       "id":16,
       "title":"Blush Gift Set",
       "parice":"Rs.9,000",
+      "category ":"Gift_Perfume",
       "img":[
           "https://m.media-amazon.com/images/I/815KNfCt5kL._SL1500_.jpg",
           "https://m.media-amazon.com/images/I/815KNfCt5kL._SL1500_.jpg",
@@ -624,6 +658,7 @@
       "id":17,
       "title":"Bloom Oud Combo",
       "parice":"Rs.10,000",
+      "category ":"Gift_Perfume",
       "img":[
 
         "https://m.media-amazon.com/images/I/61W7W+4JcnL._SL1500_.jpg",
@@ -637,6 +672,7 @@
       "id":18,
       "title":"Men’s Luxury Gift Set",
       "parice":"Rs.15,000",
+      "category ":"Gift_Perfume",
       "img":[
          
         "https://lafrenchperfumes.com/cdn/shop/files/7_1_1d0575d7-7292-4b0c-a57f-3a9149ef498c.jpg?v=1744280139",
@@ -651,6 +687,7 @@
       "id":19,
       "title":"Premium Men’s Set",
       "parice":"Rs.15,000",
+     "category ":"Gift_Perfume",
       "img":[
            
         "https://static-assets-prod.fnp.com/images/pr/l/v20251001153347/a-gentlemans-moods-perfume-set_1.jpg",
@@ -664,6 +701,7 @@
       "id":20,
       "title":"Luxury Fragrance Set Men",
       "parice":"Rs.17,000",
+      "category ":"Gift_Perfume",
       "img":[
         "https://in.ajmal.com/cdn/shop/files/ARTISAN_GIFTSET_80ML_1_cc6215dd-3a39-4c52-b08e-2ba33fcf607b.jpg?v=1746422400",
         "https://in.ajmal.com/cdn/shop/files/ARTISAN_GIFTSET_80ML_2_1.jpg?v=1746422400",
@@ -681,7 +719,7 @@
       "id":1,
       "title":"Royal Saffron - North ",
       "parice":"Rs.5,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
 
         "https://fraganote.com/cdn/shop/files/Royalsaffron4copy.webp?v=1758877981&width=493",
@@ -698,7 +736,7 @@
       "id":2,
       "title":"Spice Wood 50ML",
       "parice":"Rs.4,000",
-      
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
@@ -713,7 +751,7 @@
       "id":3,
       "title":"OudRoyale Luxury Perfume",
       "parice":"Rs.9,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://fraganote.com/cdn/shop/files/1_15.webp?v=1761809235&width=493",
@@ -729,7 +767,7 @@
       "id":4,
       "title":"Urban Men Perfume",
       "parice":"Rs.2,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
 
        "https://hamidi.in/cdn/shop/files/Maison-Elixir_87e42471-6984-4a3a-88ed-585bbe11f1d6_360x.jpg?v=1747038735",
@@ -743,7 +781,7 @@
       "id":5,
       "title":"Bangalore Bloom",
       "parice":"Rs.9,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://myop.in/cdn/shop/files/bomb.webp?v=1752146420&width=1080",
@@ -758,7 +796,7 @@
       "id":6,
       "title":"Bloom Luxury Perfume",
       "parice":"Rs.9,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
 
        "https://hamidi.in/cdn/shop/files/Hamidi-Shaheen-Bottle_360x.jpg?v=1747038843",
@@ -772,7 +810,7 @@
       "id":7,
       "title":"FLORA DIVINE",
       "parice":"Rs.13,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
         "https://myop.in/cdn/shop/files/Purple_Mystqiue.webp?v=1759560690&width=1080",
         "https://myop.in/cdn/shop/files/mens_code.webp?v=1754559776&width=720",
@@ -786,7 +824,7 @@
       "id":8,
       "title":"Royal West Perfume",
       "parice":"Rs.5,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://fraganote.com/cdn/shop/files/RoyalGardens3copy.webp?v=1758877981&width=493",
@@ -800,7 +838,7 @@
       "id":9,
       "title":"Royal Amber Perfume",
       "parice":"Rs.11,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
         "https://fraganote.com/cdn/shop/files/RoyalAmber4copy.webp?v=1758877981&width=493",
         "https://fraganote.com/cdn/shop/files/Royal_Amber_5_copy.webp?v=1758887001&width=493",
@@ -813,7 +851,7 @@
       "id":10,
       "title":"Enchante Luxury Perfume",
       "parice":"Rs.11,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://laurelle.in/cdn/shop/files/British-Racing-Club-Blue.jpg?v=1733823687",
@@ -828,7 +866,7 @@
       "id":11,
       "title":"Amber Magic Fragrance",
       "parice":"Rs.12,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
        "https://laurelle.in/cdn/shop/files/ROYALE_COPPER.jpg?v=1736759642",
@@ -842,7 +880,7 @@
       "id":12,
       "title":"British Club Green",
       "parice":"Rs.11,000",
-
+     "category ":"Luxury_perfumes",
       "img":[
 
         "https://laurelle.in/cdn/shop/files/British-Racing-Club-Green.jpg?v=1733823754",
@@ -857,7 +895,7 @@
       "id":13,
       "title":"Sinful Rose",
       "parice":"Rs.11,000",
-
+       "category ":"Luxury_perfumes",
       "img":[
 
        "https://fraganote.com/cdn/shop/files/1_14.webp?v=1761807753&width=493",
@@ -871,7 +909,7 @@
       "id":14,
       "title":"Baked Vanilla",
       "parice":"Rs.2,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
         
         "https://fraganote.com/cdn/shop/files/1._1.webp?v=1761804392&width=493",
@@ -885,7 +923,7 @@
       "id":15,
       "title":"Persian Oud Parfum",
       "parice":"Rs.12,000",
-
+      "category ":"Luxury_perfumes",
       "img":[
         
         "https://fraganote.com/cdn/shop/files/1_c5f83060-b24a-4a96-af64-acbf8008f094.webp?v=1761809314&width=493",
@@ -899,7 +937,7 @@
       "id":16,
       "title":"London Bar Parfum",
       "parice":"Rs.1000",
-
+       "category ":"Luxury_perfumes",
       "img":[
         "https://fraganote.com/cdn/shop/files/1k.webp?v=1761809236&width=493",
         "https://fraganote.com/cdn/shop/files/2_12.webp?v=1761809236&width=493",
@@ -913,7 +951,7 @@
       "id":17,
       "title":"Triumph Pocket Perfume",
       "parice":"Rs.1000",
-
+      "category ":"Luxury_perfumes",
        "img":[
 
        "https://m.media-amazon.com/images/I/81hKS8WylaL._SX522_.jpg",
@@ -927,6 +965,7 @@
       "id":18,
       "title":"Noir Unisex Deodorant..",
       "parice":"Rs.2000",
+       "category ":"Luxury_perfumes",
  "img":[
 
        "https://hamidi.in/cdn/shop/files/DCS0010_3_360x.jpg?v=1747038855",
@@ -940,7 +979,7 @@
       "id":19,
       "title":"Oud Unisex Deodorant..",
       "parice":"Rs.2000",
-
+      "category ":"Luxury_perfumes",
       "img":[
 
         "https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
@@ -955,6 +994,7 @@
       "id":20,
       "title":"Recharge & Bleu Perfume",
       "parice":"Rs.20,000",
+       "category ":"Luxury_perfumes",
       "img":[
 
        "https://hamidi.in/cdn/shop/files/Hamidi-Fusion-Accord-Bottle_360x.jpg?v=1747038874",
@@ -974,6 +1014,7 @@
      "id":1,
       "title":"recharge bleu perfume",
       "parice":"Rs.1,499",
+       "category ":"kids_perfume",
       "img":[
        
         "https://bachaaparty.com/cdn/shop/files/BPE_0989-1_1024x1024.jpg?v=1762257593&width=1080",
@@ -987,6 +1028,7 @@
      "id":2,
       "title":"BP Flurry Kids Perfume",
       "parice":"Rs.1,499",
+      "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/BPE_0982_851041bf-c8ec-46e8-b398-e670404622e5.jpg?v=1762762522&width=1080",
         "https://bachaaparty.com/cdn/shop/files/BPE_0980_242e86e0-b5ae-416f-a3db-1cd23f8611f7.jpg?v=1762762522&width=1080",
@@ -999,6 +1041,7 @@
      "id":3,
       "title":"BP Elefiona Kids Perfume",
       "parice":"Rs.1,499",
+      "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/BPE_0995_cf6228f2-89a1-4349-bc06-e9b960e3c9d9.jpg?v=1762762595&width=900",
         "https://bachaaparty.com/cdn/shop/files/BPE_1000_d0971d15-1451-4405-8eb4-a6bc0434bfa8.jpg?v=1762762595&width=900",
@@ -1012,6 +1055,7 @@
      "id":4,
       "title":"starshine Fragrance",
       "parice":"Rs.2,499",
+       "category ":"kids_perfume",
       "img":[
 
         "https://bachaaparty.com/cdn/shop/files/DSC_9236_690de4bf-5ce4-46a3-bca9-27dcb433539a.jpg?v=1763724778&width=900",
@@ -1026,6 +1070,7 @@
      "id":5,
       "title":"spacestunner Perfume",
       "parice":"Rs.1,000",
+       "category ":"kids_perfume",
       "img":[
          
         "https://bachaaparty.com/cdn/shop/files/DSC_9673-1.jpg?v=1734756607&width=1080",
@@ -1040,6 +1085,7 @@
      "id":6,
       "title":"space stun Perfume",
       "parice":"Rs.1,000",
+       "category ":"kids_perfume",
       "img":[
          "https://bachaaparty.com/cdn/shop/files/BPE_1009_7938f72b-0afc-48e8-9bb1-ecffa0de1b29_1024x1024.jpg?v=1762762555&width=1080",
          "https://bachaaparty.com/cdn/shop/files/BPE_1007_db4e2106-4572-4eef-b8e0-d24b5b337a55.jpg?v=1762762555&width=1080",
@@ -1053,6 +1099,7 @@
      "id":7,
       "title":"Perfume Brave Heart",
       "parice":"Rs.1,000",
+       "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/DSC_9683-1.jpg?v=1734756591&width=540",
         "https://bachaaparty.com/cdn/shop/files/DSC_9682_5310ca1a-30f9-4ffb-b5f3-2167ba8d66d9.jpg?v=1734756591&width=1080",
@@ -1068,6 +1115,7 @@
      "id":8,
       "title":"Green Apple Giggles",
       "parice":"Rs.999",
+       "category ":"kids_perfume",
       "img":[
 
         "https://purefume.in/uploads/products/2025/05/14/20250514121436_68243bd4cd7ef7-89444387.jpg",
@@ -1081,6 +1129,7 @@
      "id":9,
       "title":"Floral Fabulous 555",
       "parice":"Rs.799",
+       "category ":"kids_perfume",
       "img":[
 
         "https://purefume.in/uploads/products/2025/04/08/67f51df8693707-26078081.jpg",
@@ -1095,6 +1144,7 @@
      "id":10,
       "title":"Melon Mix 344",
       "parice":"Rs.999",
+       "category ":"kids_perfume",
       "img":[
          
         "https://purefume.in/uploads/products/2025/05/14/20250514121732_68243c844d85a4-74293939.jpg",
@@ -1108,6 +1158,7 @@
      "id":11,
       "title":"Berry Beauty 844",
       "parice":"Rs.999",
+       "category ":"kids_perfume",
       "img":[
         "https://purefume.in/uploads/products/2025/05/14/68244bc980e8d3-79217687.jpg",
         "https://purefume.in/uploads/products/2024/10/18/20241018033958_671233f64565d6-41452254.jpg",
@@ -1120,6 +1171,7 @@
      "id":12,
       "title":"Puff Puff Whiz",
       "parice":"Rs.299",
+       "category ":"kids_perfume",
       "img":[
         "https://media.vperfumes.com/products/Puff-Puff-Wonder-Whiz-EDP-For-Kids-50ML-1731398351436.webp",
         "https://media.vperfumes.com/products/Puff-Puff-Wonder-Whiz-EDP-For-Kids-50ML-1731398352115.webp",
@@ -1132,6 +1184,7 @@
      "id":13,
       "title":"Water-Based Fragrances",
       "parice":"Rs.1,450",
+       "category ":"kids_perfume",
       "img":[
 
         "https://thewritestuff.co.in/cdn/shop/files/9_f9e8d496-e211-44b9-8d45-6ebb9073bacb_720x.jpg?v=1722424229",
@@ -1145,6 +1198,7 @@
      "id":14,
       "title":"Jad In the Jungle",
       "parice":"Rs.1,450",
+       "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/DSC_2777_141ed46b-c843-46ea-9d0c-9b6f6569777c.jpg?v=1762934704&width=1080",
         "https://bachaaparty.com/cdn/shop/files/BPE_4112_d2374d62-06dc-4fcc-bb6c-78ba9ea419c2.jpg?v=1762931061&width=1080",
@@ -1157,6 +1211,8 @@
      "id":15,
       "title":"Eskulin Ariel Spray",
       "parice":"Rs.2,450",
+       "category ":"kids_perfume",
+      
       "img":[
         "https://bachaaparty.com/cdn/shop/files/BPE_4132-1.jpg?v=1762931570&width=1080",
         "https://bachaaparty.com/cdn/shop/files/BPE_4132_958a8d02-4a11-4247-bddb-c547d650bff6.jpg?v=1762931510&width=1080",
@@ -1169,6 +1225,7 @@
      "id":16,
       "title":"Baby Shark Pink Perfume",
       "parice":"Rs.2,450",
+       "category ":"kids_perfume",
       "img":[
 
         "https://www.gulahmedshop.com/cdn/shop/files/baby_shark_pink_3.jpg?v=1758369561",
@@ -1182,6 +1239,7 @@
      "id":17,
       "title":"Eskulin Blossom Mist",
       "parice":"Rs.3,450",
+       "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/BPE_4149-1.jpg?v=1762931717&width=900",
        "https://bachaaparty.com/cdn/shop/files/BPE_4147_a93b0cc4-f7c2-4a6a-908d-0c14b01d807e.jpg?v=1762931717&width=900",
@@ -1195,6 +1253,7 @@
      "id":18,
       "title":"Junior Perfume",
       "parice":"Rs.2,450",
+       "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/DSC_0865_b09b5105-6459-4384-9e88-033005c1d46e.jpg?v=1718106916&width=1080",
         "https://bachaaparty.com/cdn/shop/files/DSC_0855_be97a90a-e3e3-4520-9c6b-a8d13896709a_1024x1024.jpg?v=1718106893&width=1080",
@@ -1208,6 +1267,7 @@
      "id":19,
       "title":"Flower Power",
       "parice":"Rs.299",
+       "category ":"kids_perfume",
       "img":[
         "https://bachaaparty.com/cdn/shop/files/DSC_0866_0f7a9a3a-4ac5-4777-9a2e-71c2c32e7315.jpg?v=1718106916&width=1080",
         "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_3.webp?v=1747116952&width=600",
@@ -1222,6 +1282,7 @@
      "id":20,
       "title":"OrangeBlossom Perfume",
       "parice":"Rs.299",
+       "category ":"kids_perfume",
       "img":[
 
        "https://kaawaiicosmetics.com/cdn/shop/files/448420-KAAWAII_post_2.webp?v=1747116908&width=600",
@@ -1235,6 +1296,7 @@
      "id":21,
       "title":"MIMI Kids Perfume",
       "parice":"Rs.599",
+       "category ":"kids_perfume",
       "img":[
 
         "https://kaawaiicosmetics.com/cdn/shop/files/ORANGE_BLOSSOM_AND_FLOWER_POWER.png?v=1747469862&width=600",
@@ -1248,6 +1310,7 @@
      "id":22,
       "title":"BLOOP Kids Perfume",
       "parice":"Rs.599",
+       "category ":"kids_perfume",
       "img":[
 
         "https://kaawaiicosmetics.com/cdn/shop/files/AQUA_BLUE_AND_TIMBER_GOLD.png?v=1747470003&width=600",
@@ -1263,6 +1326,7 @@
      "id":23,
       "title":"TWINKLEO Kids Perfume",
       "parice":"Rs.699",
+       "category ":"kids_perfume",
       "img":[
           
         "https://kaawaiicosmetics.com/cdn/shop/files/TIMBER_GOLD_AND_FLOWER_POWER.png?v=1747469979&width=600",
@@ -1277,6 +1341,7 @@
      "id":24,
       "title":"Mango Mischief 277",
       "parice":"Rs.799",
+       "category ":"kids_perfume",
       "img":[
           
         "https://purefume.in/uploads/products/2025/05/14/20250514121646_68243c563dbe72-92099959.jpg",
@@ -1292,6 +1357,7 @@
      "id":1,
      "title":"BloomBerry Attar",
      "parice":"Rs.1,000",
+      "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/05/Choco-Musk-Attar-300x300.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/06/Shahi-Gulab.jpg",
@@ -1304,6 +1370,7 @@
      "id":2,
      "title":"Rajnigandha Attar",
      "parice":"Rs.2,000",
+      "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2022/06/Rajnigandha.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/05/rajnigandha-attar-ittar-store-arihant-fragrance.jpg",
@@ -1317,6 +1384,7 @@
      "id":3,
      "title":"HarSingar Attar",
      "parice":"Rs.2,200",
+      "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2022/02/Har-Shringar.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Tropical-Punch.jpg",
@@ -1330,6 +1398,7 @@
      "id":4,
      "title":"Arabian Nights Attar",
      "parice":"Rs.2,200",
+      "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/04/Arabian-Nights.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Arabian_nights_attar_fragrance_ittarstore.jpg",
@@ -1342,6 +1411,7 @@
      "id":5,
      "title":"Loving Heart Attar",
      "parice":"Rs.3,200",
+      "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/04/Loving-Heart.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/Tea-rose.jpg",
@@ -1354,6 +1424,7 @@
      "id":6,
      "title":"Attar Bliss Set",
      "parice":"Rs.1,200",
+      "category ":"Woman_Attar",
      "img":[
       "https://nirmalaya.com/cdn/shop/products/11-2.jpg?v=1735374022&width=800",
       "https://nirmalaya.com/cdn/shop/products/10-2.jpg?v=1735374022&width=800",
@@ -1367,6 +1438,7 @@
      "id":7,
      "title":"First Rain Minis",
      "parice":"Rs.1,200",
+      "category ":"Woman_Attar",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/First_Rain_Roll_on_Attar.jpg?v=1725360244&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/1_35.png?v=1762258084&width=800",
@@ -1379,6 +1451,7 @@
      "id":8,
      "title":"Love Memoirs Minis Attar ",
      "parice":"Rs.2,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/Memoirs_of_love_attar.png?v=1743670043&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/2_30.png?v=1743670043&width=800",
@@ -1391,6 +1464,7 @@
      "id":9,
      "title":"Dew of Life",
      "parice":"Rs.2,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/DewofLife50ml_20231018_134541650.jpg?v=1697710022&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/DewofLifexBox50ml.png?v=1697710022&width=800",
@@ -1403,6 +1477,7 @@
      "id":10,
      "title":"Al Habib Attar",
      "parice":"Rs.2,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://www.isakfragrances.com/cdn/shop/files/pebblely_1.jpg?v=1696489323&width=800",
       "https://www.isakfragrances.com/cdn/shop/files/2_2.png?v=1696489323&width=800",
@@ -1415,6 +1490,7 @@
      "id":11,
      "title":"Hawas Attar",
      "parice":"Rs.4,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2023/10/Hawas.jpg",
       "https://ittarstore.com/wp-content/uploads/2024/11/Kewda.jpg",
@@ -1427,6 +1503,7 @@
      "id":12,
      "title":"Fantasy Attar",
      "parice":"Rs.1,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2024/04/Fantasy.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/02/fantasy-10-ml-attar-ittar-store-arihant-fragrance.jpg",
@@ -1439,6 +1516,7 @@
      "id":13,
      "title":"Vedika Chandan Attar",
      "parice":"Rs.2,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2023/12/8ml-Vedika-Chandan-IttarStore.jpg",
       "https://ittarstore.com/wp-content/uploads/2023/12/Vedika-Chandan-IttarStore.jpg",
@@ -1451,6 +1529,7 @@
      "id":14,
      "title":"Vedika Chandan Attar",
      "parice":"Rs.2,200",
+     "category ":"Woman_Attar",
      "img":[
       "https://ittarstore.com/wp-content/uploads/2022/06/Rose-essential-oil.jpg",
       "https://ittarstore.com/wp-content/uploads/2022/06/Dehen-al-Oud-Abiyad.jpg",
@@ -1463,6 +1542,7 @@
      "id":15,
      "title":"Mukhallat Oud Attar",
      "parice":"Rs.6,200",
+      "category ":"Woman_Attar",
      "img":[
 
       "https://ittarstore.com/wp-content/uploads/2023/10/Mukhallat-Oudh.jpg",
@@ -1481,6 +1561,7 @@
      "id":1,
       "title":"Discovery Pack",
       "parice":"Rs.2,000",
+      "category ":"Gift_Attar",
       "img":[
             
         "https://www.isakfragrances.com/cdn/shop/files/Discovery_pack_ISAK_Fragrances.png?v=1725358579&width=800",
@@ -1495,6 +1576,7 @@
      "id":2,
       "title":"Love Note Collection",
       "parice":"Rs.4,000",
+      "category ":"Gift_Attar",
       "img":[
             
         "https://www.isakfragrances.com/cdn/shop/files/WhatsAppImage2025-05-01at6.03.59PM_2.jpg?v=1746172994&width=800",
@@ -1508,6 +1590,7 @@
      "id":3,
       "title":"The Occasion Series",
       "parice":"Rs.2,000",
+     "category ":"Gift_Attar",
       "img":[
           
         "https://www.isakfragrances.com/cdn/shop/files/Occasion_Series_Gift_Set.jpg?v=1723006842&width=800",
@@ -1521,6 +1604,7 @@
      "id":4,
       "title":"Gift Pack Attars",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
 
         "https://www.isakfragrances.com/cdn/shop/products/Isak_Gift_Box_Attars.png?v=1725365790&width=800",
@@ -1535,6 +1619,7 @@
      "id":5,
       "title":"Gift Pack Perfumes ",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/products/Contentscannotbesoldloose.-3.png?v=1677000277&width=800",
         "https://www.isakfragrances.com/cdn/shop/products/17_cc2997b9-a133-480e-be53-64d9868c4964.png?v=1677000277&width=800",
@@ -1548,6 +1633,7 @@
      "id":6,
       "title":"Attars Festive Gift",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/Attars_Gift_Box.png?v=1725099520&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/WhatsApp_Image_2024-10-02_at_3.55.54_PM_1.jpg?v=1728367067&width=800",
@@ -1561,6 +1647,7 @@
      "id":7,
       "title":"Perfumes Festive Gift",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/WhatsApp_Image_2024-10-02_at_3.55.53_PM_2.jpg?v=1728366824&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/2_perfumes_best_gift_box.png?v=1725100333&width=800",
@@ -1573,6 +1660,7 @@
      "id":8,
       "title":"Valentine Gift Package",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://ittarstore.com/wp-content/uploads/2024/07/Gift-Pack-For-Sisters.webp",
         "https://ittarstore.com/wp-content/uploads/2024/07/Gift-Pack-For-Brothers.webp",
@@ -1585,6 +1673,7 @@
      "id":9,
       "title":"AQ Luxury Attar Gift",
       "parice":"Rs.6,000",
+     "category ":"Gift_Attar",
       "img":[
            "https://www.adilqadri.com/cdn/shop/files/6PCS_Combo.jpg?v=1726827164&width=800",
            "https://www.adilqadri.com/cdn/shop/files/Packofsix.4.jpg?v=1694590276&width=800",
@@ -1597,6 +1686,7 @@
      "id":10,
       "title":"setadilqadri discovery set",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/hero-img.jpg?v=1760790030&width=800",
         "https://www.adilqadri.com/cdn/shop/files/50-perfume-discovery-set-10x5ml-long-lasting-parfum-pocket-original-imahegw4zfxyrmea.jpg?v=1760790030&width=700",
@@ -1609,6 +1699,7 @@
      "id":11,
       "title":"heritage premium attars",
       "parice":"Rs.9,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://static.wixstatic.com/media/19fe93_4808f38d94fd4ecead218c4c483d39fc~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_4808f38d94fd4ecead218c4c483d39fc~mv2.jpg",
         "https://static.wixstatic.com/media/19fe93_d1089c31dd6b468fa24067c8d0a11ba5~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_d1089c31dd6b468fa24067c8d0a11ba5~mv2.png",
@@ -1621,6 +1712,7 @@
      "id":12,
       "title":"royal attars combo",
       "parice":"Rs.3,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://static.wixstatic.com/media/19fe93_8cec0a111c5d42ec96f38140872a17b8~mv2.png/v1/fill/w_550,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_8cec0a111c5d42ec96f38140872a17b8~mv2.png",
         "https://static.wixstatic.com/media/19fe93_c034c89a02e8483ea2c04731675e481f~mv2.png/v1/fill/w_550,h_549,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_c034c89a02e8483ea2c04731675e481f~mv2.png",
@@ -1633,6 +1725,7 @@
      "id":13,
       "title":"Kannauj Valentine Gift",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
           
         "https://static.wixstatic.com/media/19fe93_66baaaec49714f73ab19742644b621d6~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19fe93_66baaaec49714f73ab19742644b621d6~mv2.jpg",
@@ -1647,6 +1740,7 @@
      "id":14,
       "title":"ibadat attar set",
       "parice":"Rs.5,000",
+     "category ":"Gift_Attar",
       "img":[
           "https://noorson.com/cdn/shop/files/03_8261cb38-3e88-432b-bd00-6750072273cc.jpg?v=1739625585&width=620",
           "https://noorson.com/cdn/shop/files/04.jpg?v=1739625641&width=620",
@@ -1659,6 +1753,7 @@
      "id":15,
       "title":"Royal Combo ",
       "parice":"Rs.2,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://noorson.com/cdn/shop/files/01_1842c672-ecf0-459f-bffc-7a63975d08ef.jpg?v=1740067143&width=620",
         "https://noorson.com/cdn/shop/files/02_b6da6962-14c9-44db-a64e-af4458029eec.jpg?v=1740067143&width=620",
@@ -1671,6 +1766,7 @@
      "id":16,
       "title":"Attar Floral Gift Set",
       "parice":"Rs.2,000",
+     "category ":"Gift_Attar",
       "img":[
         "https://indrasugandh.com/cdn/shop/files/White-And_Gold_Luxury_Perfume_Sale_Promotion_Instagram_Post_1.png?v=1700024987",
         "https://indrasugandh.com/cdn/shop/files/9.png?v=1700024987",
@@ -1684,6 +1780,7 @@
      "id":17,
       "title":"majestic attar set",
       "parice":"Rs.2,300",
+     "category ":"Gift_Attar",
       "img":[
 
         "https://www.pujaperfumery.com/wp-content/uploads/2025/01/luxury-attars-sample-kit-1.webp",
@@ -1697,6 +1794,7 @@
      "id":18,
       "title":"sugandhit pooja attar",
       "parice":"Rs.2,500",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.pujaperfumery.com/wp-content/uploads/2025/03/devlok-kit.webp",
         "https://www.pujaperfumery.com/wp-content/uploads/2025/03/devlok-kit-2-1000x1000.webp",
@@ -1709,6 +1807,7 @@
      "id":19  ,
       "title":"black wooden box",
       "parice":"Rs3,850.00",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6094-scaled-1.jpg",
         "https://www.pujaperfumery.com/wp-content/uploads/2025/03/DSC_6082-scaled-1-1000x667.jpg",
@@ -1721,6 +1820,7 @@
      "id":20,
       "title":"6mlx3 Black Wood Box",
       "parice":"Rs3,950.00",
+     "category ":"Gift_Attar",
       "img":[
         "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5901-scaled-1.jpg",
         "https://www.pujaperfumery.com/wp-content/uploads/2022/03/DSC_5898-scaled-1-1000x667.jpg",
@@ -1735,6 +1835,7 @@
      "id":1,
       "title":"Amber Hasan Premium Fragrances Alcohol Free Attar By Hasan Oud",
       "parice":"Rs.1,000",
+     "category ": "Men_Attar",
       "img":[
           
         "https://hasanoud.com/cdn/shop/files/Amber_Hasan_01.png?v=1749807349&width=493",
@@ -1748,6 +1849,7 @@
      "id":2,
       "title":"Kinam Premium Fragrances By Hasanoud Attar Alcohol Free",
       "parice":"Rs.12,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://kannaujattar.com/wp-content/uploads/2021/12/kc-new-1-png.webp",
         "https://kannaujattar.com/wp-content/uploads/2022/07/NATURAL-ATTAR-GIFT-SET-EXCLUSIVE-BY-KANNAUJ-Perfume-1.png.webp",
@@ -1760,6 +1862,7 @@
      "id":3,
       "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
       "parice":"Rs.2,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.05_AM_2.jpg?v=1753556411&width=800",
         "https://www.adilqadri.com/cdn/shop/files/shanayagoldboxandbottlee_1.png?v=1753556411&width=800",
@@ -1773,6 +1876,7 @@
      "id":4,
       "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
       "parice":"Rs.2,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.04_AM_1.jpg?v=1755198327&width=800",
         "https://www.adilqadri.com/cdn/shop/files/1_d8761dc3-bfaa-4c76-8bd0-d0dce49b96ce.jpg?v=1755198327&width=800",
@@ -1785,6 +1889,7 @@
      "id":5,
       "title":"Adilqadri AQ Aqua Luxury Attar Perfume",
       "parice":"Rs.3,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.07_AM_1.jpg?v=1753556438&width=800",
         "https://www.adilqadri.com/cdn/shop/files/B_cf63878c-9412-4ce5-b4f2-4fb763ee9597.png?v=1753556438&width=800",
@@ -1797,6 +1902,7 @@
      "id":6,
       "title":"Adilqadri Oudh Al Hashmi Luxury Attar Perfume",
       "parice":"Rs.3,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.06_AM_2.jpg?v=1755198391&width=800",
         "https://www.adilqadri.com/cdn/shop/files/oudhalhashmi.jpg?v=1755198391&width=800",
@@ -1809,6 +1915,7 @@
      "id":7,
       "title":"Adilqadri Shanaya Luxury Attar Perfume 10 ML",
       "parice":"Rs.2,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/1_232def41-d2d5-4530-ab75-4f79e5c28d7b.jpg?v=1754565731&width=800",
         "https://www.adilqadri.com/cdn/shop/files/2_dba5b2cf-176c-4d47-9d32-407834f16dee.jpg?v=1754565731&width=800",
@@ -1821,6 +1928,7 @@
      "id":8,
       "title":"Crimson Oudh Attar",
       "parice":"Rs.1,999.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/LCATTARPNGS_1.5x.png?v=1762257466&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/LC_Fragrance_ingredients__1.5x_1.png?v=1762257466&width=800",
@@ -1833,6 +1941,7 @@
      "id":9,
       "title":"Rain Kissed Roses Attar - Minis",
       "parice":"Rs.500.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/12_cb479f23-79d5-4711-a834-9fb1e90b98b3.png?v=1699270810&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/RainKissedRoses3ml.png?v=1762256621&width=800",
@@ -1845,6 +1954,7 @@
      "id":10,
       "title":"Forest Rain Attar",
       "parice":"Rs.600.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/products/2_7d669b9c-00e3-4183-bf9b-a23ad5d7d742.png?v=1676706791&width=800",
         "https://www.isakfragrances.com/cdn/shop/products/1_b5147046-1bc2-4563-a2d3-bbc3e7c3b595.png?v=1676706796&width=800",
@@ -1857,6 +1967,7 @@
      "id":11,
       "title":"Memoirs Of Love Attar Minis",
       "parice":"Rs.600.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.isakfragrances.com/cdn/shop/files/Memoirs_of_love_attar.png?v=1743670043&width=800",
         "https://www.isakfragrances.com/cdn/shop/files/2_30.png?v=1743670043&width=800",
@@ -1869,6 +1980,7 @@
      "id":12,
       "title":"Dukhni's Real Rose Attar Oil",
       "parice":"Rs.900.",
+     "category ": "Men_Attar",
       "img":[
         "https://m.media-amazon.com/images/I/61BHkJOarcL._SX425_.jpg",
         "https://m.media-amazon.com/images/I/61whdDF-M7L._SX425_.jpg",
@@ -1881,6 +1993,7 @@
      "id":13,
       "title":"TPO Jasmine Attar Oil by Dukhni",
       "parice":"Rs.900.",
+     "category ": "Men_Attar",
       "img":[
         "https://m.media-amazon.com/images/I/61ixYPQsSdL._SX425_.jpg",
         "https://m.media-amazon.com/images/I/61U1uxbsXNL._SX425_.jpg",
@@ -1893,6 +2006,7 @@
      "id":14,
       "title":"Golden Dust Attar",
       "parice":"Rs.900.",
+     "category ": "Men_Attar",
       "img":[
         "https://ittarstore.com/wp-content/uploads/2025/12/1-768x768.webp",
         "https://ittarstore.com/wp-content/uploads/2025/03/Amber-Wood-1-768x768.webp",
@@ -1905,6 +2019,7 @@
      "id":15,
       "title":"Golden Dust Attar",
       "parice":"Rs.900.",
+     "category ": "Men_Attar",
       "img":[
         "https://ittarstore.com/wp-content/uploads/2025/12/3-768x768.webp",
         "https://ittarstore.com/wp-content/uploads/2025/12/1-768x768.webp",
@@ -1917,6 +2032,7 @@
      "id":16,
       "title":"Arihant Fragrance Trial Pack Floral Fragrance",
       "parice":"Rs.800.",
+     "category ": "Men_Attar",
       "img":[
         "https://ittarstore.com/wp-content/uploads/2022/06/Floral_Trial-Pack-768x768.jpg",
         "https://ittarstore.com/wp-content/uploads/2025/01/Arihant-Fragrance-Winter-Trial-Pack_IttarStore-1-1-768x768.webp",
@@ -1929,6 +2045,7 @@
      "id":17,
       "title":"PARADYSE PERFUME Caramel Oud Attar",
       "parice":"Rs.600.",
+     "category ": "Men_Attar",
       "img":[
         "https://kannaujattar.com/wp-content/uploads/2024/10/luxury-long-lasting-attar-perfumes-gift-set-jpg.webp",
         "https://kannaujattar.com/wp-content/uploads/2024/10/luxury-long-lasting-attar-perfumes-gift-set-jpg.webp",
@@ -1941,6 +2058,7 @@
      "id":18,
       "title":"Adilqadri Safira Luxury Attar Perfume",
       "parice":"Rs.800.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.06_AM_1.jpg?v=1753556419&width=800",
         "https://www.adilqadri.com/cdn/shop/files/Picsart_24-11-22_20-45-18-914.jpg?v=1753556419&width=800",
@@ -1953,6 +2071,7 @@
      "id":19,
       "title":"Parag Fragrances Yara Empire 6ml",
       "parice":"Rs.600.",
+     "category ": "Men_Attar",
       "img":[
         "https://aafiyaperfumes.com/cdn/shop/files/IMG-1349.jpg?v=1747812690&width=1100",
         "https://aafiyaperfumes.com/cdn/shop/files/IMG-1555.jpg?v=1747812684&width=360",
@@ -1965,6 +2084,7 @@
      "id":20,
       "title":"Adilqadri Safwan Luxury Attar Perfume",
       "parice":"Rs.800.",
+     "category ": "Men_Attar",
       "img":[
         "https://www.adilqadri.com/cdn/shop/files/WhatsApp_Image_2025-07-27_at_12.25.05_AM_1.jpg?v=1753556398&width=800",
         "https://www.adilqadri.com/cdn/shop/files/shanayaoudrender2.png?v=1753556398&width=800",
@@ -1974,8 +2094,5 @@
       ]
    }
     ]
-  
-
-
 }
 
