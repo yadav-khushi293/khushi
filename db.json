@@ -349,7 +349,7 @@
      "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
     "title":"Ibiza",
     "discription":"Fresh woods and spicy citrus collide for a bold, masculine seduction.",
-    "price":"Rs.1,279",
+    "price":1279,
     "category ":"ForHim"
     },
 
@@ -358,7 +358,7 @@
      "img":"https://myop.in/cdn/shop/files/the_woody.webp?v=1752146482&width=1080",
     "title":"The Woody",
     "discription":"A crisp burst of bergamot deepens into warm, smoky spice—pure power.",
-    "price":" Rs.1,279",
+    "price":1279,
     "category ":"ForHim"
     },
      {
@@ -366,7 +366,7 @@
      "img":"https://myop.in/cdn/shop/files/ibiza.webp?v=1752146335&width=1080",
     "title":"The Woody",
     "discription":"Cool freshness wrapped in rugged woods creates an unforgettable masculine trail.",
-    "price":" Rs.3,279",
+    "price":3279,
     "category ":"ForHim"
     }
     ,
@@ -375,7 +375,7 @@
      "img":"https://myop.in/cdn/shop/files/menscoode.webp?v=1752146371&width=1080",
     "title":"Men's Code",
     "discription":"Spicy amber and fresh citrus deliver confident, high-end allure.",
-    "price":"Rs.4,279",
+    "price":4279,
     "category ":"ForHim"
     },
 
@@ -384,7 +384,7 @@
      "img":"https://myop.in/cdn/shop/files/Frame_1.webp?v=1764337765&width=1080",
     "title":"Ocean Bliss",
     "discription":"A sharp, fruity spark softens into dark woods for effortless charm.",
-    "price":"Rs.3,279",
+    "price":3279,
     "category ":"ForHim"
     },
 
@@ -393,7 +393,7 @@
      "img":"https://myop.in/cdn/shop/files/afterparty.webp?v=1752146181&width=1080",
     "title":"Afterparty",
     "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
-    "price":" Rs.6,279",
+    "price":6279,
     "category ":"ForHim"
     },
 
@@ -402,7 +402,7 @@
      "img":"https://myop.in/cdn/shop/files/nightfall.jpg?v=1754562463&width=720",
     "title":"Nightfall",
     "discription":"Bright citrus lifts rich cedar and amber for refined seduction.",
-    "price":" Rs.2,449",
+    "price":2449,
     "category ":"ForHim"
     },
      {
@@ -410,7 +410,7 @@
      "img":"https://myop.in/cdn/shop/files/california.webp?v=1752146216&width=1080",
     "title":"California Sunshine",
     "discription":"Clean, crisp notes fused with bold pepper for irresistible masculinity.",
-    "price":" Rs.7,279",
+    "price":7279,
     "category ":"ForHim"
     },
       {
@@ -418,7 +418,7 @@
      "img":"https://myop.in/cdn/shop/files/califronia_sunshine.webp?v=1754982697&width=720",
     "title":"Moroccan Rose",
     "discription":"A fresh, woody-spicy blend crafted for men who own every moment.",
-    "price":" Rs.3,279"
+    "price":3279
     },
       
      {
@@ -426,7 +426,7 @@
      "img":"https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=1080",
     "title":"High On You",
     "discription":"Fresh herbs meet warm spice in a magnetic, masculine sillage.",
-    "price":" Rs.1,279",
+    "price":1279,
     "category ":"ForHim"
     }
     
@@ -437,7 +437,7 @@
     {
       "id":1,
       "title":"Carlton EDP Set for Her",
-      "parice":"Rs.4000",
+      "parice":4000,
       "category ":"Gift_Perfume",
       "img":[
     "https://static-assets-prod.fnp.com/images/pr/l/v20240603134024/eau-de-parfum-gift-set-for-her_1.jpg",
@@ -451,7 +451,7 @@
     {
      "id":2,
       "title":"Luxury 4-in-1 Gift Set",
-      "parice":"Rs.4990",
+      "parice":4990,
       "category ":"Gift_Perfume",
       "img":[
              "https://myaromajunction.in/cdn/shop/files/4_x_20ml_gift_box_by_Best_perfume_shop_in_Lucknow_MY_AROMA_JUNCTION_600x.png?v=1745050959",
