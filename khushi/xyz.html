@@ -1,45 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-  .main{
-    display: flex;
-  }
-        .gradi{
-          height: 200px;
-          width: 300px;
-          margin: 20px 20px;
-         background-color: red;
-          background-image: repeating-radial-gradient(red, blue 10%, green 15% );
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake Game</title>
+    <style>
+        body {
+            display: block;
         }
-        .gradi1{
-          width: 300px;
-          height: 200px;
-          margin: 20px 20px;
-          background-color: red;
-          background-image: repeating-radial-gradient(red,yellow ,10% ,green 15%);
-        }
-</style>
-<body>
-    <!--h1>this video</h1>
-    video width="320" height="240" controls>
-  <source src="movie.mp4" type=""
-  >
-  <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video-->
-<div class="main">
-<div class="gradi"></div>
-<div class="gradi1"></div>
 
-</div>
-  
-     
+        .none {
+            display: none !important;
+        }
+
+        .player {
+            border: 2px solid red;
+        }
+
+        .cell {
+            border: 2px solid green;
+        }
+
+        #snakeGame {
+            width: 300px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game">
+        <select id="selectLevel" value="">
+            <option value="">Select difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <input
+            type="text"
+            placeholder="enter all player name"
+            onClick="startGame()"
+        >
+
+        <div id="text">
+            <input
+                type="text"
+                id="singlePlayer"
+                placeholder="enter your name"
+            >
+            <button id="start-btn">Enter button</button>
+        </div>
+
+        <div id="selected_name"></div>
+    </div>
+
+    <script>
+
+document.querySelector('.self').className = 'none';
+const dataLoad = () => {
+    const player = JSON.parse(localStorage.getItem('player'));
+    return player;
+};
+
+startFunc = () => {
+    const selectValue = document.querySelector('#selectValue').value;
+    const value = document.querySelector('#value').value.trim();
+    const selected = value.split(',');
+
+    if (selectValue == "" || value.length <= 1) {
+        alert("please add more along with the selected items...");
+        return;
+    }
+
+    localStorage.setItem(
+        'player',
+        JSON.stringify({ person: selectValue, personName: value, result: [] })
+    );
+
+    const data = dataLoad();
+    console.log("=>", data.personName);
+
+    if (data.personName.length) {
+        document.querySelector('#player').className = 'none';
+        document.querySelector('.self').className = 'block';
+        document.getElementById('personName');
+    }
+};
+
+const showElement = (value) => {
+    console.log("value:", value);
+    const main = document.querySelector('#selected_name');
+
+    const singlePerson = document.querySelector('#singlePerson').value.trim();
+
+    if (singlePerson.length == 0) {
+        document.querySelector('#enter_btn').disabled = true;
+    }
+
+    value.map((el) => {
+        const div = document.createElement('div');
+        div.innerText = el;
+        main.append(div);
+    });
     
-    
+};
+
+</script>
 </body>
 </html>
