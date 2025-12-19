@@ -1840,7 +1840,7 @@
     "Men_Attar":[
       {
      "id":1,
-      "title":"Amber Hasan Premium Fragrances Alcohol Free Attar By Hasan Oud",
+      "title":"amber hasan premium attar",
       "parice":1000,
      "category ": "Men_Attar",
       "img":[
@@ -1854,7 +1854,7 @@
    },
     {
      "id":2,
-      "title":"Kinam Premium Fragrances By Hasanoud Attar Alcohol Free",
+      "title":"kinam alcohol-free attar",
       "parice":12999,
      "category ": "Men_Attar",
       "img":[
@@ -1867,7 +1867,7 @@
    },
    {
      "id":3,
-      "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
+      "title":"shanaya gold gourmand attar",
       "parice":2999,
      "category ": "Men_Attar",
       "img":[
@@ -1881,7 +1881,7 @@
 
    {
      "id":4,
-      "title":"Adilqadri Shanaya Gold Luxury Gourmand Attar Perfume",
+      "title":"shanaya gold gourmand attar",
       "parice":2999,
      "category ": "Men_Attar",
       "img":[
