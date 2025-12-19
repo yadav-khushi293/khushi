@@ -1840,7 +1840,7 @@
     "Men_Attar":[
       {
      "id":1,
-      "title":"amber hasan premium attar",
+      "title":"amber hasan attar",
       "parice":1000,
      "category ": "Men_Attar",
       "img":[
@@ -1854,7 +1854,7 @@
    },
     {
      "id":2,
-      "title":"kinam alcohol-free attar",
+      "title":"kinam attar",
       "parice":12999,
      "category ": "Men_Attar",
       "img":[
@@ -1867,7 +1867,7 @@
    },
    {
      "id":3,
-      "title":"shanaya gold gourmand attar",
+      "title":"shanaya gold attar",
       "parice":2999,
      "category ": "Men_Attar",
       "img":[
@@ -1881,7 +1881,7 @@
 
    {
      "id":4,
-      "title":"shanaya gold gourmand attar",
+      "title":"shanaya gold attar",
       "parice":2999,
      "category ": "Men_Attar",
       "img":[
@@ -1894,7 +1894,7 @@
    },
     {
      "id":5,
-      "title":"aq aqua attar by adilqadri",
+      "title":"aq aqua attar",
       "parice":3999,
      "category ": "Men_Attar",
       "img":[
@@ -1907,7 +1907,7 @@
    },
    {
      "id":6,
-      "title":"oudh al hashmi luxury attar",
+      "title":"al hashmi attar",
       "parice":3999,
      "category ": "Men_Attar",
       "img":[
@@ -1920,7 +1920,7 @@
    },
     {
      "id":7,
-      "title":"shanaya luxury attar 10ml",
+      "title":"shanaya attar 10ml",
       "parice":2999,
      "category ": "Men_Attar",
       "img":[
@@ -1946,7 +1946,7 @@
    },
    {
      "id":9,
-      "title":"Rain Kissed Roses Attar",
+      "title":"Rain KissedRoses Attar",
       "parice":500,
      "category ": "Men_Attar",
       "img":[
@@ -1972,7 +1972,7 @@
    },
    {
      "id":11,
-      "title":"Memoirs Of Love Attar",
+      "title":"Memoirs Love Attar",
       "parice":600,
      "category ": "Men_Attar",
       "img":[
@@ -1985,7 +1985,7 @@
    },
    {
      "id":12,
-      "title":"dukhni real rose attar oil",
+      "title":"rose attar oil",
       "parice":900,
      "category ": "Men_Attar",
       "img":[
@@ -1998,7 +1998,7 @@
    },
     {
      "id":13,
-      "title":"jasmine attar oil by dukhni",
+      "title":"jasmine attar oil",
       "parice":900,
      "category ": "Men_Attar",
       "img":[
@@ -2037,7 +2037,7 @@
    },
     {
      "id":16,
-      "title":"floral fragrance trial pack",
+      "title":"floral trial pack",
       "parice":800,
      "category ": "Men_Attar",
       "img":[
@@ -2050,7 +2050,7 @@
    },
     {
      "id":17,
-      "title":"paradyse caramel oud attar",
+      "title":"caramel oud attar",
       "parice":600,
      "category ": "Men_Attar",
       "img":[
@@ -2076,7 +2076,7 @@
    },
    {
      "id":19,
-      "title":"yara empire attar 6ml",
+      "title":"yara empire attar",
       "parice":600,
      "category ": "Men_Attar",
       "img":[
@@ -2089,7 +2089,7 @@
    },
    {
      "id":20,
-      "title":"safwan luxury attar by adilqadri",
+      "title":"safwan luxury attar",
       "parice":800,
      "category ": "Men_Attar",
       "img":[
