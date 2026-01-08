@@ -5,16 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .Serching{
-            
-            color:#787777;
-            border: 1px solid #595858;
-            box-shadow: 10px 15px 15px #fff;
-            border-radius: 10px;
-        }
+.card{
+  width:50%;
+  height:700px;
+  overflow: hidden;
+}
+
+.slider{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider figure{
+  display: flex;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  animation: slider 8s ease-in-out infinite;
+}
+
+.slider figure img{
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slider {
+  0%    { transform: translateX(0); }
+  20%   { transform: translateX(0); }
+
+  25%   { transform: translateX(-20%); }
+  45%   { transform: translateX(-20%); }
+
+  50%   { transform: translateX(-40%); }
+  70%   { transform: translateX(-40%); }
+
+  75%   { transform: translateX(-60%); }
+  95%   { transform: translateX(-60%); }
+
+  100%  { transform: translateX(-80%); }
+}
+.nearest_child2{
+  width: 50%;
+  height:298px;
+  border: 1px solid black;
+  color: #fff;
+  background-color: black;
+}
+.nearest_maindiv{
+  display: flex;
+  justify-content: center;
+}
+.nearest_text{
+  font-size: 40px;
+    margin: 0px 100px;
+}
+.nearest_text1{
+  font-size: 25px;
+  margin: 30px 100px;
+  color: #999;
+  padding: 0px;
+}
+.nearest_child2{
+  padding: 200px 0px;
+  text-align:start;
+}
+.pincode{
+  width:80%;
+  height: 80px;
+  border-radius:30px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: auto;
+}
+.storre{
+  width:185px;
+  height:69px;
+  border-radius:30px;
+  border: transparent;
+   background-color: #000;
+   font-size: 15px;
+   text-transform: uppercase;
+   color: #fff;
+  margin-left:400px;
+  margin-top:4px;
+
+}
     </style>
 </head>
 <body>
-    <input type="text" value="Serching.." class="Serching">
+
+     <div class="nearest_maindiv">
+
+     <div class="card">
+    <div class="slider">
+    <figure>
+      <img src="https://myop.in/cdn/shop/files/marshamallow_fluff_thumbnail.webp?v=1753800557&width=720">
+      <img src="https://myop.in/cdn/shop/files/high_on_you.webp?v=1763637797&width=720">
+      <img src="https://myop.in/cdn/shop/files/nightfall.webp?v=1752146242&width=720">
+      <img src="https://myop.in/cdn/shop/files/marshamallow_fluff_thumbnail.webp?v=1753800557&width=720">
+      <img src="https://myop.in/cdn/shop/files/Frame_1.webp?v=1764337765&width=720">
+    </figure>
+</div>
+</div>
+
+
+           <div class="nearest_child2">
+              <p class="nearest_text">Find your nearest store</p>
+              <p class="nearest_text1">30+ Exquisitely Designed Stores Across 11 Cities</p>
+              <div class="pincode">
+                <button class="storre">Find stores</button>
+              </div>
+
+           </div>
+     </div>
+
 </body>
 </html>
