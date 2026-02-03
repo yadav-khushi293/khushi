@@ -13,17 +13,10 @@
     from{
         background-color: blue;
         top: 200px;
-        
-        
-        
     }
     to{
         background-color: red;
-        top: 0px;
-        
-        
-        
-        
+        top: 0px; 
     }
     
 }
