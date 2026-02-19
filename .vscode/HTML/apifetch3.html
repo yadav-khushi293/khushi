@@ -1,132 +1,142 @@
- <!DOCTYPE html>
-   <html lang="en">
-   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-            @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-        *{
-            padding: 0px;
-            margin: 0px;
-             box-sizing: border-box;
-            text-transform: capitalize;
-            font-family: Roboto;
-        }
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      text-transform: capitalize;
+      font-family: Roboto;
+    }
 
 
-          #info {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            justify-items: center;
-            gap: 30px;
+    #info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      gap: 30px;
 
-        }
-          .card_div {
-            width: 430px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            border-radius: 20px;
-        }
+    }
 
-        img {
-            width: inherit;
-            height: 400px;
-            object-fit: fill;
-            border-radius: inherit;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-     p{
+    .card_div {
+      width: 430px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 20px;
+    }
+
+    img {
+      width: inherit;
+      height: 400px;
+      object-fit: fill;
+      border-radius: inherit;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    p {
       text-align: center;
       font-weight: bolder;
       font-size: 18px;
       padding: 7px 0px;
-     }
-     h2,h1{
+    }
+
+    h2,
+    h1 {
       text-align: center;
-     }
+    }
 
-     #loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 120px;
+      height: 120px;
+      margin: -76px 0 0 -76px;
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
 
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s;
-}
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
 
-@-webkit-keyframes animatebottom {
-  from {
-    bottom: -100px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0px;
-    opacity: 1;
-  }
-}
+      100% {
+        transform: rotate(360deg);
+      }
+    }
 
-@keyframes animatebottom {
-  from {
-    bottom: -100px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
-}
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s;
+    }
 
-#myDiv {
-  display: none;
-  text-align: center;
-}
-    
-    </style>
+    @-webkit-keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0;
+      }
 
-   </head>
-   <body onload="dataLoad()">
-    <div id="loader"></div>
+      to {
+        bottom: 0px;
+        opacity: 1;
+      }
+    }
 
-    <div id="myDiv">
-      
-       <input onkeydown="dataInput(event)" type="text" id="searchInput">
+    @keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 0;
+        opacity: 1;
+      }
+    }
+
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body onload="dataLoad()">
+  <div id="loader"></div>
+
+  <div id="myDiv">
+
+    <input onkeydown="dataInput(event)" type="text" id="searchInput">
     <div id="info"></div>
+ 
+</div>
+</body>
+<script src="../JavaScript/Hosting/Apifetch3.js"> </script>
 
-   </div>
-   </body>
-   <script src="../JavaScript/Hosting/Apifetch3.js"> </script>
-   </html>
+</html>
