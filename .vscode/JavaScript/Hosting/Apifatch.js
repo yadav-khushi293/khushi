@@ -8,7 +8,7 @@ const ApiCall = () => {
 };
 
 const appendsFunc = (data) => {
-  let dataShow = document.getElementById('info');
+  let dataShow = document.getElementById('info');+
 
   data.forEach((element) => {
     let cardDiv = document.createElement('div');
